@@ -5,11 +5,11 @@ import pandas as pd
 import datetime
 import configparser
 import os
-actualdate=datetime.datetime.now().strftime("%d/%m/%Y")
 
 from Google_Search import Search_Contact
 from Linkedin import crawl
 
+actualdate=datetime.datetime.now().strftime("%d/%m/%Y")
 config = configparser.RawConfigParser()
 configFilePath=os.path.join(os.getcwd(),'config.ini')
 config.read(configFilePath)
@@ -37,7 +37,7 @@ def Get_Data_Params(soup):
       'ctl00$ctl00$AreaContentHolder$ContentArea$hdnStatus': '0',
       'ctl00$ctl00$AreaContentHolder$ContentArea$ddlScrubbingDate': str(curdate),
       'ctl00$ctl00$AreaContentHolder$ContentArea$hdnDate': str(curdate),
-      'ctl00$ctl00$AreaContentHolder$ContentArea$ddlRecords': '100',
+      'ctl00$ctl00$AreaContentHolder$ContentArea$ddlRecords': '1000',
       'ctl00$ctl00$AreaContentHolder$ContentArea$btnShowData': 'Show Data',
       'ctl00$ctl00$AreaContentHolder$ContentArea$hdnSite': '0',
       'ctl00$ctl00$AreaContentHolder$ContentArea$hdnPlacement': '0',
@@ -90,12 +90,21 @@ def get_table_rows(table):
     return rows
 
 
-def save_as_csv(table_name, table_headers,rows):
-    df=pd.DataFrame(rows,columns=table_headers)
+def save_as_csv(table_name, df):
     df.to_csv(f"{table_name}.csv",index=False)
+
+
+def save_as_dataframe(source):
+    htmlContent=BeautifulSoup(source,'html.parser')
+    tableData=htmlContent.findAll('table')[1]
+    head = get_table_headers(tableData)
+    table_rows = get_table_rows(tableData)
+    df=pd.DataFrame(table_rows,columns=head)
     return df
 
+
 def Lolagroove():
+    df2=pd.DataFrame()
     with requests.Session() as s:
         data = {
         '__EVENTTARGET': '',
@@ -117,17 +126,17 @@ def Lolagroove():
                     next_url='https://v3.lolagrove.com'+page_url.find('a')['href']
             except: 
                 pass
-        page = s.get(next_url)
+        page = s.get(next_url,headers=headers)
         soup = BeautifulSoup(page.content,'html.parser')
         data = Get_Data_Params(soup)
         response = s.post(next_url, headers=headers, data=data)
-        htmlContent=BeautifulSoup(response.text,'html.parser')
-        tableData=htmlContent.findAll('table')[1]
-        head = get_table_headers(tableData)
-        table_rows = get_table_rows(tableData)
-        df=save_as_csv(input, head,table_rows)
+        df=save_as_dataframe(response.text)
         return df
-df=pd.read_csv('Adobe_AES_Pilot_Q2_FY21 4 (Allchecks).csv')
-url=Search_Contact(df.iloc[0])
-Evidence=crawl(url)
-print(Evidence)
+
+df=Lolagroove()
+# url=Search_Contact(df.iloc[0])
+# Evidence=crawl(url)
+# print(Evidence)
+
+
+

@@ -1,0 +1,16 @@
+,domain,expiry,httpOnly,name,path,sameSite,secure,value
+0,.linkedin.com,1623826189.0,False,lidc,/,None,True,"""b=OB85:s=O:r=O:a=O:p=O:g=2315:u=136:i=1623742541:t=1623826188:v=2:sig=AQGbLhTVHDUyRBOCawdrF36Don8J48WM"""
+1,.www.linkedin.com,1655278540.0,True,li_at,/,None,True,AQEDASqfA3kC3PDAAAABeg6Y6cYAAAF6MqVtxk4AkPeXUhGeX_BwXUMXA9zAZZdDGoIr4X4zrfmF3_0hrq5t4FcCIoXIK8bybD_VNKd8NkMdQIu7CLeO20aVemVv75OjFTJ8rE3W3TDXKp5XWhmxEzw-
+2,.linkedin.com,1639294536.0,False,AMCV_14215E3D5995C57C0A495C55%40AdobeOrg,/,,False,-637568504%7CMCIDTS%7C18794%7CMCMID%7C51938120741173815283392009266007442665%7CMCAAMLH-1624347336%7C12%7CMCAAMB-1624347336%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1623749736s%7CNONE%7CvVersion%7C5.1.1
+3,.linkedin.com,1631518536.0,False,_gcl_au,/,,False,1.1.335091970.1623742536
+4,.linkedin.com,1623742595.0,False,_gat,/,,False,1
+5,.linkedin.com,1623828940.0,False,_gid,/,,False,GA1.2.1960367468.1623742536
+6,.linkedin.com,1686814540.0,False,_ga,/,,False,GA1.2.1416224301.1623742536
+7,.linkedin.com,1686856386.0,False,bcookie,/,None,True,"""v=2&1a0fe27e-16e7-44d7-8cd9-a3e1e88b3c11"""
+8,.linkedin.com,,False,AMCVS_14215E3D5995C57C0A495C55%40AdobeOrg,/,,False,1
+9,.linkedin.com,1626334540.0,False,aam_uuid,/,,False,52498070243054915393449186977600501538
+10,.www.linkedin.com,1631518540.0,False,JSESSIONID,/,None,True,"""ajax:4796310728157983537"""
+11,.linkedin.com,1631518540.0,False,liap,/,None,True,true
+12,.www.linkedin.com,1686856386.0,True,bscookie,/,None,True,"""v=1&20210615073534b4149f1b-183f-4c1a-8fc5-2addaec41a00AQGs9XYgEKJG36XnNC4JPgZoB8D9-kN9"""
+13,.linkedin.com,,False,lang,/,None,True,v=2&lang=en-us
+14,.www.linkedin.com,1655278540.0,True,li_rm,/,None,True,AQHh5QugMXDkFQAAAXoOmNQUn8VxKVKSiF_K-a6OfEiwkZ-vnogc4b9Wc43BQxTuFdezqVLIwoGJrKSAUgupKqz-h1k-QqWsf5O5sbuH8KnSG4heH3X3qiBI

@@ -5,6 +5,7 @@ import pandas as pd
 import datetime
 import configparser
 import os
+import time,random
 
 from Google_Search import Search_Contact
 from Linkedin import crawl
@@ -113,7 +114,7 @@ def Lolagroove():
         'txtPassword': PassWord,
         'lnkBtnLogin': 'Login'
         }
-        input='Adobe_AES_Pilot_Q2_FY21 4 (Allchecks)'
+        input='Adobe_Experience_Driven_Commerce_Q1_Incremental_MAY_FY21 4 (Allchecks)'
         page = s.get('https://v3.lolagrove.com/admin/login.aspx?ReturnUrl=%2fAdmin%2fCampaignListing.aspx%3frpp%3d1000&rpp=1000')
         soup = BeautifulSoup(page.text,'html.parser')
         data["__VIEWSTATE"] = soup.select_one("#__VIEWSTATE")["value"]
@@ -131,12 +132,19 @@ def Lolagroove():
         data = Get_Data_Params(soup)
         response = s.post(next_url, headers=headers, data=data)
         df=save_as_dataframe(response.text)
+        outputPath=os.path.join(os.getcwd(),'Output')
+        save_as_csv(outputPath+'/'+input,df)
         return df
 
-df=Lolagroove()
-# url=Search_Contact(df.iloc[0])
-# Evidence=crawl(url)
-# print(Evidence)
+# df=Lolagroove()
+outputPath=os.path.join(os.getcwd(),'Output')
+df=pd.read_csv(os.path.join(outputPath,'Adobe_Experience_Driven_Commerce_Q1_Incremental_MAY_FY21 4 (Allchecks).csv'))
+for i in range(1):
+    url=Search_Contact(df.iloc[i])
+    time.sleep(random.randint(3,7))
+    if url and 'linkedin.com/in' in url:
+        Evidence=crawl(url)
+
 
 
 

@@ -18,7 +18,7 @@ proxies = {"http": proxy, "https": proxy}
 UserName=config.get('LinkedIn','UserName')
 PassWord=config.get('LinkedIn','PassWord')
 
-
+# login to Linkedin to get the Session details
 def Login():
     options = webdriver.ChromeOptions()
     options.add_argument("--start-maximized")
@@ -30,8 +30,10 @@ def Login():
     passwd=driver.find_element_by_name('session_password')
     passwd.send_keys(PassWord)
     driver.find_element_by_xpath('//button[@class="btn__primary--large from__button--floating"]').click()
-    time.sleep(3)
+    time.sleep(10)
     df=pd.DataFrame(driver.get_cookies())
+    filePath=os.path.join(os.getcwd(),'cookie')
+    df.to_csv(filePath+'/session.csv')
     driver.quit()
     return df
 
@@ -64,13 +66,21 @@ def Extract_Contact(source,url):
     CompanyName1=df.iloc[1]['companyName'] if df.iloc[1]['companyName'] else None
     return firstName,lastName,Title,CompanyName,Title1,CompanyName1,url
 
+def get_cookie():
+    if os.path.exists(os.path.join(os.getcwd(), "cookie", 'session.csv')) is True:
+        df=pd.read_csv(os.path.join(os.getcwd(), "cookie", 'session.csv'))
+    else:
+        df=Login()
+    return df
+
 def crawl(url):
+    memberId=url.split('/')[-1]
     params = (
         ('q', 'memberIdentity'),
-        ('memberIdentity', 'ACoAAAgJHJ8BqAc-n7RciVJ9vKYbnLQ1wYijDo8'),
+        ('memberIdentity', str(memberId)),
         ('decorationId', 'com.linkedin.voyager.dash.deco.identity.profile.FullProfileWithEntities-73'),
         )
-    cookie=Login()
+    cookie=get_cookie()
     headers=get_Headers(cookie)
     response = requests.get('https://www.linkedin.com/voyager/api/identity/dash/profiles', headers=headers, params=params)
     contact=Extract_Contact(response.text,url)

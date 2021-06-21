@@ -9,6 +9,7 @@ import sys
 import json
 import configparser
 import os
+from urllib.parse import quote
 
 config = configparser.RawConfigParser()
 configFilePath=os.path.join(os.getcwd(),'config.ini')
@@ -30,25 +31,40 @@ def Login():
     passwd=driver.find_element_by_name('session_password')
     passwd.send_keys(PassWord)
     driver.find_element_by_xpath('//button[@class="btn__primary--large from__button--floating"]').click()
-    time.sleep(10)
+    time.sleep(40)
     df=pd.DataFrame(driver.get_cookies())
     filePath=os.path.join(os.getcwd(),'cookie')
     df.to_csv(filePath+'/session.csv')
     driver.quit()
     return df
 
+#extract headers from session sookie
 def get_Headers(df):
     li_at=df.loc[df['name'] == 'li_at', 'value'].item()
     jsession=df.loc[df['name'] == 'JSESSIONID', 'value'].item()
     cookie='JSESSIONID='+str(jsession)+'; li_at='+str(li_at)+';'
     headers = {
     'authority': 'www.linkedin.com',
+    'pragma': 'no-cache',
+    'cache-control': 'no-cache',
+    'sec-ch-ua': '" Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"',
+    'x-restli-protocol-version': '2.0.0',
+    'x-li-lang': 'en_US',
+    'sec-ch-ua-mobile': '?0',
+    'x-li-page-instance': 'urn:li:page:d_flagship3_search_srp_all;Y75xNYzsR1m2fxt6mvvTUA==',
     'accept': 'application/vnd.linkedin.normalized+json+2.1',
     'csrf-token': str(jsession).replace('"',''),
+    'x-li-track': '{"clientVersion":"1.8.6979","mpVersion":"1.8.6979","osName":"web","timezoneOffset":5.5,"timezone":"Asia/Calcutta","deviceFormFactor":"DESKTOP","mpName":"voyager-web","displayDensity":1,"displayWidth":1366,"displayHeight":768}',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-dest': 'empty',
+    'referer': 'https://www.linkedin.com/in/richard-hall-36b64a31/',
+    'accept-language': 'en-US,en;q=0.9',
     'cookie': str(cookie)
-    }
+  }
     return headers
 
+#Extract Contact from Linkedin URL
 def Extract_Contact(source,url):
     jsonContent=json.loads(source)
     nameBlock=pd.DataFrame(jsonContent['included'])
@@ -73,6 +89,19 @@ def get_cookie():
         df=Login()
     return df
 
+def FetchLinkedinLink(row):
+    cookie=get_cookie()
+    headers=get_Headers(cookie)
+    companydetail=row['First Name']+" "+row['Last Name']+" "+row['Job Title']+" "+row['Company Name'].split(' ')[0]
+    input=quote(companydetail, safe='')
+    response = requests.get('https://www.linkedin.com/voyager/api/search/dash/clusters?decorationId=com.linkedin.voyager.dash.deco.search.SearchClusterCollection-112&origin=TYPEAHEAD_ESCAPE_HATCH&q=all&query=(keywords:{0},flagshipSearchIntent:SEARCH_SRP,queryParameters:(resultType:List(ALL)),includeFiltersInResponse:false)&start=0'.format(str(input)), headers=headers)
+    data=json.loads(response.text)
+    linkedinLink=data['data']['elements'][0]['featureUnion']['heroEntityCard']['navigationUrl']
+    print(linkedinLink)
+    return linkedinLink
+
+
+
 def crawl(url):
     memberId=url.split('/')[-1]
     params = (
@@ -84,4 +113,4 @@ def crawl(url):
     headers=get_Headers(cookie)
     response = requests.get('https://www.linkedin.com/voyager/api/identity/dash/profiles', headers=headers, params=params)
     contact=Extract_Contact(response.text,url)
-    print(contact)
+    return contact

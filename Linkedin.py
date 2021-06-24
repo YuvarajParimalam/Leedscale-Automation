@@ -5,7 +5,6 @@ from bs4 import BeautifulSoup as soup
 import pandas as pd
 import requests
 import time
-import sys
 import json
 import configparser
 import os
@@ -65,22 +64,63 @@ def get_Headers(df):
     return headers
 
 #Extract Contact from Linkedin URL
-def Extract_Contact(source,url):
-    jsonContent=json.loads(source)
-    nameBlock=pd.DataFrame(jsonContent['included'])
-    nameBlock=nameBlock[nameBlock['$type']=='com.linkedin.voyager.dash.identity.profile.Profile']
-    df=pd.DataFrame(jsonContent['included'])
-    df=df[df['$type']=='com.linkedin.voyager.dash.identity.profile.Position']
-    df['startMonth']=df['dateRange'].map(lambda x:x['start']['month'])
-    df['startYear']=df['dateRange'].map(lambda x:x['start']['year'])
-    df.sort_values(by=['startYear', 'startMonth'],ascending=False,inplace=True)
-    firstName=nameBlock.iloc[0]['firstName']
-    lastName=nameBlock.iloc[0]['lastName']
-    Title=df.iloc[0]['title'] if df.iloc[0]['title'] else None
-    CompanyName=df.iloc[0]['companyName'] if df.iloc[0]['companyName'] else None
-    Title1=df.iloc[1]['title'] if df.iloc[1]['title'] else None
-    CompanyName1=df.iloc[1]['companyName'] if df.iloc[1]['companyName'] else None
-    return firstName,lastName,Title,CompanyName,Title1,CompanyName1,url
+def Extract_Contact(source,url,ID,headers):
+    try:
+        jsonContent=json.loads(source)
+        nameBlock=pd.DataFrame(jsonContent['included'])
+        nameBlock=nameBlock[nameBlock['$type']=='com.linkedin.voyager.dash.identity.profile.Profile']
+        df=pd.DataFrame(jsonContent['included'])
+        try:
+            curPath=os.path.join(os.getcwd(),'Linkedin_Output')
+            df.to_csv(curPath+'/{}.csv'.format(str(ID)))
+        except Exception as e:
+            print('unable to write to file',e)
+        df=df[df['$type']=='com.linkedin.voyager.dash.identity.profile.Position']
+        def get_Month(x):
+            try:
+                month=x['start']['month']
+            except:
+                month=0
+            return month
+        def get_Year(x):
+            try:
+                year=x['start']['year']
+            except:
+                year=0
+            return year
+        df['startMonth']=df['dateRange'].apply(get_Month)
+        df['startYear']=df['dateRange'].apply(get_Year)
+        df.sort_values(by=['startYear', 'startMonth'],ascending=False,inplace=True)
+        df.fillna(0,inplace=True)
+        CompanyURN=df.iloc[0]['*company']
+        if CompanyURN == 0:
+            CompanyURN=df.iloc[1]['*company']
+        firstName=nameBlock.iloc[0]['firstName']
+        lastName=nameBlock.iloc[0]['lastName']
+        Title=df.iloc[0]['title']
+        CompanyName=df.iloc[0]['companyName']
+        Title1=df.iloc[1]['title'] 
+        CompanyName1=df.iloc[1]['companyName'] 
+        df2=pd.DataFrame(jsonContent['included'])
+        df2=df2[df2['entityUrn']==CompanyURN]
+        LinkedinCompanyEvidenceURL=df2.iloc[0]['url']
+        companyID=CompanyURN.split(':')[-1]
+        linkedinCompanyEmpSize,linkedinCompanyWebsite=Fetch_Company_Evidence(companyID,headers)
+        contact={
+            'firstName':firstName,
+            'lastName':lastName,
+            'Title':Title,
+            'CompanyName':CompanyName,
+            'Title1':Title1,
+            'CompanyName1':CompanyName1,
+            'LinkedinContacturl':url,
+            'LinkedinCompanyURL':LinkedinCompanyEvidenceURL,
+            'linkedinCompanyEmpSize':linkedinCompanyEmpSize,
+            'linkedinCompanyWebsite':linkedinCompanyWebsite,
+        }
+        return contact
+    except Exception as e:
+        print('Error in extracting contact from Linkedin',e)
 
 def get_cookie():
     if os.path.exists(os.path.join(os.getcwd(), "cookie", 'session.csv')) is True:
@@ -100,10 +140,44 @@ def FetchLinkedinLink(row):
     print(linkedinLink)
     return linkedinLink
 
+def Fetch_Company_Evidence(CompanyID,headers):
+    params = (
+            ('decorationId', 'com.linkedin.voyager.deco.organization.web.WebFullCompanyMain-35'),
+            ('q', 'universalName'),
+            ('universalName', str(CompanyID)),
+        )
+    response = requests.get('https://www.linkedin.com/voyager/api/organization/companies', headers=headers, params=params)
+    data=json.loads(response.text)
+    for types in data['included']:
+        try:
+            staff=types['staffCountRange']
+        except:
+            pass
+        try:
+            website=types['companyPageUrl']
+        except:
+            pass
+    try:
+        employeeSize=staff['start']
+        try:
+            end=staff['end']
+        except:
+            end=''
+        employeeSize=str(employeeSize)+'-'+str(end)
+    except:
+        employeeSize=''
+    try:
+        website=website
+    except:
+        website=''
+    return (employeeSize,website)
 
-
-def crawl(url):
+#Linkedin Scraping Starts Here
+def crawl(url,ID):
     memberId=url.split('/')[-1]
+    if len(memberId)==2 or '=' in memberId:
+        memberId=url.split('/')[-2]
+    
     params = (
         ('q', 'memberIdentity'),
         ('memberIdentity', str(memberId)),
@@ -112,5 +186,5 @@ def crawl(url):
     cookie=get_cookie()
     headers=get_Headers(cookie)
     response = requests.get('https://www.linkedin.com/voyager/api/identity/dash/profiles', headers=headers, params=params)
-    contact=Extract_Contact(response.text,url)
+    contact=Extract_Contact(response.text,url,ID,headers)
     return contact

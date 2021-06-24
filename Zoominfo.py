@@ -42,8 +42,12 @@ def Zoominfo_scraper(url):
         Employees=Employees.replace('Employees:','')
     except:
         Employees=''
-    print(company,Revenue,Employees)
-    return company,Revenue,Employees
+    contact={
+        'company':company,
+        'Revenue':Revenue,
+        'Employees':Employees
+    }
+    return contact
 
 
 

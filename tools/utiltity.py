@@ -4,6 +4,7 @@ import sys
 import json
 import re
 import time
+from urllib. parse import urlparse
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
@@ -25,7 +26,18 @@ def file_cleanup():
 
     except Exception as fileCleanupExp:
         print(fileCleanupExp,'File Clean Up Exception')
-		
+
+def CheckDomain(email,website):
+    emaildomain=email.split('@')[1]
+    website=urlparse(website).netloc.replace('www.','')
+    if emaildomain==website:
+        return 'Exact Match'
+    elif emaildomain in website:
+        return 'Email in Website'
+    else:
+        return 'No Match'
+        
+    		
 
 class Sanitiser:
 	

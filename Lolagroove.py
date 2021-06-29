@@ -5,14 +5,16 @@ import pandas as pd
 import datetime
 import configparser
 import os
-import time,random
-pd.options.mode.chained_assignment = None
+from urllib.parse import quote
+
 
 from Google_Search import Search_Contact
 from Linkedin import crawl,FetchLinkedinLink
 from tools.utiltity import file_cleanup,CheckDomain
 from Zoominfo import Zoominfo_scraper
 from company_matching import match_company_name
+from MSN import MSN_Scraper
+
 
 actualdate=datetime.datetime.now().strftime("%d/%m/%Y")
 config = configparser.RawConfigParser()
@@ -108,7 +110,7 @@ def save_as_dataframe(source):
     return df
 
 
-def Lolagroove():
+def Lolagroove(campaign):
     df2=pd.DataFrame()
     with requests.Session() as s:
         data = {
@@ -118,7 +120,7 @@ def Lolagroove():
         'txtPassword': PassWord,
         'lnkBtnLogin': 'Login'
         }
-        input='Adobe_Customer_Intelligence_Q2_FY21 4 (Allchecks)'
+        input=campaign
         page = s.get('https://v3.lolagrove.com/admin/login.aspx?ReturnUrl=%2fAdmin%2fCampaignListing.aspx%3frpp%3d1000&rpp=1000')
         soup = BeautifulSoup(page.text,'html.parser')
         data["__VIEWSTATE"] = soup.select_one("#__VIEWSTATE")["value"]
@@ -140,63 +142,6 @@ def Lolagroove():
         save_as_csv(outputPath+'/'+input,df)
         return df
 
-# df=Lolagroove()
-# file_cleanup()
-outputPath=os.path.join(os.getcwd(),'Output')
-df=pd.read_csv(os.path.join(outputPath,'Adobe_Customer_Intelligence_Q2_FY21 4 (Allchecks).csv'))
-New_Data=[]
-for i in range(1):
-    row=df.iloc[i]
-    #get zoominfo URL 
-    zoominfo_url=Search_Contact(row,'Zoominfo') # return first url from google search for zoominfo
-    zoominfoData=Zoominfo_scraper(zoominfo_url) #Extract Revenue and Emp Size
-    # Extract Linkedin URL Based on First Name , Last Name, Jobtitle and Company from LInkedin
-    try:
-        linkedinurl=FetchLinkedinLink(row)
-        linkedinurl=linkedinurl.split('?')[0]
-    except:
-        linkedinurl=Search_Contact(row,'Linkedin') # return first url from google search for Linkedin
-        
-    # get data from linkedin based on url scraped from Linkedin and Google Search
-    if 'linkedin.com/in' in linkedinurl:
-        LinkedinData=crawl(linkedinurl,row['ID'])
-        print(LinkedinData)
-    else:
-        print('not ablt to locate Linkedin URL')
-    try:
-        company_match_status=match_company_name(row['Company Name'] ,LinkedinData['CompanyName'] ,searchMethod= None)
-    except:
-        company_match_status=''
-    try:
-        Zoominfo_company_match_status=match_company_name(row['Company Name'] ,zoominfoData['company'] ,searchMethod= None)
-    except:
-        Zoominfo_company_match_status=''
-    try:
-        DomainStatus=CheckDomain(row['Email'],LinkedinData['linkedinCompanyWebsite'])
-    except Exception as e:
-        print('unable to find the domain status',e)
-
-    #update the scraped data to the existing file
-    row['zoominfo_company'] = zoominfoData['company'],   
-    row['zoominfo_revenue'] = zoominfoData['Revenue'],
-    row['zoominfoEmployees'] = zoominfoData['Employees'],
-    row['linkedinfirstName'] = LinkedinData['firstName'],
-    row['linkedinlastName'] = LinkedinData['lastName'],
-    row['linkedinTitle'] = LinkedinData['Title'],
-    row['linkedinCompanyName'] = LinkedinData['CompanyName'],
-    row['LinkedinContacturl'] = LinkedinData['LinkedinContacturl'],
-    row['LinkedinCompanyURL'] = LinkedinData['LinkedinCompanyURL'],
-    row['linkedinCompanyEmpSize'] = LinkedinData['linkedinCompanyEmpSize'],
-    row['linkedinCompanyWebsite'] = LinkedinData['linkedinCompanyWebsite'],
-    row['zoominfo_url']=zoominfo_url,
-    row['Linkedin_company_match_status'] = company_match_status,
-    row['Zoominfo_company_match_status'] = Zoominfo_company_match_status,
-    row['LinkedinDomainStatus']=DomainStatus
-
-    New_Data.append(row)
-
-new_df=pd.DataFrame(New_Data)
-new_df.to_csv('Final_Data.csv')
 
 
 

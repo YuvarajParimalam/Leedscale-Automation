@@ -30,7 +30,7 @@ def Login():
     passwd=driver.find_element_by_name('session_password')
     passwd.send_keys(PassWord)
     driver.find_element_by_xpath('//button[@class="btn__primary--large from__button--floating"]').click()
-    time.sleep(40)
+    time.sleep(20)
     df=pd.DataFrame(driver.get_cookies())
     filePath=os.path.join(os.getcwd(),'cookie')
     df.to_csv(filePath+'/session.csv')
@@ -76,6 +76,7 @@ def Extract_Contact(source,url,ID,headers):
         except Exception as e:
             print('unable to write to file',e)
         df=df[df['$type']=='com.linkedin.voyager.dash.identity.profile.Position']
+        tempCompanyURN=df.iloc[0]['companyUrn']
         def get_Month(x):
             try:
                 month=x['start']['month']
@@ -95,6 +96,8 @@ def Extract_Contact(source,url,ID,headers):
         CompanyURN=df.iloc[0]['*company']
         if CompanyURN == 0:
             CompanyURN=df.iloc[1]['*company']
+        if CompanyURN==0:
+            CompanyURN=tempCompanyURN
         firstName=nameBlock.iloc[0]['firstName']
         lastName=nameBlock.iloc[0]['lastName']
         Title=df.iloc[0]['title']
@@ -120,15 +123,33 @@ def Extract_Contact(source,url,ID,headers):
         }
         return contact
     except Exception as e:
+        contact={
+            'firstName':'',
+            'lastName':'',
+            'Title':'',
+            'CompanyName':'',
+            'Title1':'',
+            'CompanyName1':'',
+            'LinkedinContacturl':url,
+            'LinkedinCompanyURL':'',
+            'linkedinCompanyEmpSize':'',
+            'linkedinCompanyWebsite':'',
+        }
         print('Error in extracting contact from Linkedin',e)
+        return contact
 
+#cookie generation from dataframe        
 def get_cookie():
-    if os.path.exists(os.path.join(os.getcwd(), "cookie", 'session.csv')) is True:
-        df=pd.read_csv(os.path.join(os.getcwd(), "cookie", 'session.csv'))
-    else:
-        df=Login()
-    return df
+    try:
+        if os.path.exists(os.path.join(os.getcwd(), "cookie", 'session.csv')) is True:
+            df=pd.read_csv(os.path.join(os.getcwd(), "cookie", 'session.csv'))
+        else:
+            df=Login()
+        return df
+    except Exception as e:
+        print('error occured while getting cookie',e)
 
+#function to get linkedinURL from LInkedin
 def FetchLinkedinLink(row):
     cookie=get_cookie()
     headers=get_Headers(cookie)
@@ -175,9 +196,10 @@ def Fetch_Company_Evidence(CompanyID,headers):
 #Linkedin Scraping Starts Here
 def crawl(url,ID):
     memberId=url.split('/')[-1]
+    if 'miniProfile' in url:
+        memberId=url.split('?')[0].split('/')[-1]
     if len(memberId)==2 or '=' in memberId:
         memberId=url.split('/')[-2]
-    
     params = (
         ('q', 'memberIdentity'),
         ('memberIdentity', str(memberId)),

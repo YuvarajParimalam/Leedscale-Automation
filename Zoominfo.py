@@ -26,7 +26,7 @@ headers = {
   }
 
 def Zoominfo_scraper(url):
-    response=requests.get(url,headers=headers,proxies=proxies)
+    response=requests.get(url,headers=headers)
     data=soup(response.text,'html.parser') 
     try:
         company=data.find('h1',class_='company-name').text.strip()

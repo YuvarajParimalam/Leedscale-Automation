@@ -4,7 +4,7 @@ import json
 import pandas as pd
 import configparser
 import os
-import time
+import time,random
 from urllib.parse import quote
 from cleanco import cleanco
 
@@ -21,23 +21,29 @@ def Company_Cleaner(company):
     company=cleanco(company).clean_name()
     return company
 
-def Search_Contact(row,domain):
+def Search_Contact(row,domain,searchEngine):
     if domain=='Linkedin':
         companydetail=row['First Name']+" "+row['Last Name']+" "+row['Job Title']+" "+row['Company Name']+' '+str(domain)
         companydetail=quote(companydetail, safe='')
     else:
         companydetail=Company_Cleaner(row['Company Name'])+' '+str(domain)
         companydetail=quote(companydetail, safe='')
-    url='https://www.google.com/search?q={}'.format(companydetail)
-    print(url)
+    if searchEngine=='Google':
+        url='https://www.google.com/search?q={}'.format(companydetail)
+    else:
+        url='https://www.bing.com/search?q={}'.format(companydetail)
     for _ in range(5):
         a=requests.get(url,headers=ua)
         if a.status_code==200:
             break
-    time.sleep(2)
+    time.sleep(random.randint(2,10))
     r=soup(a.text,'html.parser')
-    atag=r.findAll('div',class_='yuRUbf')[0]
-    link=atag.find('a')['href']
+    if searchEngine=='Google':
+        atag=r.findAll('div',class_='yuRUbf')[0]
+        link=atag.find('a')['href']
+    else:
+        atag=r.findAll('li',class_='b_algo')[0]
+        link=atag.find('a')['href']        
     print(link)
     return link
 

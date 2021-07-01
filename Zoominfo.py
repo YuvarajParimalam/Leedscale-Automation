@@ -26,7 +26,11 @@ headers = {
   }
 
 def Zoominfo_scraper(url):
-    response=requests.get(url,headers=headers)
+    for _ in range(5):
+        response= response=requests.get(url,headers=headers,proxies=proxies)
+        if response.status_code==200:
+            break
+    print('zoominfo response',response.status_code)
     data=soup(response.text,'html.parser') 
     try:
         company=data.find('h1',class_='company-name').text.strip()

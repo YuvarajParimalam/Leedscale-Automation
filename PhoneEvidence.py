@@ -67,7 +67,6 @@ def extract_details(source,phone,company,searchEngine):
             }
             Google_Results.append(detail)  
     result_data=[]
-    print(Google_Results)
     for i in range(len(Google_Results)):
         if company.lower() in Google_Results[i]['LinkDiscription'].lower() and str(clean_telephone(phone)) in Google_Results[i]['LinkDiscription'].replace(' ',''):
             result_data.append(Google_Results[i])

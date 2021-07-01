@@ -21,12 +21,12 @@ from AddressEvidence import Main
 from PhoneEvidence import PhoneValidation
 
 input=sys.argv[1]
-# df=Lolagroove(input)
-# file_cleanup()
-outputPath=os.path.join(os.getcwd(),'Output')
-df=pd.read_csv(os.path.join(outputPath,'Adobe_Digital_Trends_Incremental_Q1_FY21 4 (Allchecks).csv'))
+df=Lolagroove(input)
+file_cleanup()
+# outputPath=os.path.join(os.getcwd(),'Output')
+# df=pd.read_csv(os.path.join(outputPath,'Adobe_Digital_Trends_Incremental_Q1_FY21 4 (Allchecks).csv'))
 New_Data=[]
-for i in range(1,3):
+for i in range(10):
     row=df.iloc[i]
     zoominfo_url=Search_Contact(row,'Zoominfo','bing') 
     # return first url from google search for zoominfo
@@ -56,35 +56,36 @@ for i in range(1,3):
     except Exception as e:
         DomainStatus=''
         print('unable to find the domain status',e)
-    # try:
-    #     addressEvidence=Main(row['Address 1'],row['Country'],row['Postal/Zip Code'],row['Company Name'],'Bing',city=row['Town/City'])
-    # except:
-    #     pass
+    try:
+        addressEvidence=Main(row['Address 1'],row['Country'],row['Postal/Zip Code'],row['Company Name'],'Bing',city=row['Town/City'])
+    except:
+        pass
     try:
         telephoneEvidence=PhoneValidation(row['Telephone'],row['Company Name'],'Bing')
     except:
         pass
     #update the scraped data to the existing file
-    row['zoominfo_company'] = zoominfoData['company'],   
-    row['zoominfo_revenue'] = zoominfoData['Revenue'],
-    row['zoominfoEmployees'] = zoominfoData['Employees'],
-    row['linkedinfirstName'] = LinkedinData['firstName'],
-    row['linkedinlastName'] = LinkedinData['lastName'],
-    row['linkedinTitle'] = LinkedinData['Title'],
-    row['linkedinCompanyName'] = LinkedinData['CompanyName'],
-    row['LinkedinContacturl'] = LinkedinData['LinkedinContacturl'],
-    row['LinkedinCompanyURL'] = LinkedinData['LinkedinCompanyURL'],
-    row['linkedinCompanyEmpSize'] = LinkedinData['linkedinCompanyEmpSize'],
-    row['linkedinCompanyWebsite'] = LinkedinData['linkedinCompanyWebsite'],
-    row['zoominfo_url']=zoominfo_url,
-    row['Linkedin_company_match_status'] = company_match_status,
-    row['Zoominfo_company_match_status'] = Zoominfo_company_match_status,
-    row['LinkedinDomainStatus']=DomainStatus
-    # row['AddressLink']=addressEvidence['addressLink']
-    # row['addressMatchingScore']=addressEvidence['accuracy']
-    # row['AddressText']=addressEvidence['Text']
-    row['telephoneEvidence']=telephoneEvidence
+    row['zoominfo_company']  = zoominfoData['company']  
+    row['zoominfo_revenue']  = zoominfoData['Revenue']
+    row['zoominfoEmployees'] = zoominfoData['Employees']
+    row['zoominfo_url']      = zoominfo_url
+    row['linkedinfirstName'] = LinkedinData['firstName']
+    row['linkedinlastName']  = LinkedinData['lastName']
+    row['linkedinTitle']     = LinkedinData['Title']
+    row['linkedinCompanyName'] = LinkedinData['CompanyName']
+    row['LinkedinContacturl']  = LinkedinData['LinkedinContacturl']
+    row['LinkedinCompanyURL']  = LinkedinData['LinkedinCompanyURL']
+    row['linkedinCompanyEmpSize'] = LinkedinData['linkedinCompanyEmpSize']
+    row['linkedinCompanyWebsite'] = LinkedinData['linkedinCompanyWebsite']
+    row['Linkedin_company_match_status'] = company_match_status
+    row['Zoominfo_company_match_status'] = Zoominfo_company_match_status
+    row['LinkedinDomainStatus'] = DomainStatus
+    row['AddressLink'] = addressEvidence['addressLink']
+    row['addressMatchingScore'] = addressEvidence['accuracy']
+    row['AddressText'] = addressEvidence['Text']
+    row['telephoneEvidence'] = telephoneEvidence
+    #append the scraped result to output list
     New_Data.append(row.to_dict())
 
 new_df=pd.DataFrame(New_Data)
-new_df.to_csv('Final_Data2.csv')
+new_df.to_csv('Final_Data3.csv')

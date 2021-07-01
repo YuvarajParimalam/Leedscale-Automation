@@ -67,7 +67,6 @@ def extract_details(source,address1,company,Postal,searchEngine):
                 'LinkDiscription':LinkDiscription,
             }
             Google_Results.append(detail)  
-    print(Google_Results)
     for i in range(len(Google_Results)):
         total=countwords(Google_Results[i]['LinkDiscription'],address1)
         Google_Results[i]['Total']=total

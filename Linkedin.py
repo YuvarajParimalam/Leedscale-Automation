@@ -67,8 +67,7 @@ def get_Headers(df):
 def Extract_Contact(source,url,ID,headers):
     try:
         jsonContent=json.loads(source)
-        nameBlock=pd.DataFrame(jsonContent['included'])
-        nameBlock=nameBlock[nameBlock['$type']=='com.linkedin.voyager.dash.identity.profile.Profile']
+        nameBlock=[x for x in jsonContent['included'] if 'com.linkedin.voyager.dash.deco.identity.profile.FullProfileWithEntities' in  x['$recipeTypes']][0]
         df=pd.DataFrame(jsonContent['included'])
         try:
             curPath=os.path.join(os.getcwd(),'Linkedin_Output')
@@ -98,8 +97,8 @@ def Extract_Contact(source,url,ID,headers):
             CompanyURN=df.iloc[1]['*company']
         if CompanyURN==0:
             CompanyURN=tempCompanyURN
-        firstName=nameBlock.iloc[0]['firstName']
-        lastName=nameBlock.iloc[0]['lastName']
+        firstName=nameBlock['firstName']
+        lastName=nameBlock['lastName']
         Title=df.iloc[0]['title']
         CompanyName=df.iloc[0]['companyName']
         Title1=df.iloc[1]['title'] 

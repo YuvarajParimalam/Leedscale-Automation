@@ -44,7 +44,6 @@ def Search_Contact(row,domain,searchEngine):
     else:
         atag=r.findAll('li',class_='b_algo')[0]
         link=atag.find('a')['href']        
-    print(link)
     return link
 
         

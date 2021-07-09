@@ -111,7 +111,6 @@ def save_as_dataframe(source):
 
 
 def Lolagroove(campaign):
-    df2=pd.DataFrame()
     with requests.Session() as s:
         data = {
         '__EVENTTARGET': '',

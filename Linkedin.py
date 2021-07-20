@@ -9,6 +9,7 @@ import json
 import configparser
 import os
 from urllib.parse import quote
+from tools.log_script import log_file_write
 
 config = configparser.RawConfigParser()
 configFilePath=os.path.join(os.getcwd(),'config.ini')
@@ -66,14 +67,13 @@ def get_Headers(df):
 #Extract Contact from Linkedin URL
 def Extract_Contact(source,url,ID,headers):
     try:
-        jsonContent=json.loads(source)
-        nameBlock=[x for x in jsonContent['included'] if 'com.linkedin.voyager.dash.deco.identity.profile.FullProfileWithEntities' in  x['$recipeTypes']][0]
+        jsonContent=json.loads(source)       
         df=pd.DataFrame(jsonContent['included'])
         try:
             curPath=os.path.join(os.getcwd(),'Linkedin_Output')
             df.to_csv(curPath+'/{}.csv'.format(str(ID)))
         except Exception as e:
-            print('unable to write to file',e)
+            log_file_write(ID,'unable to write to file'+e)
         df=df[df['$type']=='com.linkedin.voyager.dash.identity.profile.Position']
         tempCompanyURN=df.iloc[0]['companyUrn']
         def get_Month(x):
@@ -97,9 +97,11 @@ def Extract_Contact(source,url,ID,headers):
             CompanyURN=df.iloc[1]['*company']
         if CompanyURN==0:
             CompanyURN=tempCompanyURN
+        nameBlock=[x for x in jsonContent['included'] if 'com.linkedin.voyager.dash.deco.identity.profile.FullProfileWithEntities' in  x['$recipeTypes']][0]
         firstName=nameBlock['firstName']
         lastName=nameBlock['lastName']
         Title=df.iloc[0]['title']
+        log_file_write(ID,firstName+'-'+lastName+'-'+Title)
         CompanyName=df.iloc[0]['companyName']
         Title1=df.iloc[1]['title'] 
         CompanyName1=df.iloc[1]['companyName'] 
@@ -107,7 +109,7 @@ def Extract_Contact(source,url,ID,headers):
         df2=df2[df2['entityUrn']==CompanyURN]
         LinkedinCompanyEvidenceURL=df2.iloc[0]['url']
         companyID=CompanyURN.split(':')[-1]
-        linkedinCompanyEmpSize,linkedinCompanyWebsite=Fetch_Company_Evidence(companyID,headers)
+        linkedinCompanyEmpSize,linkedinCompanyWebsite=Fetch_Company_Evidence(ID,companyID,headers)
         contact={
             'firstName':firstName,
             'lastName':lastName,
@@ -122,6 +124,7 @@ def Extract_Contact(source,url,ID,headers):
         }
         return contact
     except Exception as e:
+        log_file_write(ID,'error in extracting contact'+str(e))
         contact={
             'firstName':'',
             'lastName':'',
@@ -146,7 +149,7 @@ def get_cookie():
             df=Login()
         return df
     except Exception as e:
-        print('error occured while getting cookie',e)
+        log_file_write('','error occured while getting cookie'+e)
 
 #function to get linkedinURL from LInkedin
 def FetchLinkedinLink(row):
@@ -157,55 +160,63 @@ def FetchLinkedinLink(row):
     response = requests.get('https://www.linkedin.com/voyager/api/search/dash/clusters?decorationId=com.linkedin.voyager.dash.deco.search.SearchClusterCollection-112&origin=TYPEAHEAD_ESCAPE_HATCH&q=all&query=(keywords:{0},flagshipSearchIntent:SEARCH_SRP,queryParameters:(resultType:List(ALL)),includeFiltersInResponse:false)&start=0'.format(str(input)), headers=headers)
     data=json.loads(response.text)
     linkedinLink=data['data']['elements'][0]['featureUnion']['heroEntityCard']['navigationUrl']
-    print(linkedinLink)
+    log_file_write(row['ID'],linkedinLink)
     return linkedinLink
 
-def Fetch_Company_Evidence(CompanyID,headers):
-    params = (
-            ('decorationId', 'com.linkedin.voyager.deco.organization.web.WebFullCompanyMain-35'),
-            ('q', 'universalName'),
-            ('universalName', str(CompanyID)),
-        )
-    response = requests.get('https://www.linkedin.com/voyager/api/organization/companies', headers=headers, params=params)
-    data=json.loads(response.text)
-    for types in data['included']:
-        try:
-            staff=types['staffCountRange']
-        except:
-            pass
-        try:
-            website=types['companyPageUrl']
-        except:
-            pass
+#fetch linkedin company details
+def Fetch_Company_Evidence(ID,CompanyID,headers):
     try:
-        employeeSize=staff['start']
+        params = (
+                ('decorationId', 'com.linkedin.voyager.deco.organization.web.WebFullCompanyMain-35'),
+                ('q', 'universalName'),
+                ('universalName', str(CompanyID)),
+            )
+        response = requests.get('https://www.linkedin.com/voyager/api/organization/companies', headers=headers, params=params)
+        data=json.loads(response.text)
+        for types in data['included']:
+            try:
+                staff=types['staffCountRange']
+            except:
+                pass
+            try:
+                website=types['companyPageUrl']
+            except:
+                pass
         try:
-            end=staff['end']
+            employeeSize=staff['start']
+            try:
+                end=staff['end']
+            except:
+                end=''
+            employeeSize=str(employeeSize)+'-'+str(end)
         except:
-            end=''
-        employeeSize=str(employeeSize)+'-'+str(end)
-    except:
-        employeeSize=''
-    try:
-        website=website
-    except:
-        website=''
-    return (employeeSize,website)
+            employeeSize=''
+        try:
+            website=website
+        except:
+            website=''
+        return (employeeSize,website)
+    except Exception as e:
+        log_file_write(ID,'error in extracting linkedin company Name '+str(e))
 
 #Linkedin Scraping Starts Here
 def crawl(url,ID):
-    memberId=url.split('/')[-1]
-    if 'miniProfile' in url:
-        memberId=url.split('?')[0].split('/')[-1]
-    if len(memberId)==2 or '=' in memberId:
-        memberId=url.split('/')[-2]
-    params = (
-        ('q', 'memberIdentity'),
-        ('memberIdentity', str(memberId)),
-        ('decorationId', 'com.linkedin.voyager.dash.deco.identity.profile.FullProfileWithEntities-73'),
-        )
-    cookie=get_cookie()
-    headers=get_Headers(cookie)
-    response = requests.get('https://www.linkedin.com/voyager/api/identity/dash/profiles', headers=headers, params=params)
-    contact=Extract_Contact(response.text,url,ID,headers)
-    return contact
+    try:
+        memberId=url.split('/')[-1]
+        if 'miniProfile' in url:
+            memberId=url.split('?')[0].split('/')[-1]
+        if len(memberId)==2 or '=' in memberId:
+            memberId=url.split('/')[-2]
+        params = (
+            ('q', 'memberIdentity'),
+            ('memberIdentity', str(memberId)),
+            ('decorationId', 'com.linkedin.voyager.dash.deco.identity.profile.FullProfileWithEntities-73'),
+            )
+        cookie=get_cookie()
+        headers=get_Headers(cookie)
+        response = requests.get('https://www.linkedin.com/voyager/api/identity/dash/profiles', headers=headers, params=params)
+        log_file_write(ID,'got linkedin response'+str(response.status_code))
+        contact=Extract_Contact(response.text,url,ID,headers)
+        return contact
+    except Exception as e:
+        log_file_write(ID,'error in obtaining linkedin contact details from linkedin source -'+str(e))

@@ -4,6 +4,7 @@ import pandas as pd
 from bs4 import BeautifulSoup as soup
 from urllib.parse import quote
 import re
+from tools.log_script import log_file_write
 headers={
     'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
 }
@@ -85,4 +86,6 @@ def PhoneValidation(phone,company,searchEngine):
     result=scrape(url)
     if result:
         evidence=extract_details(result,phone,company,searchEngine)
+    else:
+        log_file_write(' ','error in extracting phone')
     return evidence

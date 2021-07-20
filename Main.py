@@ -1,12 +1,6 @@
-import requests
-import csv
-from bs4 import BeautifulSoup
+
 import pandas as pd
-import datetime
-import configparser
-import sys
 import os
-import time,random
 from urllib.parse import quote
 pd.options.mode.chained_assignment = None
 
@@ -15,7 +9,6 @@ from Linkedin import crawl,FetchLinkedinLink
 from tools.utiltity import file_cleanup,CheckDomain
 from Zoominfo import Zoominfo_scraper
 from company_matching import match_company_name
-from MSN import MSN_Scraper
 from Lolagroove import Lolagroove
 from AddressEvidence import Main
 from PhoneEvidence import PhoneValidation
@@ -29,9 +22,10 @@ New_Data=[]
 for i in range(len(df)):
     try:
         row=df.iloc[i]
+        #fetch zoominfo url
         zoominfo_url=Search_Contact(row,'Zoominfo','bing') 
         # return first url from google search for zoominfo
-        zoominfoData=Zoominfo_scraper(zoominfo_url) #Extract Revenue and Emp Size
+        zoominfoData=Zoominfo_scraper(zoominfo_url,row['ID']) #Extract Revenue and Emp Size
         # Extract Linkedin URL Based on First Name , Last Name, Jobtitle and Company from LInkedin
         try:
             linkedinurl=FetchLinkedinLink(row)
@@ -40,7 +34,7 @@ for i in range(len(df)):
             linkedinurl=Search_Contact(row,'Linkedin','bing') # return first url from google search for Linkedin
 
         # get data from linkedin based on url scraped from Linkedin and Google Search
-        if 'linkedin.com/in' in linkedinurl:
+        if 'linkedin.com/' in linkedinurl:
             LinkedinData=crawl(linkedinurl,row['ID'])
         else:
             print('not ablt to locate Linkedin URL')
@@ -54,7 +48,7 @@ for i in range(len(df)):
             Zoominfo_company_match_status=''
         try:
             DomainStatus=CheckDomain(row['Email'],LinkedinData['linkedinCompanyWebsite'])
-        except Exception as e:
+        except:
             DomainStatus=''
         try:
             addressEvidence=Main(row['Address 1'],row['Country'],row['Postal/Zip Code'],row['Company Name'],'Bing',city=row['Town/City'])

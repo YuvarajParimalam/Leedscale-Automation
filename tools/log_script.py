@@ -28,23 +28,21 @@ def log_cleanup_dir(linkID = None):
 		except Exception as fileCleanupExp:
 			print(fileCleanupExp)
 	
-def create_log_fileName():
+def create_log_fileName(id):
 	'''createLogFileName function is create the log file name '''
 	logFileDir="LogFolder"
-	logFileName="LogFile_"
+	logFileName=str(id)+'_'
 	if not os.path.exists(logFileDir):
 		os.makedirs(logFileDir)
 	logFileDir=str(logFileDir)+"/"+str(datetime.strftime(datetime.now(),"%d%m%Y"))
 	if not os.path.exists(logFileDir):
 		os.makedirs(logFileDir)	
 	logFile=logFileDir+"/"+str(logFileName)+str(datetime.strftime(datetime.now(),"%Y%m%d_%H"))+".log"
-	# if not os.path.exists(logFile):
-		# os.makedirs(logFile)
 	return logFile
 	
-def log_file_write(searchid,id,logtime):
+def log_file_write(id,logtime):
 	'''This function get the Log file from create_log_fileName function and write the Log file '''
-	logFile=create_log_fileName()
+	logFile=create_log_fileName(id)
 	logging.basicConfig(filename=logFile,level=logging.INFO) 
-	logging.info(str(datetime.strftime(datetime.now(),"%d-%m-%Y:%H:%M:%S")+"|"+str(searchid)+"|"+str(id)+"|"+str(logtime)))
+	logging.info(str(datetime.strftime(datetime.now(),"%d-%m-%Y:%H:%M:%S")+"|""|"+str(id)+"|"+str(logtime)))
 	

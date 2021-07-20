@@ -13,7 +13,7 @@ from Linkedin import crawl,FetchLinkedinLink
 from tools.utiltity import file_cleanup,CheckDomain
 from Zoominfo import Zoominfo_scraper
 from company_matching import match_company_name
-from MSN import MSN_Scraper
+
 
 
 actualdate=datetime.datetime.now().strftime("%d/%m/%Y")

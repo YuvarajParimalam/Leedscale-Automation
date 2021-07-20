@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup as soup
 import configparser
 import os
 import time
-import cloudscraper
+from tools.log_script import log_file_write
 
 config = configparser.RawConfigParser()
 configFilePath=os.path.join(os.getcwd(),'config.ini')
@@ -29,15 +29,16 @@ headers = {
     'accept-language': 'en-US,en;q=0.9',
    }
 
-def Zoominfo_scraper(url):
+def Zoominfo_scraper(url,id):
     try:
-        for i in range(10):
+        for i in range(5):
             response= requests.get(url,headers=headers,proxies=proxies)
             time.sleep(2)
             if response.status_code==200:
+                print('got response.from zoomfino')
                 break
-        time.sleep(3)
-        print('zoominfo response',response.status_code)
+        
+        log_file_write(id,'zooinfo response'+str(response.status_code))
         data=soup(response.text,'html.parser') 
         try:
             company=data.find('h1',class_='company-name').text.strip()
@@ -59,12 +60,13 @@ def Zoominfo_scraper(url):
             'Employees':Employees
         }
         return contact
-    except:
+    except Exception as e:
+        log_file_write(id,'zooinfo error'+str(e))
         contact={
-            'company':'',
-            'Revenue':'',
-            'Employees':''
-        }
+                'company':'',
+                'Revenue':'',
+                'Employees':''
+            }
         return contact
 
 

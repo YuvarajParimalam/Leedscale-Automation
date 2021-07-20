@@ -1,6 +1,7 @@
 
 import os
 import sys
+from tools.log_script import log_file_write
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 import unicodedata
@@ -256,5 +257,5 @@ def match_company_name(inputCompany ,outputCompany ,searchMethod= None):
 		return companyFlag
 
 	except Exception as Company_Matching:
-		print('error',Company_Matching)
+		log_file_write('','error'+Company_Matching)
 

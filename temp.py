@@ -1,31 +1,31 @@
 import requests
-from bs4 import BeautifulSoup
-import pandas as pd
-import configparser
-import os
-import time,random
-from urllib.parse import quote
-from Lolagroove import Get_Data_Params,save_as_dataframe
-from tools.log_script import log_file_write
-from temp import get_form_data_campaign
-config = configparser.RawConfigParser()
-configFilePath=os.path.join(os.getcwd(),'config.ini')
-config.read(configFilePath)
-UserName=config.get('Lolagroove','UserName')
-PassWord=config.get('Lolagroove','PassWord')
+
+cookies = {
+    '_ga': 'GA1.2.167511613.1625830618',
+    '_gid': 'GA1.2.1278163209.1626164844',
+    'trustedsite_visit': '1',
+    'ApplicationGatewayAffinityCORS': '4718ff8aec2f67ac241b685ba359ff88',
+    'ApplicationGatewayAffinity': '4718ff8aec2f67ac241b685ba359ff88',
+    'ASP.NET_SessionId': 'zyki5cuj5t4vahzfejvobsey',
+}
 
 headers = {
-    'Content-Type': 'application/x-www-form-urlencoded',
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36',
+    'Connection': 'keep-alive',
+    'sec-ch-ua': '" Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"',
+    'Accept': '*/*',
+    'X-Requested-With': 'XMLHttpRequest',
+    'sec-ch-ua-mobile': '?0',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+    'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+    'Origin': 'https://v3.lolagrove.com',
+    'Sec-Fetch-Site': 'same-origin',
+    'Sec-Fetch-Mode': 'cors',
+    'Sec-Fetch-Dest': 'empty',
+    'Referer': 'https://v3.lolagrove.com/',
+    'Accept-Language': 'en-US,en;q=0.9',
 }
-params = (
-    ('ReturnUrl', '/Admin/CampaignListing.aspx?rpp=1000'),
-    ('rpp', '1000'),
-    ('AspxAutoDetectCookieSupport', '1'),
-)
-
-def get_form_data(key,row):
-  formdata = [
+def get_form_data_campaign(key,row):
+    formdata = [
     ('k', key.replace('"','')),
     ('t', 'json'),
     ('a', 'ud'),
@@ -36,8 +36,12 @@ def get_form_data(key,row):
     ('d[fieldNames][]', 'email_evidence'),
     ('d[fieldNames][]', 'telephone'),
     ('d[fieldNames][]', 'phone_evidence'),
+    ('d[fieldNames][]', 'telephone2'),
+    ('d[fieldNames][]', 'phone2_evidence'),
     ('d[fieldNames][]', 'address1'),
+    ('d[fieldNames][]', 'address2'),
     ('d[fieldNames][]', 'towncity'),
+    ('d[fieldNames][]', 'county'),
     ('d[fieldNames][]', 'postcode'),
     ('d[fieldNames][]', 'country'),
     ('d[fieldNames][]', 'address_evidence'),
@@ -57,6 +61,7 @@ def get_form_data(key,row):
     ('d[fieldNames][]', 'turnover_evidence'),
     ('d[fieldNames][]', 'supplier_lead_id'),
     ('d[fieldNames][]', 'asset_title'),
+    ('d[fieldNames][]', 'comments'),
     ('d[fieldNames][]', 'rejection_evidence'),
     ('d[fieldNames][]', 'useragent'),
     ('d[fieldNames][]', 'lead_creation_date'),
@@ -64,12 +69,21 @@ def get_form_data(key,row):
     ('d[fieldNames][]', 'source'),
     ('d[fieldNames][]', 'sub_source'),
     ('d[fieldNames][]', 'update_date'),
+    ('d[fieldNames][]', 'switching_to_cloud'),
+    ('d[fieldNames][]', 'international_business_payments'),
+    ('d[fieldNames][]', 'breach_documents'),
+    ('d[fieldNames][]', 'annual_foreign_exchange'),
+    ('d[fieldNames][]', 'annual_revenue'),
+    ('d[fieldNames][]', 'payment_frequency'),
+    ('d[fieldNames][]', 'call_comments'),
     ('d[fieldNames][]', 'input_placement'),
     ('d[fieldNames][]', 'secure'),
     ('d[fieldNames][]', 'lead_type'),
     ('d[fieldNames][]', 'lead_creation_day'),
     ('d[fieldNames][]', 'lead_creation_month'),
     ('d[fieldNames][]', 'lead_creation_year'),
+    ('d[fieldNames][]', 'add_notes'),
+    ('d[fieldNames][]', 'ds_email'),
     ('d[fieldNames][]', 'sub_id'),
     ('d[fieldNames][]', 'callback_id'),
     ('d[fieldValues][]', row['ID']),
@@ -77,8 +91,12 @@ def get_form_data(key,row):
     ('d[fieldValues][]', row['email_evidence']),
     ('d[fieldValues][]', row['Telephone']),
     ('d[fieldValues][]', row['phone_evidence']),
+    ('d[fieldValues][]', row['telephone2']),
+    ('d[fieldValues][]', row['phone2_evidence']),
     ('d[fieldValues][]', row['Address 1']),
+    ('d[fieldValues][]', row['Address 2']),
     ('d[fieldValues][]', row['Town/City']),
+    ('d[fieldValues][]', row['County/State']),
     ('d[fieldValues][]', row['Postal/Zip Code']),
     ('d[fieldValues][]', row['Country']),
     ('d[fieldValues][]', row['address_evidence']),
@@ -98,6 +116,7 @@ def get_form_data(key,row):
     ('d[fieldValues][]', row['turnover_evidence']),
     ('d[fieldValues][]', row['Supplier Lead ID']),
     ('d[fieldValues][]', row['asset_title']),
+    ('d[fieldValues][]', row['comments']),
     ('d[fieldValues][]', row['rejection_evidence']),
     ('d[fieldValues][]', row['User Agent']),
     ('d[fieldValues][]', row['lead_creation_date']),
@@ -105,49 +124,23 @@ def get_form_data(key,row):
     ('d[fieldValues][]', row['Source']),
     ('d[fieldValues][]', row['sub_source']),
     ('d[fieldValues][]', row['update_date']),
+    ('d[fieldValues][]', row['switching_to_cloud']),
+    ('d[fieldValues][]', row['international_business_payments']),
+    ('d[fieldValues][]', row['breach_documents']),
+    ('d[fieldValues][]', row['annual_foreign_exchange']),
+    ('d[fieldValues][]', row['annual_revenue']),
+    ('d[fieldValues][]', row['payment_frequency']),
+    ('d[fieldValues][]', row['call_comments']),
     ('d[fieldValues][]', row['input_placement']),
     ('d[fieldValues][]', row['secure']),
     ('d[fieldValues][]', row['lead_type']),
     ('d[fieldValues][]', row['lead_creation_day']),
     ('d[fieldValues][]', row['lead_creation_month']),
     ('d[fieldValues][]', row['lead_creation_year']),
+    ('d[fieldValues][]', row['add_notes']),
+    ('d[fieldValues][]', row['ds_email']),
     ('d[fieldValues][]', row['Sub_id']),
     ('d[fieldValues][]', row['Callback_id']),
     ('rv', 'false'),
-  ]
-  return formdata
-
-with requests.Session() as s:
-        data = {
-        '__EVENTTARGET': '',
-        '__EVENTARGUMENT': '',
-        'txtInput': UserName,
-        'txtPassword': PassWord,
-        'lnkBtnLogin': 'Login'
-        }
-        page = s.get('https://v3.lolagrove.com/admin/login.aspx?ReturnUrl=%2fAdmin%2fCampaignListing.aspx%3frpp%3d1000&rpp=1000')
-        time.sleep(2)
-        soup = BeautifulSoup(page.text,'html.parser')
-        data["__VIEWSTATE"] = soup.select_one("#__VIEWSTATE")["value"]
-        data["__VIEWSTATEGENERATOR"] = soup.select_one("#__VIEWSTATEGENERATOR")["value"]
-        response = s.post('https://v3.lolagrove.com/admin/login.aspx', headers=headers, params=params, data=data)
-        time.sleep(3)
-        htmlContent=BeautifulSoup(response.text,'html.parser')
-        next_url='https://v3.lolagrove.com/Admin/CampaignEyeballing.aspx?id=16852'
-        page = s.get(next_url,headers=headers)
-        print(page.status_code)
-        time.sleep(2)
-        soup = BeautifulSoup(page.content,'html.parser')
-        data = Get_Data_Params(soup)
-        response = s.post(next_url, headers=headers, data=data)
-        AuthKey=response.text.split('function GetAuthenticationKey() {')[1].split('}')[0].replace('return','').replace(';','').replace("'",'').strip()
-        # df=save_as_dataframe(response.text)
-        df=pd.read_excel('campaign.xlsx')
-        df=df.fillna(value='')
-        for i in range(6,15):
-          row=df.iloc[i]          
-          formdata=get_form_data_campaign(AuthKey,row) 
-          response = s.post('https://v3.lolagrove.com/scrubbing.ashx', headers=headers, data=formdata)
-          with open('temp.json','a',encoding='utf-8') as f:
-            f.write(response.text)
-          time.sleep(random.randint(2,6))
+    ]
+    return formdata

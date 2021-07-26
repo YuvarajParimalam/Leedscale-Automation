@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup as soup
 import configparser
 import os
-import time
+import time,random
 from tools.log_script import log_file_write
 
 config = configparser.RawConfigParser()
@@ -33,7 +33,7 @@ def Zoominfo_scraper(url,id):
     try:
         for i in range(5):
             response= requests.get(url,headers=headers,proxies=proxies)
-            time.sleep(2)
+            time.sleep(random.randint(2,5))
             if response.status_code==200:
                 print('got response.from zoomfino')
                 break

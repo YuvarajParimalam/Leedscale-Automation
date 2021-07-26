@@ -4,18 +4,21 @@ import os
 from urllib.parse import quote
 pd.options.mode.chained_assignment = None
 
-from Google_Search import Search_Contact
-from Linkedin import crawl,FetchLinkedinLink
+from Scripts.Google_Search import Search_Contact
+from Scripts.Linkedin import crawl,FetchLinkedinLink
 from tools.utiltity import file_cleanup,CheckDomain
-from Zoominfo import Zoominfo_scraper
-from company_matching import match_company_name
-from Lolagroove import Lolagroove
-from AddressEvidence import Main
-from PhoneEvidence import PhoneValidation
+from Scripts.Zoominfo import Zoominfo_scraper
+from Scripts.company_matching import match_company_name
+from Scripts.Lolagroove import Lolagroove
+from Scripts.AddressEvidence import Main
+import sys
+from Scripts.PhoneEvidence import PhoneValidation
 
-# input=sys.argv[1]
-# df=Lolagroove(input)
+input=sys.argv[1]
+df=Lolagroove(input)
+
 # file_cleanup()
+'''
 outputPath=os.path.join(os.getcwd(),'Output')
 df=pd.read_csv(os.path.join(outputPath,'Adobe_Digital_Foundation_Q1_FY21 4 (Allchecks).csv'))
 New_Data=[]
@@ -91,3 +94,4 @@ for i in range(len(df)):
         pass
 new_df=pd.DataFrame(New_Data)
 new_df.to_csv('Final_Data_new.csv')
+'''

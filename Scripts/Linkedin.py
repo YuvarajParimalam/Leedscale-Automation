@@ -1,3 +1,4 @@
+from tools.utiltity import file_cleanup
 import selenium
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -10,6 +11,7 @@ import configparser
 import os
 from urllib.parse import quote
 from tools.log_script import log_file_write
+from tools.utiltity import file_cleanup
 
 config = configparser.RawConfigParser()
 configFilePath=os.path.join(os.getcwd(),'config.ini')
@@ -92,7 +94,10 @@ def Extract_Contact(source,url,ID,headers):
         df['startYear']=df['dateRange'].apply(get_Year)
         df.sort_values(by=['startYear', 'startMonth'],ascending=False,inplace=True)
         df.fillna(0,inplace=True)
-        CompanyURN=df.iloc[0]['*company']
+        try:
+            CompanyURN=df.iloc[0]['*company']
+        except:
+            CompanyURN=0
         if CompanyURN == 0:
             CompanyURN=df.iloc[1]['*company']
         if CompanyURN==0:
@@ -103,24 +108,24 @@ def Extract_Contact(source,url,ID,headers):
         Title=df.iloc[0]['title']
         log_file_write(ID,firstName+'-'+lastName+'-'+Title)
         CompanyName=df.iloc[0]['companyName']
-        Title1=df.iloc[1]['title'] 
-        CompanyName1=df.iloc[1]['companyName'] 
         df2=pd.DataFrame(jsonContent['included'])
-        df2=df2[df2['entityUrn']==CompanyURN]
-        LinkedinCompanyEvidenceURL=df2.iloc[0]['url']
-        companyID=CompanyURN.split(':')[-1]
-        linkedinCompanyEmpSize,linkedinCompanyWebsite=Fetch_Company_Evidence(ID,companyID,headers)
+        try:
+            df2=df2[df2['entityUrn']==CompanyURN]
+            LinkedinCompanyEvidenceURL=df2.iloc[0]['url']
+            companyID=CompanyURN.split(':')[-1]
+            linkedinCompanyEmpSize,linkedinCompanyWebsite,LinkedinIndustry=Fetch_Company_Evidence(ID,companyID,headers)
+        except:
+            LinkedinCompanyEvidenceURL,linkedinCompanyEmpSize,linkedinCompanyWebsite,LinkedinIndustry='','','',''
         contact={
             'firstName':firstName,
             'lastName':lastName,
             'Title':Title,
             'CompanyName':CompanyName,
-            'Title1':Title1,
-            'CompanyName1':CompanyName1,
             'LinkedinContacturl':url,
             'LinkedinCompanyURL':LinkedinCompanyEvidenceURL,
             'linkedinCompanyEmpSize':linkedinCompanyEmpSize,
             'linkedinCompanyWebsite':linkedinCompanyWebsite,
+            'LinkedinIndustry':LinkedinIndustry
         }
         return contact
     except Exception as e:
@@ -130,18 +135,18 @@ def Extract_Contact(source,url,ID,headers):
             'lastName':'',
             'Title':'',
             'CompanyName':'',
-            'Title1':'',
-            'CompanyName1':'',
             'LinkedinContacturl':url,
             'LinkedinCompanyURL':'',
             'linkedinCompanyEmpSize':'',
             'linkedinCompanyWebsite':'',
+            'LinkedinIndustry':''
         }
         print('Error in extracting contact from Linkedin',e)
         return contact
 
 #cookie generation from dataframe        
 def get_cookie():
+    file_cleanup()
     try:
         if os.path.exists(os.path.join(os.getcwd(), "cookie", 'session.csv')) is True:
             df=pd.read_csv(os.path.join(os.getcwd(), "cookie", 'session.csv'))
@@ -195,7 +200,18 @@ def Fetch_Company_Evidence(ID,CompanyID,headers):
             website=website
         except:
             website=''
-        return (employeeSize,website)
+        for types in data['included']:
+            try:
+                industry=types['localizedName']
+                if industry:
+                    break
+            except:
+                pass
+        try:
+            industry=industry
+        except:
+            industry=''
+        return (employeeSize,website,industry)
     except Exception as e:
         log_file_write(ID,'error in extracting linkedin company Name '+str(e))
 
@@ -220,3 +236,5 @@ def crawl(url,ID):
         return contact
     except Exception as e:
         log_file_write(ID,'error in obtaining linkedin contact details from linkedin source -'+str(e))
+
+

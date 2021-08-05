@@ -7,21 +7,14 @@ import configparser
 import os
 from urllib.parse import quote
 
-
-from Google_Search import Search_Contact
-from Linkedin import crawl,FetchLinkedinLink
-from tools.utiltity import file_cleanup,CheckDomain
-from Zoominfo import Zoominfo_scraper
-from company_matching import match_company_name
-
-
-
 actualdate=datetime.datetime.now().strftime("%d/%m/%Y")
 config = configparser.RawConfigParser()
 configFilePath=os.path.join(os.getcwd(),'config.ini')
 config.read(configFilePath)
 UserName=config.get('Lolagroove','UserName')
 PassWord=config.get('Lolagroove','PassWord')
+Date=config.get('CampaignDate','Date')
+URL=config.get('Lolagroove','URL')
 
 headers = {
     'Content-Type': 'application/x-www-form-urlencoded',
@@ -34,6 +27,15 @@ params = (
     ('AspxAutoDetectCookieSupport', '1'),
 )
 
+params2 = (
+    ('dt', '29/07/2021'),
+    ('s', '0'),
+    ('pid', '0'),
+    ('sid', '0'),
+    ('m', '1000'),
+    ('p', '3'),
+)
+
 
 def Get_Data_Params(soup): 
     curdate=soup.select_one("#AreaContentHolder_ContentArea_ddlScrubbingDate").findAll('option')[1]['value']
@@ -42,8 +44,8 @@ def Get_Data_Params(soup):
       '__EVENTARGUMENT': '',
       'ctl00$ctl00$AreaContentHolder$ContentArea$ddlStatus': '0',
       'ctl00$ctl00$AreaContentHolder$ContentArea$hdnStatus': '0',
-      'ctl00$ctl00$AreaContentHolder$ContentArea$ddlScrubbingDate': str(curdate),
-      'ctl00$ctl00$AreaContentHolder$ContentArea$hdnDate': str(curdate),
+      'ctl00$ctl00$AreaContentHolder$ContentArea$ddlScrubbingDate': str(Date),
+      'ctl00$ctl00$AreaContentHolder$ContentArea$hdnDate': str(Date),
       'ctl00$ctl00$AreaContentHolder$ContentArea$ddlRecords': '1000',
       'ctl00$ctl00$AreaContentHolder$ContentArea$btnShowData': 'Show Data',
       'ctl00$ctl00$AreaContentHolder$ContentArea$hdnSite': '0',
@@ -119,26 +121,23 @@ def Lolagroove(campaign):
         'txtPassword': PassWord,
         'lnkBtnLogin': 'Login'
         }
-        input=campaign
         page = s.get('https://v3.lolagrove.com/admin/login.aspx?ReturnUrl=%2fAdmin%2fCampaignListing.aspx%3frpp%3d1000&rpp=1000')
+        print(page.status_code)
         soup = BeautifulSoup(page.text,'html.parser')
         data["__VIEWSTATE"] = soup.select_one("#__VIEWSTATE")["value"]
         data["__VIEWSTATEGENERATOR"] = soup.select_one("#__VIEWSTATEGENERATOR")["value"]
         response = s.post('https://v3.lolagrove.com/admin/login.aspx', headers=headers, params=params, data=data)
-        htmlContent=BeautifulSoup(response.text,'html.parser')
-        for page_url in htmlContent.findAll('table')[1].findAll('td'):
-            try: 
-                if page_url.find('a').text==input:
-                    next_url='https://v3.lolagrove.com'+page_url.find('a')['href']
-            except: 
-                pass
+        print(response.status_code)
+        next_url=URL
+        print(next_url)
         page = s.get(next_url,headers=headers)
         soup = BeautifulSoup(page.content,'html.parser')
         data = Get_Data_Params(soup)
-        response = s.post(next_url, headers=headers, data=data)
-        df=save_as_dataframe(response.text)
+        page = s.post(next_url, headers=headers, data=data)
+        print(page.status_code)
+        df=save_as_dataframe(page.text)
         outputPath=os.path.join(os.getcwd(),'Output')
-        save_as_csv(outputPath+'/'+input,df)
+        save_as_csv(outputPath+'/'+campaign,df)
         return df
 
 

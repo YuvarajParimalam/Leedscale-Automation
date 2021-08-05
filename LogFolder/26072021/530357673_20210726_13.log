@@ -1,0 +1,38 @@
+INFO:root:26-07-2021:13:21:19||530357673|zooinfo response200
+INFO:root:26-07-2021:13:21:26||530357673|got linkedin response200
+INFO:root:26-07-2021:13:21:26||530357673|Rigo-Bosman-Global Senior Application Development Manager
+INFO:root:26-07-2021:13:21:26||530357673|error in extracting contactsingle positional indexer is out-of-bounds
+INFO:root:26-07-2021:13:25:48||530357673|zooinfo response200
+INFO:root:26-07-2021:13:25:54||530357673|got linkedin response200
+INFO:root:26-07-2021:13:25:54||530357673|Rigo-Bosman-Global Senior Application Development Manager
+INFO:root:26-07-2021:13:25:54||530357673|error in extracting contactsingle positional indexer is out-of-bounds
+INFO:root:26-07-2021:13:30:43||530357673|zooinfo response200
+INFO:root:26-07-2021:13:30:51||530357673|got linkedin response200
+INFO:root:26-07-2021:13:30:51||530357673|error in extracting contactcan only concatenate str (not "PermissionError") to str
+INFO:root:26-07-2021:13:31:15||530357673|zooinfo response200
+INFO:root:26-07-2021:13:31:25||530357673|got linkedin response200
+INFO:root:26-07-2021:13:31:25||530357673|Rigo-Bosman-Global Senior Application Development Manager
+INFO:root:26-07-2021:13:31:25||530357673|error in extracting linkedin company Name 'included'
+INFO:root:26-07-2021:13:36:47||530357673|zooinfo response200
+INFO:root:26-07-2021:13:36:57||530357673|got linkedin response200
+INFO:root:26-07-2021:13:36:57||530357673|Rigo-Bosman-Global Senior Application Development Manager
+INFO:root:26-07-2021:13:36:57||530357673|error in extracting linkedin company Name 'included'
+INFO:root:26-07-2021:13:39:35||530357673|zooinfo response200
+INFO:root:26-07-2021:13:39:39||530357673|got linkedin response200
+INFO:root:26-07-2021:13:39:39||530357673|Rigo-Bosman-Global Senior Application Development Manager
+INFO:root:26-07-2021:13:39:39||530357673|error in extracting linkedin company Name 'included'
+INFO:root:26-07-2021:13:43:02||530357673|zooinfo response200
+INFO:root:26-07-2021:13:43:09||530357673|got linkedin response200
+INFO:root:26-07-2021:13:43:09||530357673|Rigo-Bosman-Global Senior Application Development Manager
+INFO:root:26-07-2021:13:43:09||530357673|error in extracting linkedin company Name 'included'
+INFO:root:26-07-2021:13:51:48||530357673|zooinfo response200
+INFO:root:26-07-2021:13:51:54||530357673|got linkedin response200
+INFO:root:26-07-2021:13:51:54||530357673|Rigo-Bosman-Global Senior Application Development Manager
+INFO:root:26-07-2021:13:51:54||530357673|error in extracting linkedin company Name 'included'
+INFO:root:26-07-2021:13:54:36||530357673|zooinfo response200
+INFO:root:26-07-2021:13:54:41||530357673|got linkedin response200
+INFO:root:26-07-2021:13:54:41||530357673|error in extracting contactcan only concatenate str (not "PermissionError") to str
+INFO:root:26-07-2021:13:55:10||530357673|zooinfo response200
+INFO:root:26-07-2021:13:55:13||530357673|got linkedin response200
+INFO:root:26-07-2021:13:55:13||530357673|Rigo-Bosman-Global Senior Application Development Manager
+INFO:root:26-07-2021:13:55:14||530357673|error in extracting linkedin company Name 'included'

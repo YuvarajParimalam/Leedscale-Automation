@@ -1,0 +1,419 @@
+INFO:root:30-07-2021:21:02:41||531064905|zooinfo response200
+INFO:root:30-07-2021:21:02:50||531064905|got linkedin response200
+INFO:root:30-07-2021:21:02:50||531064905|Fabien-Dubois-Purchasing Manager
+INFO:root:30-07-2021:21:03:07||531064907|zooinfo response200
+INFO:root:30-07-2021:21:03:15||531064907|got linkedin response403
+INFO:root:30-07-2021:21:03:15||531064907|error in extracting contact'$type'
+INFO:root:30-07-2021:21:03:31||531064909|zooinfo response200
+INFO:root:30-07-2021:21:03:41||531064909|got linkedin response200
+INFO:root:30-07-2021:21:03:41||531064909|error in extracting contact'companyUrn'
+INFO:root:30-07-2021:21:04:00||531064910|zooinfo response200
+INFO:root:30-07-2021:21:04:09||531064910|got linkedin response403
+INFO:root:30-07-2021:21:04:09||531064910|error in extracting contact'$type'
+INFO:root:30-07-2021:21:04:24||531064919|zooinfo response200
+INFO:root:30-07-2021:21:04:35||531064919|got linkedin response403
+INFO:root:30-07-2021:21:04:35||531064919|error in extracting contact'$type'
+INFO:root:30-07-2021:21:04:50||531067330|zooinfo response200
+INFO:root:30-07-2021:21:05:02||531067330|got linkedin response200
+INFO:root:30-07-2021:21:05:02||531067330|error in extracting contact'companyUrn'
+INFO:root:30-07-2021:21:05:16||531067332|zooinfo response200
+INFO:root:30-07-2021:21:05:17||531067332|https://www.linkedin.com/in/jean-guy-cocaign-789637?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAX7pkBdJs1bcA3lvHdngqAGAxRqltQJtY
+INFO:root:30-07-2021:21:05:17||531067332|got linkedin response200
+INFO:root:30-07-2021:21:05:17||531067332|error in extracting contact'companyUrn'
+INFO:root:30-07-2021:21:05:31||531067433|zooinfo response200
+INFO:root:30-07-2021:21:05:39||531067433|got linkedin response200
+INFO:root:30-07-2021:21:05:39||531067433|Claire-Rostren-Group CFO
+INFO:root:30-07-2021:21:05:53||531067434|zooinfo response200
+INFO:root:30-07-2021:21:06:20||531067436|zooinfo response200
+INFO:root:30-07-2021:21:06:43||531067438|zooinfo response200
+INFO:root:30-07-2021:21:06:55||531067438|got linkedin response200
+INFO:root:30-07-2021:21:06:55||531067438|François-Chérel-Supply Chain Project Manager & Omni-Channel Logistics
+INFO:root:30-07-2021:21:07:11||531067441|zooinfo response200
+INFO:root:30-07-2021:21:07:22||531067441|got linkedin response200
+INFO:root:30-07-2021:21:07:22||531067441|Bruno-Duval-Technical Assistance Manager for Colours and Tinting Systems for Southern Europe
+INFO:root:30-07-2021:21:07:38||531067445|zooinfo response200
+INFO:root:30-07-2021:21:07:39||531067445|https://www.linkedin.com/in/sibylle-coppens-48b35478?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABBs1qsB7VXzIPGHqH3u0Lmk64jzSmGGlsk
+INFO:root:30-07-2021:21:07:40||531067445|got linkedin response200
+INFO:root:30-07-2021:21:07:40||531067445|Sibylle-COPPENS-Senior Manager Human Resources / General Affairs
+INFO:root:30-07-2021:21:07:57||531093879|zooinfo response200
+INFO:root:30-07-2021:21:08:05||531093879|got linkedin response200
+INFO:root:30-07-2021:21:08:05||531093879|error in extracting contact'companyUrn'
+INFO:root:30-07-2021:21:08:23||531095383|zooinfo response200
+INFO:root:30-07-2021:21:08:45||531095384|zooinfo response200
+INFO:root:30-07-2021:21:08:54||531095384|got linkedin response200
+INFO:root:30-07-2021:21:08:54||531095384|Magalie-PIZIAK-Consultante Affaires réglementaires
+INFO:root:30-07-2021:21:09:10||531095386|zooinfo response200
+INFO:root:30-07-2021:21:09:35||531095388|zooinfo response200
+INFO:root:30-07-2021:21:09:46||531095388|got linkedin response200
+INFO:root:30-07-2021:21:09:46||531095388|Magalie-PIZIAK-Consultante Affaires réglementaires
+INFO:root:30-07-2021:21:10:01||531095390|zooinfo response200
+INFO:root:30-07-2021:21:10:29||531095391|zooinfo response200
+INFO:root:30-07-2021:21:10:37||531095391|got linkedin response200
+INFO:root:30-07-2021:21:10:37||531095391|Jonathan-Bocobza-Regulatory Affairs Consultant
+INFO:root:30-07-2021:21:10:55||531095392|zooinfo response200
+INFO:root:30-07-2021:21:11:05||531095392|got linkedin response200
+INFO:root:30-07-2021:21:11:05||531095392|Laurence-SERMET-Assistante Règlementation - Spécifications Clients
+INFO:root:30-07-2021:21:11:20||531100793|zooinfo response200
+INFO:root:30-07-2021:21:11:21||531100793|https://www.linkedin.com/in/olivier-gavard-947b181?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAABX4EcBUGw-KpbtbmboihFqwUX-oIRMPTA
+INFO:root:30-07-2021:21:11:21||531100793|got linkedin response200
+INFO:root:30-07-2021:21:11:22||531100793|Olivier-Gavard-Research and Technology Director
+INFO:root:30-07-2021:21:11:36||531135709|zooinfo response200
+INFO:root:30-07-2021:21:11:44||531135709|got linkedin response200
+INFO:root:30-07-2021:21:11:44||531135709|Frédéric-Le Hellard-Chief Information Officer, Member of the Executive Committee
+INFO:root:30-07-2021:21:11:58||531135719|zooinfo response200
+INFO:root:30-07-2021:21:12:20||531149195|zooinfo response200
+INFO:root:30-07-2021:21:12:31||531149195|got linkedin response200
+INFO:root:30-07-2021:21:12:31||531149195|Alexandre-Claudel-Talents & digital HR manager 
+INFO:root:30-07-2021:21:12:47||531149196|zooinfo response200
+INFO:root:30-07-2021:21:12:57||531149196|got linkedin response200
+INFO:root:30-07-2021:21:12:57||531149196|Lucile-Ginestet-HR Manager senior
+INFO:root:30-07-2021:21:13:15||531149197|zooinfo response200
+INFO:root:30-07-2021:21:13:26||531149197|got linkedin response200
+INFO:root:30-07-2021:21:13:26||531149197|Trina-RAGUET-Talent Manager (careers & international mobility)
+INFO:root:30-07-2021:21:13:41||531149198|zooinfo response200
+INFO:root:30-07-2021:21:14:11||531149200|zooinfo response200
+INFO:root:30-07-2021:21:14:23||531149200|got linkedin response200
+INFO:root:30-07-2021:21:14:23||531149200|Arnaud-GUILLAUME-Administrateur Systèmes et Réseaux
+INFO:root:30-07-2021:21:14:38||531067337|zooinfo response200
+INFO:root:30-07-2021:21:14:46||531067337|got linkedin response403
+INFO:root:30-07-2021:21:14:46||531067337|error in extracting contact'$type'
+INFO:root:30-07-2021:21:15:04||531067339|zooinfo response200
+INFO:root:30-07-2021:21:15:05||531067339|https://www.linkedin.com/in/christophe-raulo-2b0639168?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACf1-WQBzNRlqgtQrUFdlsX5QkvaiT-ldQw
+INFO:root:30-07-2021:21:15:06||531067339|got linkedin response200
+INFO:root:30-07-2021:21:15:06||531067339|Christophe-RAULO-Chef de projet supply chain
+INFO:root:30-07-2021:21:15:23||531067342|zooinfo response200
+INFO:root:30-07-2021:21:15:33||531067342|got linkedin response200
+INFO:root:30-07-2021:21:15:33||531067342|error in extracting contact'dateRange'
+INFO:root:30-07-2021:21:15:48||531067343|zooinfo response200
+INFO:root:30-07-2021:21:15:58||531067343|got linkedin response400
+INFO:root:30-07-2021:21:15:58||531067343|error in extracting contact'included'
+INFO:root:30-07-2021:21:16:13||531067348|zooinfo response200
+INFO:root:30-07-2021:21:16:14||531067348|https://www.linkedin.com/in/olaborde?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAFo9MUBNcnApmxICtkeBrHigcLbmwcFWAA
+INFO:root:30-07-2021:21:16:15||531067348|got linkedin response200
+INFO:root:30-07-2021:21:16:15||531067348|Olivier-LABORDE-Group CFO
+INFO:root:30-07-2021:21:16:34||531067351|zooinfo response200
+INFO:root:30-07-2021:21:16:44||531067351|got linkedin response400
+INFO:root:30-07-2021:21:16:44||531067351|error in extracting contact'included'
+INFO:root:30-07-2021:21:16:51||531067357|zooinfo errorHTTPSConnectionPool(host='www.groupeiserba.fr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+INFO:root:30-07-2021:21:16:52||531067357|https://www.linkedin.com/in/caroline-fradin-579b3593?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABPsS-0BhVN7oCx17FbjTUYa5GRksqYGv-o
+INFO:root:30-07-2021:21:16:52||531067357|got linkedin response200
+INFO:root:30-07-2021:21:16:52||531067357|Caroline-Fradin-Responsable Ressources Humaines 
+INFO:root:30-07-2021:21:17:09||531149236|zooinfo response200
+INFO:root:30-07-2021:21:17:17||531149236|got linkedin response200
+INFO:root:30-07-2021:21:17:17||531149236|Mickael-Delépine-OBS SAV TGC
+INFO:root:30-07-2021:21:17:34||531149238|zooinfo response200
+INFO:root:30-07-2021:21:17:42||531149238|got linkedin response200
+INFO:root:30-07-2021:21:17:42||531149238|Emmanuelle-Kruten-Didion-Finance Manager
+INFO:root:30-07-2021:21:17:57||531149239|zooinfo response200
+INFO:root:30-07-2021:21:18:05||531149239|got linkedin response200
+INFO:root:30-07-2021:21:18:05||531149239|error in extracting contact'*company'
+INFO:root:30-07-2021:21:18:21||531149241|zooinfo response200
+INFO:root:30-07-2021:21:18:30||531149241|got linkedin response400
+INFO:root:30-07-2021:21:18:30||531149241|error in extracting contact'included'
+INFO:root:30-07-2021:21:18:48||531149243|zooinfo response200
+INFO:root:30-07-2021:21:18:57||531149243|got linkedin response200
+INFO:root:30-07-2021:21:18:57||531149243|error in extracting contact'companyUrn'
+INFO:root:30-07-2021:21:19:13||531149246|zooinfo response200
+INFO:root:30-07-2021:21:19:21||531149246|got linkedin response200
+INFO:root:30-07-2021:21:19:21||531149246|Oussama-BENZAOUIA-CISO
+INFO:root:30-07-2021:21:19:41||531149247|zooinfo response200
+INFO:root:30-07-2021:21:19:48||531149247|got linkedin response200
+INFO:root:30-07-2021:21:19:48||531149247|Regis-Andre-System Administrator, Livestream Teacher & Developer
+INFO:root:30-07-2021:21:20:05||531149248|zooinfo response200
+INFO:root:30-07-2021:21:20:12||531149248|got linkedin response403
+INFO:root:30-07-2021:21:20:12||531149248|error in extracting contact'$type'
+INFO:root:30-07-2021:21:20:26||531149253|zooinfo response200
+INFO:root:30-07-2021:21:20:28||531149253|https://www.linkedin.com/in/mr-thomas-45739863?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAA1npYMB8uFmdwX_1GAdRR6X6yunn56Kpfk
+INFO:root:30-07-2021:21:20:28||531149253|got linkedin response200
+INFO:root:30-07-2021:21:20:28||531149253|error in extracting contact'companyUrn'
+INFO:root:30-07-2021:21:20:44||531149254|zooinfo response200
+INFO:root:30-07-2021:21:20:55||531149254|got linkedin response200
+INFO:root:30-07-2021:21:20:56||531149254|Yassine-BOUCETTA-Administrateur réseau et systèmes - Apprenti
+INFO:root:30-07-2021:21:21:14||531067365|zooinfo response200
+INFO:root:30-07-2021:21:21:24||531067365|got linkedin response400
+INFO:root:30-07-2021:21:21:24||531067365|error in extracting contact'included'
+INFO:root:30-07-2021:21:21:41||531067366|zooinfo response200
+INFO:root:30-07-2021:21:21:42||531067366|https://www.linkedin.com/in/nathalie-soulier-78a13a12?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAKC5toBy4Wzx0AOXveHAG-KGO7BolY0Hd4
+INFO:root:30-07-2021:21:21:42||531067366|got linkedin response200
+INFO:root:30-07-2021:21:21:42||531067366|Nathalie-SOULIER-RESPONSABLE RESSOURCES HUMAINES
+INFO:root:30-07-2021:21:21:58||531067367|zooinfo response200
+INFO:root:30-07-2021:21:22:26||531067368|zooinfo response200
+INFO:root:30-07-2021:21:22:26||531067368|https://www.linkedin.com/in/laurentdevillers1111?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABXW_uEBbUb40aCVdAlZUbsIJYBRPwHw29M
+INFO:root:30-07-2021:21:22:27||531067368|got linkedin response200
+INFO:root:30-07-2021:21:22:27||531067368|Laurent-Devillers-Managing Director Össur South-Europe / Gibaud
+INFO:root:30-07-2021:21:22:46||531067369|zooinfo response200
+INFO:root:30-07-2021:21:22:47||531067369|https://www.linkedin.com/in/elisa-liguori-0038a7b2?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABf7GUMB0GQXvaqZhsWmiMDlCAlWx7KCFWY
+INFO:root:30-07-2021:21:22:47||531067369|got linkedin response200
+INFO:root:30-07-2021:21:22:47||531067369|Elisa-Liguori-Talent Acquisition Manager | Business Partner 
+INFO:root:30-07-2021:21:22:56||531067371|https://www.linkedin.com/in/elisabeth-welter-11198b94?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABQT_t0BQn-6aaadWFUpvO3786IdUnIzkgM
+INFO:root:30-07-2021:21:22:56||531067371|got linkedin response200
+INFO:root:30-07-2021:21:22:56||531067371|error in extracting contact'companyUrn'
+INFO:root:30-07-2021:21:23:14||531067372|zooinfo response200
+INFO:root:30-07-2021:21:23:22||531067372|got linkedin response200
+INFO:root:30-07-2021:21:23:22||531067372|Thibault-STAL-Business Analyst
+INFO:root:30-07-2021:21:23:32||531067373|https://www.linkedin.com/in/laurent-marque-437876a6?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABaNoesBqldFqMY3R7XHgknjjMHYRtzE3Ng
+INFO:root:30-07-2021:21:23:32||531067373|got linkedin response200
+INFO:root:30-07-2021:21:23:32||531067373|Laurent-MARQUE-Directeur
+INFO:root:30-07-2021:21:23:50||531067376|zooinfo response200
+INFO:root:30-07-2021:21:23:51||531067376|https://www.linkedin.com/in/laurent-olivier-530a11145?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACM2IrQBJqeBbs5kE_YzwjkImHcPRmEklE4
+INFO:root:30-07-2021:21:23:51||531067376|got linkedin response200
+INFO:root:30-07-2021:21:23:51||531067376|Laurent-OLIVIER-Responsable Ressources Humaines
+INFO:root:30-07-2021:21:24:07||531067381|zooinfo response200
+INFO:root:30-07-2021:21:24:08||531067381|https://www.linkedin.com/in/virginie-mauchamp-18b8a6b3?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABgoo3sBDDWOF7EIhavwXZMej3oCtx-J9yU
+INFO:root:30-07-2021:21:24:08||531067381|got linkedin response200
+INFO:root:30-07-2021:21:24:08||531067381|virginie-mauchamp-European Sales Director
+INFO:root:30-07-2021:21:24:28||531156712|zooinfo response200
+INFO:root:30-07-2021:21:24:29||531156712|https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-lefort?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAB2-V3cBLF_vmDj1V_NpBFayrhx1Kz9uzXU
+INFO:root:30-07-2021:21:24:29||531156712|got linkedin response403
+INFO:root:30-07-2021:21:24:29||531156712|error in extracting contact'$type'
+INFO:root:30-07-2021:21:24:43||531156718|zooinfo response200
+INFO:root:30-07-2021:21:24:44||531156718|https://www.linkedin.com/in/nicolas-chaput-b0b37847?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAnXxzsBwMqE_CXd-ugJ0s5ZGdSLS_lg7Ok
+INFO:root:30-07-2021:21:24:44||531156718|got linkedin response200
+INFO:root:30-07-2021:21:24:44||531156718|error in extracting contact'companyUrn'
+INFO:root:30-07-2021:21:24:59||531156723|zooinfo response200
+INFO:root:30-07-2021:21:25:06||531156723|got linkedin response403
+INFO:root:30-07-2021:21:25:06||531156723|error in extracting contact'$type'
+INFO:root:30-07-2021:21:25:26||531156725|zooinfo response200
+INFO:root:30-07-2021:21:25:26||531156725|https://www.linkedin.com/in/mathiasdieval?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABrBPjsBBAnoHv1M8ldwWlmKPIrZ-S10a4c
+INFO:root:30-07-2021:21:25:27||531156725|got linkedin response200
+INFO:root:30-07-2021:21:25:27||531156725|Mathias-Dieval-Sales Manager BU Industrie, Services, Finance
+INFO:root:30-07-2021:21:25:47||531156728|zooinfo response200
+INFO:root:30-07-2021:21:25:48||531156728|https://www.linkedin.com/in/vicohen?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABEG1hwB-9VfUPzfuDVJ8awvit_H2uc16VM
+INFO:root:30-07-2021:21:25:48||531156728|got linkedin response200
+INFO:root:30-07-2021:21:25:48||531156728|Victor-COHEN-Key Account Sales Manager IT Finance & Industrie, IOT
+INFO:root:30-07-2021:21:26:00||531174428|https://www.linkedin.com/in/charles-de-james-b5495a15?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAMqmvABmTp5Fah4HIfy_xap6t7b_HA5RLQ
+INFO:root:30-07-2021:21:26:01||531174428|got linkedin response200
+INFO:root:30-07-2021:21:26:01||531174428|Charles-de James-EMEA Sales Director
+INFO:root:30-07-2021:21:26:15||531174436|zooinfo response200
+INFO:root:30-07-2021:21:26:24||531174436|got linkedin response200
+INFO:root:30-07-2021:21:26:24||531174436|Mathieu-Chérouvrier-CIO
+INFO:root:30-07-2021:21:26:42||531174439|zooinfo response200
+INFO:root:30-07-2021:21:26:43||531174439|https://www.linkedin.com/in/antoine-de-trogoff-3528303?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAACoBO4BOsQ0OyjzAjnXOEB2hrxH2Yy4wjk
+INFO:root:30-07-2021:21:26:43||531174439|got linkedin response200
+INFO:root:30-07-2021:21:26:43||531174439|Antoine-de Trogoff-Managing Director
+INFO:root:30-07-2021:21:27:02||531174447|zooinfo response200
+INFO:root:30-07-2021:21:27:03||531174447|https://www.linkedin.com/in/c%C3%A9sar-soula-51b29279?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABCX0WcBqht16zBJEEvy_H-cllAujsCnn44
+INFO:root:30-07-2021:21:27:03||531174447|got linkedin response200
+INFO:root:30-07-2021:21:27:03||531174447|César-Soula-Strategic Planner & Business Partner
+INFO:root:30-07-2021:21:27:23||531175125|zooinfo response200
+INFO:root:30-07-2021:21:27:24||531175125|https://www.linkedin.com/in/augustin-deschamps-072b4a3?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAACz-9YBAXBsN71Npf1i_q7hVgbywD8EJwk
+INFO:root:30-07-2021:21:27:25||531175125|got linkedin response200
+INFO:root:30-07-2021:21:27:25||531175125|Augustin-Deschamps-Managing Director
+INFO:root:30-07-2021:21:27:43||531175126|zooinfo response200
+INFO:root:30-07-2021:21:27:45||531175126|https://www.linkedin.com/in/eric-bergman-626999?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAlRT4BZaDk_tj2o3Tc031UNO09mZzmfjg
+INFO:root:30-07-2021:21:27:46||531175126|got linkedin response200
+INFO:root:30-07-2021:21:27:46||531175126|Eric-Bergman-Managing Director
+INFO:root:30-07-2021:21:28:06||531175127|zooinfo response200
+INFO:root:30-07-2021:21:28:07||531175127|https://www.linkedin.com/in/hbrunel?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAQ1dQBG087zBfUUWQsbOQ_uibyPBwh_MQ
+INFO:root:30-07-2021:21:28:08||531175127|got linkedin response200
+INFO:root:30-07-2021:21:28:08||531175127|Henri-Brunel-Export Sales Director
+INFO:root:30-07-2021:21:28:25||531176477|zooinfo response200
+INFO:root:30-07-2021:21:28:26||531176477|https://www.linkedin.com/in/julien-villemeur-4b6739?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAbxooBq_URsFkW3XJtIbxrEeUjyiKVluI
+INFO:root:30-07-2021:21:28:26||531176477|got linkedin response200
+INFO:root:30-07-2021:21:28:26||531176477|Julien-Villemeur-Chief Information Officer
+INFO:root:30-07-2021:21:28:36||531067385|https://www.linkedin.com/in/marc-morin-436a5480?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABE9qmoBKzGU20KMi1yoEKpe7M_8gGUwgJY
+INFO:root:30-07-2021:21:28:36||531067385|got linkedin response200
+INFO:root:30-07-2021:21:28:36||531067385|error in extracting contact'companyUrn'
+INFO:root:30-07-2021:21:28:53||531067386|zooinfo response200
+INFO:root:30-07-2021:21:29:18||531067394|zooinfo response200
+INFO:root:30-07-2021:21:29:19||531067394|https://www.linkedin.com/in/olivier-piganeau-460975129?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAB-lF0gBlyXJVWg1hdiPMIloWjS5K4Gm6ps
+INFO:root:30-07-2021:21:29:19||531067394|got linkedin response200
+INFO:root:30-07-2021:21:29:19||531067394|Olivier-PIGANEAU-CEO Groupe
+INFO:root:30-07-2021:21:29:30||531067397|https://www.linkedin.com/in/nathalie-barrier-60a44792?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABOkhqoBBEOfr3HLtvC3H5XVqQ0ylYtfCg0
+INFO:root:30-07-2021:21:29:31||531067397|got linkedin response200
+INFO:root:30-07-2021:21:29:31||531067397|error in extracting contact'companyUrn'
+INFO:root:30-07-2021:21:29:46||531067398|zooinfo response200
+INFO:root:30-07-2021:21:29:57||531067398|got linkedin response200
+INFO:root:30-07-2021:21:29:57||531067398|Fang Lu-DALAROY-Responsable Achat - Purchasing manager
+INFO:root:30-07-2021:21:30:13||531067399|zooinfo response200
+INFO:root:30-07-2021:21:30:21||531067399|got linkedin response200
+INFO:root:30-07-2021:21:30:21||531067399|error in extracting contact'companyUrn'
+INFO:root:30-07-2021:21:30:39||531067405|zooinfo response200
+INFO:root:30-07-2021:21:30:51||531067405|got linkedin response200
+INFO:root:30-07-2021:21:30:51||531067405|Consuelo-Monfort Bellés-Managing director 
+INFO:root:30-07-2021:21:31:08||531067407|zooinfo response200
+INFO:root:30-07-2021:21:31:18||531067407|got linkedin response200
+INFO:root:30-07-2021:21:31:18||531067407|Frederic-Seillier-Architecte développement
+INFO:root:30-07-2021:21:31:36||531067408|zooinfo response200
+INFO:root:30-07-2021:21:31:36||531067408|https://www.linkedin.com/in/aur%C3%A9lie-berthou?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAA2i514BL-1BUaM4z2tLueCPPHVCBlMPes8
+INFO:root:30-07-2021:21:31:37||531067408|got linkedin response403
+INFO:root:30-07-2021:21:31:37||531067408|error in extracting contact'$type'
+INFO:root:30-07-2021:21:31:54||531177020|zooinfo response200
+INFO:root:30-07-2021:21:31:55||531177020|https://www.linkedin.com/in/nicolas-lecolier-3a787710b?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABu2-G8BJtP8YjNVX9gzephhlkNDAtM67x8
+INFO:root:30-07-2021:21:31:55||531177020|got linkedin response200
+INFO:root:30-07-2021:21:31:55||531177020|Nicolas-LECOLIER-Chief Security Officer / Chief Information Security Officer
+INFO:root:30-07-2021:21:32:11||531179244|zooinfo response200
+INFO:root:30-07-2021:21:32:12||531179244|https://www.linkedin.com/in/dominique-gautier-b9226b23?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAATX_t4B9Nsr5xQrUpX07iYz7HsF94FU21w
+INFO:root:30-07-2021:21:32:13||531179244|got linkedin response200
+INFO:root:30-07-2021:21:32:13||531179244|Dominique-GAUTIER-Sales Director France 
+INFO:root:30-07-2021:21:32:31||531179254|zooinfo response200
+INFO:root:30-07-2021:21:32:55||531179257|zooinfo response200
+INFO:root:30-07-2021:21:32:56||531179257|https://www.linkedin.com/in/julia-astier-bigot-b6135a139?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACGwkvkB8vHziSRAb5KUZbUBwpZkGgnPtXw
+INFO:root:30-07-2021:21:32:57||531179257|got linkedin response200
+INFO:root:30-07-2021:21:32:57||531179257|Julia-Astier-Bigot-Directeur Juridique / Head of Legal
+INFO:root:30-07-2021:21:33:12||531179259|zooinfo response200
+INFO:root:30-07-2021:21:33:23||531179259|got linkedin response403
+INFO:root:30-07-2021:21:33:23||531179259|error in extracting contact'$type'
+INFO:root:30-07-2021:21:33:38||531179260|zooinfo response200
+INFO:root:30-07-2021:21:33:48||531179260|got linkedin response200
+INFO:root:30-07-2021:21:33:48||531179260|stéphane-suc-directeur prescription commerciale
+INFO:root:30-07-2021:21:34:07||531067409|zooinfo response200
+INFO:root:30-07-2021:21:34:07||531067409|https://www.linkedin.com/in/franck-barsi-937b101b?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAARCCjsBoqjBIXkSpt_MqTvoK_FgFFfLHLo
+INFO:root:30-07-2021:21:34:08||531067409|got linkedin response200
+INFO:root:30-07-2021:21:34:08||531067409|Franck-Barsi-CTO Web
+INFO:root:30-07-2021:21:34:22||531067419|zooinfo response200
+INFO:root:30-07-2021:21:34:32||531067419|got linkedin response200
+INFO:root:30-07-2021:21:34:32||531067419|Jean-François-YAO-Head Of Unit (Cooperation)
+INFO:root:30-07-2021:21:34:48||531067421|zooinfo response200
+INFO:root:30-07-2021:21:34:56||531067421|got linkedin response200
+INFO:root:30-07-2021:21:34:56||531067421|Virginie-COGNERAS-Coordinatrice Supply Chain
+INFO:root:30-07-2021:21:35:13||531067425|zooinfo response200
+INFO:root:30-07-2021:21:35:14||531067425|https://www.linkedin.com/in/ramona-huber-17a366126?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAB8FU24B1EI72yQ3Ju3SiB98_dMUi72GbhM
+INFO:root:30-07-2021:21:35:15||531067425|got linkedin response200
+INFO:root:30-07-2021:21:35:15||531067425|Ramona-HUBER-Responsable ressources humaines
+INFO:root:30-07-2021:21:35:28||531067426|zooinfo response200
+INFO:root:30-07-2021:21:35:35||531067426|got linkedin response403
+INFO:root:30-07-2021:21:35:35||531067426|error in extracting contact'$type'
+INFO:root:30-07-2021:21:35:54||531166686|zooinfo response200
+INFO:root:30-07-2021:21:36:03||531166686|got linkedin response200
+INFO:root:30-07-2021:21:36:03||531166686|Franck-Gagneux-Responsable Marketing Achat Gros Oeuvre
+INFO:root:30-07-2021:21:36:19||531166703|zooinfo response200
+INFO:root:30-07-2021:21:36:46||531166704|zooinfo response200
+INFO:root:30-07-2021:21:37:12||531166705|zooinfo response200
+INFO:root:30-07-2021:21:37:24||531166705|got linkedin response200
+INFO:root:30-07-2021:21:37:24||531166705|Laetitia-Caillaux-Directrice régionale des ventes IDF
+INFO:root:30-07-2021:21:37:41||531166706|zooinfo response200
+INFO:root:30-07-2021:21:37:51||531166706|got linkedin response403
+INFO:root:30-07-2021:21:37:51||531166706|error in extracting contact'$type'
+INFO:root:30-07-2021:21:38:05||531174400|zooinfo response200
+INFO:root:30-07-2021:21:38:05||531174400|https://www.linkedin.com/in/jean-mathieu-m%C3%A9nard?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABIx-jIBYlyUGBVh19GFpGL0cqIfW4NkgVc
+INFO:root:30-07-2021:21:38:06||531174400|got linkedin response403
+INFO:root:30-07-2021:21:38:06||531174400|error in extracting contact'$type'
+INFO:root:30-07-2021:21:38:25||531174403|zooinfo response200
+INFO:root:30-07-2021:21:38:26||531174403|https://www.linkedin.com/in/florine-ardoise-8a522664?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAA2PJ30BLZ40J9Tq1ZT8vHb9Za8rtwivcac
+INFO:root:30-07-2021:21:38:27||531174403|got linkedin response200
+INFO:root:30-07-2021:21:38:27||531174403|Florine-Ardoise-Human Resources Business Partner
+INFO:root:30-07-2021:21:38:44||531174405|zooinfo response200
+INFO:root:30-07-2021:21:39:09||531174413|zooinfo response200
+INFO:root:30-07-2021:21:39:10||531174413|https://www.linkedin.com/in/michael-levy-8732a220?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAARQVFcBIWsVAJ8tqEVwavekDar39Ox6M4Q
+INFO:root:30-07-2021:21:39:11||531174413|got linkedin response200
+INFO:root:30-07-2021:21:39:11||531174413|error in extracting contact'companyUrn'
+INFO:root:30-07-2021:21:39:29||531174415|zooinfo response200
+INFO:root:30-07-2021:21:39:29||531174415|https://www.linkedin.com/in/olivia-desousa-coelho?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABDcnRMBwrNzY5rcFh03wkecAiw8FTv-y1A
+INFO:root:30-07-2021:21:39:30||531174415|got linkedin response200
+INFO:root:30-07-2021:21:39:30||531174415|Olivia-COELHO-Human Resources Business Partner
+INFO:root:30-07-2021:21:39:46||531174417|zooinfo response200
+INFO:root:30-07-2021:21:39:54||531174417|got linkedin response200
+INFO:root:30-07-2021:21:39:54||531174417|Sebastien-Marchon-Speaker Panelist
+INFO:root:30-07-2021:21:40:13||531179263|zooinfo response200
+INFO:root:30-07-2021:21:40:24||531179263|got linkedin response400
+INFO:root:30-07-2021:21:40:24||531179263|error in extracting contact'included'
+INFO:root:30-07-2021:21:40:43||531183332|zooinfo response200
+INFO:root:30-07-2021:21:40:54||531183332|got linkedin response200
+INFO:root:30-07-2021:21:40:54||531183332|Armand-POEUF-Supply Chain group Coordinator 
+INFO:root:30-07-2021:21:41:12||531183333|zooinfo response200
+INFO:root:30-07-2021:21:41:20||531183333|got linkedin response200
+INFO:root:30-07-2021:21:41:20||531183333|Michel-Tranchant-Semiconductor Commoditiy Buyer
+INFO:root:30-07-2021:21:41:37||531097580|zooinfo response200
+INFO:root:30-07-2021:21:41:38||531097580|https://www.linkedin.com/in/katell-pouha%C3%ABr-290497112?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABwxGcwB8-jPeQOma2tXPciFBhnwfwtHYkY
+INFO:root:30-07-2021:21:41:38||531097580|got linkedin response200
+INFO:root:30-07-2021:21:41:38||531097580|Katell-POUHAËR-Responsable Ressources Humaines
+INFO:root:30-07-2021:21:41:55||531149205|zooinfo response200
+INFO:root:30-07-2021:21:42:05||531149205|got linkedin response200
+INFO:root:30-07-2021:21:42:05||531149205|Bruno-Plante-Product Expert - Remote Asset, Product Line
+INFO:root:30-07-2021:21:42:23||531149208|zooinfo response200
+INFO:root:30-07-2021:21:42:36||531149208|got linkedin response200
+INFO:root:30-07-2021:21:42:36||531149208|Djebrane-Adjailia-Administrateur système
+INFO:root:30-07-2021:21:42:52||531149209|zooinfo response200
+INFO:root:30-07-2021:21:43:01||531149209|got linkedin response200
+INFO:root:30-07-2021:21:43:01||531149209|daouda-barry-Administrateur Système junior
+INFO:root:30-07-2021:21:43:19||531149213|zooinfo response200
+INFO:root:30-07-2021:21:43:44||531149214|zooinfo response200
+INFO:root:30-07-2021:21:43:56||531149214|got linkedin response400
+INFO:root:30-07-2021:21:43:56||531149214|error in extracting contact'included'
+INFO:root:30-07-2021:21:44:18||531149215|zooinfo response200
+INFO:root:30-07-2021:21:44:26||531149215|got linkedin response200
+INFO:root:30-07-2021:21:44:26||531149215|Thomas-Balastegui-Administrateur système
+INFO:root:30-07-2021:21:44:39||531149217|zooinfo response200
+INFO:root:30-07-2021:21:44:50||531149217|got linkedin response200
+INFO:root:30-07-2021:21:44:50||531149217|Georges-Henri-BOLVIN-Administrateur Sytème
+INFO:root:30-07-2021:21:45:06||531149218|zooinfo response200
+INFO:root:30-07-2021:21:45:18||531149218|got linkedin response200
+INFO:root:30-07-2021:21:45:18||531149218|Pierre-Marchet-Responsable du Centre des opérations
+INFO:root:30-07-2021:21:45:33||531149219|zooinfo response200
+INFO:root:30-07-2021:21:45:42||531149219|got linkedin response200
+INFO:root:30-07-2021:21:45:42||531149219|error in extracting contact'dateRange'
+INFO:root:30-07-2021:21:45:58||531149220|zooinfo response200
+INFO:root:30-07-2021:21:46:10||531149220|got linkedin response200
+INFO:root:30-07-2021:21:46:10||531149220|Ibraima-DJALO-Administrateur système et réseaux
+INFO:root:30-07-2021:21:46:27||531149229|zooinfo response200
+INFO:root:30-07-2021:21:46:40||531149229|got linkedin response200
+INFO:root:30-07-2021:21:46:40||531149229|Julien-MORENO-Alternant commercial
+INFO:root:30-07-2021:21:46:55||531149233|zooinfo response200
+INFO:root:30-07-2021:21:47:03||531149233|got linkedin response200
+INFO:root:30-07-2021:21:47:03||531149233|Julien-Serrano-Chef de projet
+INFO:root:30-07-2021:21:47:18||531149235|zooinfo response200
+INFO:root:30-07-2021:21:47:42||531100715|zooinfo response200
+INFO:root:30-07-2021:21:47:49||531100715|got linkedin response200
+INFO:root:30-07-2021:21:47:49||531100715|Evelina-Gratianu-Chargée d'enseignement 
+INFO:root:30-07-2021:21:48:03||531100726|zooinfo response200
+INFO:root:30-07-2021:21:48:14||531100726|got linkedin response400
+INFO:root:30-07-2021:21:48:14||531100726|error in extracting contact'included'
+INFO:root:30-07-2021:21:48:29||531100728|zooinfo response200
+INFO:root:30-07-2021:21:48:41||531100728|got linkedin response200
+INFO:root:30-07-2021:21:48:41||531100728|Bétissama-De Pooter-Analyste conformité
+INFO:root:30-07-2021:21:49:00||531100730|zooinfo response200
+INFO:root:30-07-2021:21:49:07||531100730|got linkedin response200
+INFO:root:30-07-2021:21:49:07||531100730|Valentin-C.-Regulatory Affairs Engineer
+INFO:root:30-07-2021:21:49:22||531100757|zooinfo response200
+INFO:root:30-07-2021:21:49:34||531100757|got linkedin response200
+INFO:root:30-07-2021:21:49:34||531100757|Carine-Tuong-Chargée d'affaires réglementaires chez L'Oréal
+INFO:root:30-07-2021:21:49:49||531100783|zooinfo response200
+INFO:root:30-07-2021:21:49:50||531100783|https://www.linkedin.com/in/guillaume-mathey-8ab4413b?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAht78MBf8O9YGlaDpW9gokmjg8l0dsO6NA
+INFO:root:30-07-2021:21:49:50||531100783|got linkedin response200
+INFO:root:30-07-2021:21:49:50||531100783|error in extracting contact'dateRange'
+INFO:root:30-07-2021:21:49:59||531100785|zooinfo errorHTTPSConnectionPool(host='www.anses.fr', port=443): Max retries exceeded with url: /en (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))
+INFO:root:30-07-2021:21:50:06||531100785|got linkedin response403
+INFO:root:30-07-2021:21:50:06||531100785|error in extracting contact'$type'
+INFO:root:30-07-2021:21:50:19||531100791|zooinfo response200
+INFO:root:30-07-2021:21:50:19||531100791|https://www.linkedin.com/in/delphine-persegol-4a715713?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAKxAv8BRojY-15U_Yrw43j7F6ahudDLZmU
+INFO:root:30-07-2021:21:50:20||531100791|got linkedin response200
+INFO:root:30-07-2021:21:50:20||531100791|error in extracting contact'dateRange'
+INFO:root:30-07-2021:21:50:32||531100792|zooinfo response200
+INFO:root:30-07-2021:21:50:39||531100792|got linkedin response200
+INFO:root:30-07-2021:21:50:39||531100792|Joiava-Philpott-Senior Vice President & General Counsel, Law & Policy
+INFO:root:30-07-2021:21:50:48||531156739|zooinfo response999
+INFO:root:30-07-2021:21:51:12||531156743|zooinfo response200
+INFO:root:30-07-2021:21:51:20||531156743|got linkedin response200
+INFO:root:30-07-2021:21:51:20||531156743|Laurent-Kobrin-CIO and Digital
+INFO:root:30-07-2021:21:51:37||531156756|zooinfo response200
+INFO:root:30-07-2021:21:51:38||531156756|https://www.linkedin.com/in/samuel-rollet-b45454121?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAB4k9mUBh-C9FWyA0_osBZx4d_gPCp4GdQ8
+INFO:root:30-07-2021:21:51:39||531156756|got linkedin response200
+INFO:root:30-07-2021:21:51:39||531156756|Samuel-Rollet-Head of  Paris Wealth IT Retail bank
+INFO:root:30-07-2021:21:51:53||531156763|zooinfo response200
+INFO:root:30-07-2021:21:51:54||531156763|https://www.linkedin.com/in/h%C3%A9l%C3%A8ne-levadoux-chapon-b57404a0?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABVq0XMB53GKv_qBXqVCjrYra-5Li6R3xvs
+INFO:root:30-07-2021:21:51:54||531156763|got linkedin response200
+INFO:root:30-07-2021:21:51:54||531156763|Hélène-Levadoux-Chapon-Group Legal Director
+INFO:root:30-07-2021:21:52:11||531156767|zooinfo response200
+INFO:root:30-07-2021:21:52:11||531156767|https://www.linkedin.com/in/caroline-matti-157b7245?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAma2VMB1hJfasfvT6T9_hwvGl-ZUTYmfsA
+INFO:root:30-07-2021:21:52:12||531156767|got linkedin response200
+INFO:root:30-07-2021:21:52:12||531156767|Caroline-Matti-Head of Flow Rates sales , Public Sector & Banks, Europe
+INFO:root:30-07-2021:21:52:32||531176481|zooinfo response200
+INFO:root:30-07-2021:21:52:32||531176481|https://www.linkedin.com/in/nicolas-million-664876140?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACJMwywBjS-MDVLsbn5Y_7-tf88uaMbvcJA
+INFO:root:30-07-2021:21:52:33||531176481|got linkedin response200
+INFO:root:30-07-2021:21:52:33||531176481|error in extracting contact'companyUrn'
+INFO:root:30-07-2021:21:52:48||531176493|zooinfo response200
+INFO:root:30-07-2021:21:52:55||531176493|got linkedin response200
+INFO:root:30-07-2021:21:52:55||531176493|Julien-Rousseau-Directeur Productions et Infrastructures
+INFO:root:30-07-2021:21:53:13||531176495|zooinfo response200
+INFO:root:30-07-2021:21:53:14||531176495|https://www.linkedin.com/in/shinwoo-lee?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAqD-EcB5V6CTpt5n_B0c39LjIEFa5FW-E0
+INFO:root:30-07-2021:21:53:15||531176495|got linkedin response200
+INFO:root:30-07-2021:21:53:15||531176495|Shinwoo-Lee-Ocean Procurement Manager
+INFO:root:30-07-2021:21:53:30||531177011|zooinfo response200
+INFO:root:30-07-2021:21:53:40||531177011|got linkedin response200
+INFO:root:30-07-2021:21:53:40||531177011|stéphane-suc-directeur prescription commerciale
+INFO:root:30-07-2021:21:53:55||531177014|zooinfo response200
+INFO:root:30-07-2021:21:53:56||531177014|https://www.linkedin.com/in/christophe-vayssiere-32741b11?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAJgHQ8BEtbCtDhGCpLIOvOOxVZkrxqQXBU
+INFO:root:30-07-2021:21:53:56||531177014|got linkedin response200
+INFO:root:30-07-2021:21:53:56||531177014|error in extracting contact'companyUrn'
+INFO:root:30-07-2021:21:54:14||531177015|zooinfo response200

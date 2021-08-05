@@ -3,20 +3,25 @@ import requests
 import pandas as pd
 from bs4 import BeautifulSoup as soup
 from urllib.parse import quote
-import re
+import re,os,configparser
 from tools.log_script import log_file_write
 headers={
     'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
 }
 
+config = configparser.RawConfigParser()
+configFilePath=os.path.join(os.getcwd(),'config.ini')
+config.read(configFilePath)
+proxy = config.get('Proxy', 'Proxy')
+proxies = {"http":'http://'+proxy, "https":'http://'+proxy}
+
 def scrape(url):
-    r=requests.get(url,headers=headers)
-    data=soup(r.text,'html.parser')
-    print(r.status_code)
-    if r.status_code==200:
-      return data
-    else:
-      return ''
+    for _ in range(3):
+        r=requests.get(url,headers=headers,proxies=proxies)
+        data=soup(r.text,'html.parser')
+        if r.status_code==200:
+            break
+    return data
 
 def clean_telephone(telephone):
     if telephone:

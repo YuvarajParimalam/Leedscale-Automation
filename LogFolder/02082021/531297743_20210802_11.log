@@ -1,0 +1,837 @@
+INFO:root:02-08-2021:11:13:14||531297743|zooinfo response200
+INFO:root:02-08-2021:11:14:02||531297743|got linkedin response200
+INFO:root:02-08-2021:11:14:02||531297743|Charles-Zami-Director of Financial Planning and Analysis
+INFO:root:02-08-2021:11:14:16||531297744|zooinfo errorHTTPSConnectionPool(host='www.zoominfo.com', port=443): Max retries exceeded with url: /c/hawaiian-electric-company-inc/17318823 (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1129)')))
+INFO:root:02-08-2021:11:14:17||531297744|https://www.linkedin.com/in/cheyne-manalo-18a622b?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAIMqHoBZ-rXgXqkSiwRB4EsNQGMcZ0-9L0
+INFO:root:02-08-2021:11:14:17||531297744|got linkedin response200
+INFO:root:02-08-2021:11:14:17||531297744|Cheyne-Manalo-IT Program Manager
+INFO:root:02-08-2021:11:14:37||531297745|zooinfo response200
+INFO:root:02-08-2021:11:14:39||531297745|https://www.linkedin.com/in/brian-beyer?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAY22JwB15n5_ioss2ikQxYShX8NLRsymBs
+INFO:root:02-08-2021:11:14:39||531297745|got linkedin response200
+INFO:root:02-08-2021:11:14:39||531297745|Brian-Beyer-IT Director
+INFO:root:02-08-2021:11:14:53||531297746|zooinfo response200
+INFO:root:02-08-2021:11:14:54||531297746|https://www.linkedin.com/in/charles-smith-855b883?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAC1NsEBNp6tCyGszsLeyDlbVgUnHS8Q1qI
+INFO:root:02-08-2021:11:14:55||531297746|got linkedin response200
+INFO:root:02-08-2021:11:14:55||531297746|Charles-Smith-Director, IT Infrastructure Architecture
+INFO:root:02-08-2021:11:15:13||531297747|zooinfo response200
+INFO:root:02-08-2021:11:15:22||531297747|got linkedin response200
+INFO:root:02-08-2021:11:15:22||531297747|Carolynn-(Meeker) Lee, MBA, CPA-Corporate Accounting Manager
+INFO:root:02-08-2021:11:15:37||531297748|zooinfo response200
+INFO:root:02-08-2021:11:15:49||531297748|got linkedin response400
+INFO:root:02-08-2021:11:15:49||531297748|error in extracting contact'included'
+INFO:root:02-08-2021:11:16:05||531297749|zooinfo response200
+INFO:root:02-08-2021:11:16:06||531297749|https://www.linkedin.com/in/boris-pak-23b0b514?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAALcng8BTx9xo-J6ZIfLxgxRqHsV7o60Co0
+INFO:root:02-08-2021:11:16:06||531297749|got linkedin response200
+INFO:root:02-08-2021:11:16:06||531297749|Boris-Pak-Director, Financial Planning & Analysis
+INFO:root:02-08-2021:11:16:26||531297750|zooinfo response200
+INFO:root:02-08-2021:11:16:35||531297750|got linkedin response200
+INFO:root:02-08-2021:11:16:35||531297750|Tony-Hoffman-IT Manager
+INFO:root:02-08-2021:11:16:52||531297751|zooinfo response200
+INFO:root:02-08-2021:11:16:52||531297751|https://www.linkedin.com/in/dan-grimes-0474a813?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAK-ADcB4-L8viJYZuKU82C1hTT2ZSWrHbw
+INFO:root:02-08-2021:11:16:53||531297751|got linkedin response200
+INFO:root:02-08-2021:11:16:53||531297751|Dan-Grimes-Director, IT Cloud Platform Services
+INFO:root:02-08-2021:11:17:08||531297752|zooinfo response200
+INFO:root:02-08-2021:11:17:08||531297752|https://www.linkedin.com/in/crystal-prosser-93762744?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAlY3nsBJ_44zdnJue_8Or2Ilzl-rslxBjk
+INFO:root:02-08-2021:11:17:09||531297752|got linkedin response200
+INFO:root:02-08-2021:11:17:09||531297752|Crystal-Prosser-Information Technology Project Manager
+INFO:root:02-08-2021:11:17:28||531297753|zooinfo response200
+INFO:root:02-08-2021:11:17:29||531297753|https://www.linkedin.com/in/bryan-wilson-27834426?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAVjpHwBpirhdY5mjTgKofgV_UtHCFaZytU
+INFO:root:02-08-2021:11:17:30||531297753|got linkedin response200
+INFO:root:02-08-2021:11:17:30||531297753|Bryan-Wilson-Software Development Manager
+INFO:root:02-08-2021:11:17:46||531297756|zooinfo response200
+INFO:root:02-08-2021:11:17:47||531297756|https://www.linkedin.com/in/bill-stevens-a3538a30?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAZ2dUkBUiKqo6pduI8TF5gM93aoqpKgiRg
+INFO:root:02-08-2021:11:17:48||531297756|got linkedin response200
+INFO:root:02-08-2021:11:17:48||531297756|Bill-Stevens-Regional Sales Manager
+INFO:root:02-08-2021:11:18:03||531297778|zooinfo response200
+INFO:root:02-08-2021:11:18:11||531297778|got linkedin response200
+INFO:root:02-08-2021:11:18:11||531297778|Astrid-Weinkle-Manager Financial Planning
+INFO:root:02-08-2021:11:18:31||531297788|zooinfo response200
+INFO:root:02-08-2021:11:18:31||531297788|https://www.linkedin.com/in/tina-gillis-b49a75a?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAHv9ykBrFjmmY5FmjobQfMZ32ozeZFVXWo
+INFO:root:02-08-2021:11:18:32||531297788|got linkedin response200
+INFO:root:02-08-2021:11:18:32||531297788|Tina-Gillis-Sales and Operations Technical Manager
+INFO:root:02-08-2021:11:18:49||531297802|zooinfo response200
+INFO:root:02-08-2021:11:18:50||531297802|https://www.linkedin.com/in/jason-strandemo-02496712?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAKiIVwBQRGlwfpi3abxcizuVDaXHBaY1Sk
+INFO:root:02-08-2021:11:18:50||531297802|got linkedin response200
+INFO:root:02-08-2021:11:18:50||531297802|Jason-Strandemo-Customer Sales Director - Enterprise
+INFO:root:02-08-2021:11:19:05||531297806|zooinfo response200
+INFO:root:02-08-2021:11:19:06||531297806|https://www.linkedin.com/in/paul-caldwell-72959a88?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABKYnJEBS_K6eUJ6qHHRU7iQBRPg9P5oLoY
+INFO:root:02-08-2021:11:19:07||531297806|got linkedin response200
+INFO:root:02-08-2021:11:19:07||531297806|Paul-Caldwell-Regional Operations Manager
+INFO:root:02-08-2021:11:19:25||531297807|zooinfo response200
+INFO:root:02-08-2021:11:19:26||531297807|https://www.linkedin.com/in/curtis-brickhouse-2a23147b?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABD0QZoBAgwV56OkC4v2Pnfp5pO-Nqc0KJw
+INFO:root:02-08-2021:11:19:26||531297807|got linkedin response200
+INFO:root:02-08-2021:11:19:26||531297807|Curtis-Brickhouse-Director of Student Affairs Operations
+INFO:root:02-08-2021:11:19:41||531297808|zooinfo response200
+INFO:root:02-08-2021:11:19:42||531297808|https://www.linkedin.com/in/john-coleman-0486b819?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAPXSTgBRynqzWa1VR8B06ScJgmXpJPlDJs
+INFO:root:02-08-2021:11:19:43||531297808|got linkedin response200
+INFO:root:02-08-2021:11:19:43||531297808|John-Coleman-Director, Infrastructure & Operations
+INFO:root:02-08-2021:11:19:58||531297809|zooinfo response200
+INFO:root:02-08-2021:11:19:58||531297809|https://www.linkedin.com/in/ginnygomezleon?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAGC50EBN9WWNSfy5R4_PD0Y_EjMuj5cNAM
+INFO:root:02-08-2021:11:19:59||531297809|got linkedin response200
+INFO:root:02-08-2021:11:19:59||531297809|Ginny-Gomez-Leon, MBA, CPA-Vice President and Chief Financial Officer
+INFO:root:02-08-2021:11:20:15||531297810|zooinfo response200
+INFO:root:02-08-2021:11:20:16||531297810|https://www.linkedin.com/in/genedurand?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAC18ycBn0w7HdCIlTslcJ5tJj5ny_Pjxrw
+INFO:root:02-08-2021:11:20:17||531297810|got linkedin response200
+INFO:root:02-08-2021:11:20:17||531297810|Gene-Durand-Vice President of Human Resources
+INFO:root:02-08-2021:11:20:35||531297811|zooinfo response200
+INFO:root:02-08-2021:11:20:36||531297811|https://www.linkedin.com/in/kevin-swartzendruber-755a2425?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAVQCTEBxeTUilqarO057XajVywMaLwI8yM
+INFO:root:02-08-2021:11:20:37||531297811|got linkedin response200
+INFO:root:02-08-2021:11:20:37||531297811|Kevin-Swartzendruber-Senior Vice President Finance
+INFO:root:02-08-2021:11:20:54||531297812|zooinfo response200
+INFO:root:02-08-2021:11:21:04||531297812|got linkedin response200
+INFO:root:02-08-2021:11:21:04||531297812|Christopher-Nagle-AVP - Finance - Western Region
+INFO:root:02-08-2021:11:21:21||531297813|zooinfo response200
+INFO:root:02-08-2021:11:21:22||531297813|https://www.linkedin.com/in/scott-zimmerman-23363a41?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAjQj8cBcw9IuPvSHqyEtsJO9PwFveOt5ME
+INFO:root:02-08-2021:11:21:23||531297813|got linkedin response200
+INFO:root:02-08-2021:11:21:23||531297813|scott-zimmerman-Senior Account Manager, Boxed Beef Sales
+INFO:root:02-08-2021:11:21:42||531297814|zooinfo response200
+INFO:root:02-08-2021:11:21:43||531297814|https://www.linkedin.com/in/brownsteveng?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABL0LjQBa2xhBTC2jziWEdz0JHJsXar96a8
+INFO:root:02-08-2021:11:21:43||531297814|got linkedin response200
+INFO:root:02-08-2021:11:21:43||531297814|Steven-B.-Manager, Nuclear Security Engineering and Operations
+INFO:root:02-08-2021:11:22:01||531297815|zooinfo response200
+INFO:root:02-08-2021:11:22:03||531297815|https://www.linkedin.com/in/randall-woods-0913a84?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAADFBG0B8YF9GVatmeCc8CEwcgEdi1LKBEs
+INFO:root:02-08-2021:11:22:03||531297815|got linkedin response200
+INFO:root:02-08-2021:11:22:03||531297815|Randall-Woods-Senior Director of Sales West Region
+INFO:root:02-08-2021:11:22:18||531327074|zooinfo response200
+INFO:root:02-08-2021:11:22:19||531327074|https://www.linkedin.com/in/daniel-martinez-07bb4914?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAMERR8BMgTmK_fqc39Zv1A8J_HyixCowGY
+INFO:root:02-08-2021:11:22:20||531327074|got linkedin response200
+INFO:root:02-08-2021:11:22:20||531327074|Daniel-Martinez-VP Information Technology North America
+INFO:root:02-08-2021:11:22:34||531327075|zooinfo response200
+INFO:root:02-08-2021:11:22:43||531327075|got linkedin response200
+INFO:root:02-08-2021:11:22:43||531327075|Ann-Servatius-Director of Tax
+INFO:root:02-08-2021:11:23:00||531327076|zooinfo response200
+INFO:root:02-08-2021:11:23:01||531327076|https://www.linkedin.com/in/joelle-fasolo-257a0592?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABO5-yMBOkFMixHCRBPymHgrSlIR2ILrEko
+INFO:root:02-08-2021:11:23:01||531327076|got linkedin response200
+INFO:root:02-08-2021:11:23:01||531327076|Joelle-Fasolo-Director of Financial and Ambulatory Applications
+INFO:root:02-08-2021:11:23:17||531327077|zooinfo response200
+INFO:root:02-08-2021:11:23:18||531327077|https://www.linkedin.com/in/jeffrey-eick-3ab65b9?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAGyuXMBdPuOB7N7a3jzBHVcuDmzAHADMck
+INFO:root:02-08-2021:11:23:18||531327077|got linkedin response200
+INFO:root:02-08-2021:11:23:18||531327077|Jeffrey-Eick-Accounting Manager
+INFO:root:02-08-2021:11:23:36||531327078|zooinfo response200
+INFO:root:02-08-2021:11:23:36||531327078|https://www.linkedin.com/in/mikepatrickmyers?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAABRSdoB2UqpcGkGR_wuDpoEWgNfrAxLpYo
+INFO:root:02-08-2021:11:23:37||531327078|got linkedin response200
+INFO:root:02-08-2021:11:23:37||531327078|Mike-Myers-Vice President, IT Engineering
+INFO:root:02-08-2021:11:23:55||531327079|zooinfo response200
+INFO:root:02-08-2021:11:23:56||531327079|https://www.linkedin.com/in/jackie-delgado-2a54b519?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAPPnl0BZRJjFK3eznf9SWIL2KqzV4kLUaw
+INFO:root:02-08-2021:11:23:57||531327079|got linkedin response200
+INFO:root:02-08-2021:11:23:57||531327079|Jackie-DelGado-Director Of Sales 
+INFO:root:02-08-2021:11:24:13||531327080|zooinfo response200
+INFO:root:02-08-2021:11:24:20||531327080|got linkedin response200
+INFO:root:02-08-2021:11:24:20||531327080|error in extracting contact'dateRange'
+INFO:root:02-08-2021:11:24:34||531327081|zooinfo response200
+INFO:root:02-08-2021:11:24:44||531327081|got linkedin response200
+INFO:root:02-08-2021:11:24:44||531327081|Jeffrey-Weiner-Chief Financial Officer
+INFO:root:02-08-2021:11:24:59||531327082|zooinfo response200
+INFO:root:02-08-2021:11:25:00||531327082|https://www.linkedin.com/in/charles-lasky-09aa191b?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAQ-djYB0CXdHdcPdRs5sCqsEO175EvqtA4
+INFO:root:02-08-2021:11:25:01||531327082|got linkedin response200
+INFO:root:02-08-2021:11:25:01||531327082|Charles-Lasky-Deputy Chief Information Officer and Chief of Staff
+INFO:root:02-08-2021:11:25:17||531327083|zooinfo response200
+INFO:root:02-08-2021:11:25:18||531327083|https://www.linkedin.com/in/robwoseth?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAADJP8kB1QNNGdWEGuw45toPVgfwa0BtKa4
+INFO:root:02-08-2021:11:25:18||531327083|got linkedin response200
+INFO:root:02-08-2021:11:25:18||531327083|Rob-Woseth-Chief Financial Officer
+INFO:root:02-08-2021:11:25:38||531327084|zooinfo response200
+INFO:root:02-08-2021:11:25:40||531327084|https://www.linkedin.com/in/heather-moore-47351113?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAK-xlcB5nmcqtr-tYJP1rrxEBK55B_SyjQ
+INFO:root:02-08-2021:11:25:41||531327084|got linkedin response200
+INFO:root:02-08-2021:11:25:41||531327084|Heather-Moore-Vice President, Information Technology & Business Intelligence
+INFO:root:02-08-2021:11:25:56||531327087|zooinfo response200
+INFO:root:02-08-2021:11:25:57||531327087|https://www.linkedin.com/in/glen-persaud-2311b3117?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAB0KDIUBQfsdwWxHUoD_nsSl0KNVoljeqME
+INFO:root:02-08-2021:11:25:58||531327087|got linkedin response200
+INFO:root:02-08-2021:11:25:58||531327087|Glen-Persaud-Director of Human Resources 
+INFO:root:02-08-2021:11:26:18||531327091|zooinfo response200
+INFO:root:02-08-2021:11:26:25||531327091|got linkedin response200
+INFO:root:02-08-2021:11:26:25||531327091|Larry-Voigt-Senior Director - Finance (Famous Footwear)
+INFO:root:02-08-2021:11:26:44||531367467|zooinfo response200
+INFO:root:02-08-2021:11:26:57||531367467|got linkedin response200
+INFO:root:02-08-2021:11:26:57||531367467|error in extracting contact'companyUrn'
+INFO:root:02-08-2021:11:27:11||531367469|zooinfo response200
+INFO:root:02-08-2021:11:27:12||531367469|https://www.linkedin.com/in/basil-couvaras-99129524?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAUGWD0BQKiwf8YZHQacjGUFT_oEbK1rkqM
+INFO:root:02-08-2021:11:27:12||531367469|got linkedin response200
+INFO:root:02-08-2021:11:27:12||531367469|error in extracting contact'companyUrn'
+INFO:root:02-08-2021:11:27:31||531367471|zooinfo response200
+INFO:root:02-08-2021:11:27:43||531367471|got linkedin response200
+INFO:root:02-08-2021:11:27:43||531367471|Mike-Neavill-Director of Operations
+INFO:root:02-08-2021:11:28:00||531367474|zooinfo response200
+INFO:root:02-08-2021:11:28:02||531367474|https://www.linkedin.com/in/bryon-iwane?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAJzGWAB3H3MRsra8FG-rdPoqP0iSTh0cMA
+INFO:root:02-08-2021:11:28:02||531367474|got linkedin response200
+INFO:root:02-08-2021:11:28:02||531367474|Bryon-Iwane-Regional Sales Manager Midwest
+INFO:root:02-08-2021:11:28:21||531367476|zooinfo response200
+INFO:root:02-08-2021:11:28:21||531367476|https://www.linkedin.com/in/maria-cuesta-cpa-203942112?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABxCXqMB-gt2mDnuBva1ttt5CZjNpWb6rrc
+INFO:root:02-08-2021:11:28:22||531367476|got linkedin response200
+INFO:root:02-08-2021:11:28:22||531367476|Maria-Cuesta, CPA-Director Of Finance And Accounting
+INFO:root:02-08-2021:11:28:38||531367478|zooinfo response200
+INFO:root:02-08-2021:11:28:59||531367480|zooinfo response200
+INFO:root:02-08-2021:11:29:00||531367480|https://www.linkedin.com/in/gareth-charter-7238285?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAEDDAsBQTryiuf0twKAhKCi3BAzMhjVXkw
+INFO:root:02-08-2021:11:29:00||531367480|got linkedin response200
+INFO:root:02-08-2021:11:29:00||531367480|Gareth-Charter-Vice President Sales
+INFO:root:02-08-2021:11:29:17||531367482|zooinfo response200
+INFO:root:02-08-2021:11:29:18||531367482|https://www.linkedin.com/in/melissa-clark-32517240?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAiREk0B0re99bBuHUAuunibo395T6oAuss
+INFO:root:02-08-2021:11:29:19||531367482|got linkedin response200
+INFO:root:02-08-2021:11:29:19||531367482|Melissa-Clark-Chief Executive Officer
+INFO:root:02-08-2021:11:29:36||531367485|zooinfo response200
+INFO:root:02-08-2021:11:29:37||531367485|https://www.linkedin.com/in/carlos-karr-3a520425?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAUxBS0B43yjVHC3FpeI3ON4Mw6xU5A2gLo
+INFO:root:02-08-2021:11:29:37||531367485|got linkedin response200
+INFO:root:02-08-2021:11:29:37||531367485|Carlos-Karr-SVP of Sales
+INFO:root:02-08-2021:11:29:53||531367487|zooinfo response200
+INFO:root:02-08-2021:11:29:54||531367487|https://www.linkedin.com/in/mike-brown-618019163?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACb6wTQBcCBEf_UuhI0XW_ALJflIR18ydgk
+INFO:root:02-08-2021:11:29:54||531367487|got linkedin response200
+INFO:root:02-08-2021:11:29:54||531367487|Mike-Brown-Senior Vice President Operations
+INFO:root:02-08-2021:11:30:11||531367489|zooinfo response200
+INFO:root:02-08-2021:11:30:12||531367489|https://www.linkedin.com/in/hamneet-sidhu-43864a139?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACG7oewB2gLvt26gBTiab-WIhxdWPnbq4y0
+INFO:root:02-08-2021:11:30:13||531367489|got linkedin response200
+INFO:root:02-08-2021:11:30:13||531367489|Hamneet-Sidhu-Sales Manager
+INFO:root:02-08-2021:11:30:28||531367491|zooinfo response200
+INFO:root:02-08-2021:11:30:37||531367491|got linkedin response200
+INFO:root:02-08-2021:11:30:37||531367491|Chris-Dillard-VP of Operations
+INFO:root:02-08-2021:11:30:56||531367493|zooinfo response200
+INFO:root:02-08-2021:11:31:07||531367493|got linkedin response200
+INFO:root:02-08-2021:11:31:07||531367493|Lauren-Thorp-Director of Finance
+INFO:root:02-08-2021:11:31:26||531367495|zooinfo response200
+INFO:root:02-08-2021:11:31:27||531367495|https://www.linkedin.com/in/jay-woodrow-3b74b46a?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAA6q6DsBVaE2_Y4uB1cbHBgU-zqVvT7jCas
+INFO:root:02-08-2021:11:31:28||531367495|got linkedin response200
+INFO:root:02-08-2021:11:31:28||531367495|Jay-Woodrow-Vice President of Operations
+INFO:root:02-08-2021:11:31:43||531367498|zooinfo response200
+INFO:root:02-08-2021:11:31:44||531367498|https://www.linkedin.com/in/john-hegedus-253018ab?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABdROF8B1BN7914odhpC-hccTGugWyEtSFA
+INFO:root:02-08-2021:11:31:45||531367498|got linkedin response200
+INFO:root:02-08-2021:11:31:45||531367498|John-Hegedus-EHS/HR Manager
+INFO:root:02-08-2021:11:32:02||531297816|zooinfo response200
+INFO:root:02-08-2021:11:32:03||531297816|https://www.linkedin.com/in/gus-ezcurra-4870462?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAABcjycBxg_gQG7BhIqeLrSxTVFlg6WP19M
+INFO:root:02-08-2021:11:32:04||531297816|got linkedin response200
+INFO:root:02-08-2021:11:32:04||531297816|Gus-Ezcurra-Senior Vice President of Global Corporate Sales
+INFO:root:02-08-2021:11:32:19||531297817|zooinfo response200
+INFO:root:02-08-2021:11:32:20||531297817|https://www.linkedin.com/in/don-sowell-35993315?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAMpxTUB5skmnrkCCW6LKMB5AGn1Y0GyKfk
+INFO:root:02-08-2021:11:32:21||531297817|got linkedin response200
+INFO:root:02-08-2021:11:32:21||531297817|Don-Sowell-President
+INFO:root:02-08-2021:11:32:36||531297818|zooinfo response200
+INFO:root:02-08-2021:11:32:36||531297818|https://www.linkedin.com/in/vincent-azzarello-0a2993b0?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABejWboB1KtSIRptVyzd_w7bA4Ze-YJFNnU
+INFO:root:02-08-2021:11:32:37||531297818|got linkedin response200
+INFO:root:02-08-2021:11:32:37||531297818|Vincent-Azzarello-Sr. Director of Human Resources
+INFO:root:02-08-2021:11:32:55||531298142|zooinfo response200
+INFO:root:02-08-2021:11:32:55||531298142|https://www.linkedin.com/in/edward-enriquez-5718306?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAEwtiUB9j9Aqz5n6WA--dXeD3BggFeBNEk
+INFO:root:02-08-2021:11:32:56||531298142|got linkedin response200
+INFO:root:02-08-2021:11:32:56||531298142|Edward-Enriquez-Chief Financial Officer/Treasurer
+INFO:root:02-08-2021:11:33:14||531298143|zooinfo response200
+INFO:root:02-08-2021:11:33:14||531298143|https://www.linkedin.com/in/kelly-geist-a48a48201?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADOXB9gBbyH7cN-uDGlidk7WUJPmlnsGalI
+INFO:root:02-08-2021:11:33:15||531298143|got linkedin response200
+INFO:root:02-08-2021:11:33:15||531298143|Kelly-Geist-Director of IT Operations
+INFO:root:02-08-2021:11:33:31||531298145|zooinfo response200
+INFO:root:02-08-2021:11:33:39||531298145|got linkedin response200
+INFO:root:02-08-2021:11:33:39||531298145|Tammy J.-Thayer (formerly Dunckley)-Director Of Operations
+INFO:root:02-08-2021:11:33:54||531298147|zooinfo response200
+INFO:root:02-08-2021:11:33:55||531298147|https://www.linkedin.com/in/tombickel?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAACOeR0BiKPgmHl-aaDSy_TEpuD236C1wWk
+INFO:root:02-08-2021:11:33:55||531298147|got linkedin response200
+INFO:root:02-08-2021:11:33:55||531298147|Tom-Bickel-Director of Sales & Marketing
+INFO:root:02-08-2021:11:34:12||531298148|zooinfo response200
+INFO:root:02-08-2021:11:34:13||531298148|https://www.linkedin.com/in/jason-chambers-9b14015a?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAyEnFUBGSda9Dp-Lne5hNnFjhPK_qGZUnI
+INFO:root:02-08-2021:11:34:14||531298148|got linkedin response200
+INFO:root:02-08-2021:11:34:14||531298148|Jason-Chambers-District Sales Manager
+INFO:root:02-08-2021:11:34:33||531298149|zooinfo response200
+INFO:root:02-08-2021:11:34:34||531298149|https://www.linkedin.com/in/jeffrey-guenther-0827301a?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAQF52IBkkvw2N-dxFDFnnz4k1QdtMdNPJE
+INFO:root:02-08-2021:11:34:35||531298149|got linkedin response200
+INFO:root:02-08-2021:11:34:35||531298149|Jeffrey-Guenther-Sales Manager Heavy Duty
+INFO:root:02-08-2021:11:34:51||531298150|zooinfo response200
+INFO:root:02-08-2021:11:34:52||531298150|https://www.linkedin.com/in/margie-fitzpatrick-5b346949?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAo2ZhcBpwRaLETnw4ZDnBJdYsdLVHQ9Fgg
+INFO:root:02-08-2021:11:34:53||531298150|got linkedin response200
+INFO:root:02-08-2021:11:34:53||531298150|error in extracting contact'companyUrn'
+INFO:root:02-08-2021:11:35:07||531298151|zooinfo response200
+INFO:root:02-08-2021:11:35:07||531298151|https://www.linkedin.com/in/todd-waldo-518aa032?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAbshOQBE40EQjoDgV6HI-_habQz8dhOmUk
+INFO:root:02-08-2021:11:35:08||531298151|got linkedin response200
+INFO:root:02-08-2021:11:35:08||531298151|Todd-Waldo-Assistant Coach - Varsity Ice Hockey
+INFO:root:02-08-2021:11:35:22||531298152|zooinfo response200
+INFO:root:02-08-2021:11:35:23||531298152|https://www.linkedin.com/in/kelly-kiger-mack-trucks?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAeo29ABWVGlQH_mdeHL8ozHgHQf4s5_yKI
+INFO:root:02-08-2021:11:35:24||531298152|got linkedin response200
+INFO:root:02-08-2021:11:35:24||531298152|Kelly-Kiger, MBA, CTP-Director, Leasing & Rental Sales
+INFO:root:02-08-2021:11:35:40||531298153|zooinfo response200
+INFO:root:02-08-2021:11:35:41||531298153|https://www.linkedin.com/in/will-cole-mpm-84103333?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAbx-_EBJdeUasekzK27nuIt878IiJMIGIw
+INFO:root:02-08-2021:11:35:42||531298153|got linkedin response200
+INFO:root:02-08-2021:11:35:42||531298153|Will-Cole , MPM-Sr Manager Operations Support 
+INFO:root:02-08-2021:11:36:01||531298154|zooinfo response200
+INFO:root:02-08-2021:11:36:11||531298154|got linkedin response200
+INFO:root:02-08-2021:11:36:11||531298154|Matthew-Shapanka-Chief Counsel
+INFO:root:02-08-2021:11:36:28||531298155|zooinfo response200
+INFO:root:02-08-2021:11:36:40||531298155|got linkedin response200
+INFO:root:02-08-2021:11:36:40||531298155|Luis-Rosario-Assistant Superintendent
+INFO:root:02-08-2021:11:36:59||531298156|zooinfo response200
+INFO:root:02-08-2021:11:37:11||531298156|got linkedin response200
+INFO:root:02-08-2021:11:37:11||531298156|Vinny-DiMarco-Sr. Director of Sales - ESPN Audio Partnerships
+INFO:root:02-08-2021:11:37:25||531298157|zooinfo response200
+INFO:root:02-08-2021:11:37:26||531298157|https://www.linkedin.com/in/marcela-arenas-67747420?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAARXBbsBOERBHMyWLT0uHzYM3tfvIZmNVT8
+INFO:root:02-08-2021:11:37:27||531298157|got linkedin response200
+INFO:root:02-08-2021:11:37:27||531298157|Marcela-Arenas-Director Finance & Controlling Aftermarket Americas
+INFO:root:02-08-2021:11:37:42||531298158|zooinfo response200
+INFO:root:02-08-2021:11:37:42||531298158|https://www.linkedin.com/in/jessica-barajas-mam-8a0b42210?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADWP2ngBwQIOBVUNES9V8McUX3Z9X5T0HNk
+INFO:root:02-08-2021:11:37:43||531298158|got linkedin response200
+INFO:root:02-08-2021:11:37:43||531298158|Jessica-Barajas, MAM-Procurement Services Officer
+INFO:root:02-08-2021:11:37:59||531298159|zooinfo response200
+INFO:root:02-08-2021:11:38:00||531298159|https://www.linkedin.com/in/david-cook-ctp-05397a2?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAB_xr8B1cd8i1xcfM_QN-fxqavvso8e2NQ
+INFO:root:02-08-2021:11:38:00||531298159|got linkedin response200
+INFO:root:02-08-2021:11:38:00||531298159|David-Cook, CTP-Director of Sales
+INFO:root:02-08-2021:11:38:19||531298160|zooinfo response200
+INFO:root:02-08-2021:11:38:19||531298160|https://www.linkedin.com/in/loristilwell?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAOA-XEBLTN4SmU_epRZXKRzDApaek6SVu4
+INFO:root:02-08-2021:11:38:20||531298160|got linkedin response200
+INFO:root:02-08-2021:11:38:20||531298160|Lori-Stilwell-Director of Information Technology
+INFO:root:02-08-2021:11:38:40||531298161|zooinfo response200
+INFO:root:02-08-2021:11:38:40||531298161|https://www.linkedin.com/in/timothy-erro-1ba02982?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABFx_94BMqSMCAUlTlO8HC0blauJidjiids
+INFO:root:02-08-2021:11:38:41||531298161|got linkedin response200
+INFO:root:02-08-2021:11:38:41||531298161|Timothy-Erro-Vice President of Sales & New Business Development 
+INFO:root:02-08-2021:11:39:00||531298162|zooinfo response200
+INFO:root:02-08-2021:11:39:01||531298162|https://www.linkedin.com/in/jeff-blocher-417927b0?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABehP5MBS-t2YmfPsmQX-FxiwEt7dBSXNQ4
+INFO:root:02-08-2021:11:39:01||531298162|got linkedin response200
+INFO:root:02-08-2021:11:39:01||531298162|Jeff-Blocher-Director of Sales and Marketing
+INFO:root:02-08-2021:11:39:19||531298163|zooinfo response200
+INFO:root:02-08-2021:11:39:20||531298163|https://www.linkedin.com/in/christa-garner-5285b5109?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABtRq7ABoH-M6JBd3LpsW8Si4j0EfWFE31E
+INFO:root:02-08-2021:11:39:20||531298163|got linkedin response200
+INFO:root:02-08-2021:11:39:20||531298163|Christa-Garner-IT Manager
+INFO:root:02-08-2021:11:39:39||531298164|zooinfo response200
+INFO:root:02-08-2021:11:40:01||531298165|zooinfo response200
+INFO:root:02-08-2021:11:40:02||531298165|https://www.linkedin.com/in/lord-ahli-omega-b2417b133?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACCYQ4wBN_z32xjyPBOBvXstpkbPWkKCqsc
+INFO:root:02-08-2021:11:40:02||531298165|got linkedin response200
+INFO:root:02-08-2021:11:40:02||531298165|Lord-Ahli-Omega-Director Of Information Technology
+INFO:root:02-08-2021:11:40:19||531298166|zooinfo response200
+INFO:root:02-08-2021:11:40:20||531298166|https://www.linkedin.com/in/travis-vandergriff-0011b081?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABFK1wEBrQ5VWwMFK8rsaYvMtDiiSRVW7Ec
+INFO:root:02-08-2021:11:40:20||531298166|got linkedin response200
+INFO:root:02-08-2021:11:40:20||531298166|Travis-Vandergriff-Operations Manager
+INFO:root:02-08-2021:11:40:38||531298168|zooinfo response200
+INFO:root:02-08-2021:11:40:47||531298168|got linkedin response200
+INFO:root:02-08-2021:11:40:47||531298168|Lucreta-Bolding-Category Buyer
+INFO:root:02-08-2021:11:41:03||531298169|zooinfo response200
+INFO:root:02-08-2021:11:41:04||531298169|https://www.linkedin.com/in/brent-siepman-6513b15?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAADyuV0B4Hih93x0jnuvuhVHjir7o7rHDS0
+INFO:root:02-08-2021:11:41:05||531298169|got linkedin response200
+INFO:root:02-08-2021:11:41:05||531298169|Brent-Siepman-Operations Manager
+INFO:root:02-08-2021:11:41:20||531298170|zooinfo response200
+INFO:root:02-08-2021:11:41:21||531298170|https://www.linkedin.com/in/david-brady-09858a26?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAVsp_QBWz9l_GYXMgbHJaY3dEvh4h1P49A
+INFO:root:02-08-2021:11:41:22||531298170|got linkedin response200
+INFO:root:02-08-2021:11:41:22||531298170|David-Brady-VP of Sales
+INFO:root:02-08-2021:11:41:38||531298171|zooinfo response200
+INFO:root:02-08-2021:11:41:39||531298171|https://www.linkedin.com/in/matthew-reeser-77795819?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAPgy0sBXP_km8NSdUbywF2bXikqcYsN1oI
+INFO:root:02-08-2021:11:41:39||531298171|got linkedin response200
+INFO:root:02-08-2021:11:41:39||531298171|Matthew-Reeser-Operations Manager
+INFO:root:02-08-2021:11:41:58||531298172|zooinfo response200
+INFO:root:02-08-2021:11:42:06||531298172|got linkedin response200
+INFO:root:02-08-2021:11:42:06||531298172|Berry Sun,-CPA, MBA-Director of Accounting and Finance - Pilot Water Solutions
+INFO:root:02-08-2021:11:42:22||531298173|zooinfo response200
+INFO:root:02-08-2021:11:42:23||531298173|https://www.linkedin.com/in/bill-irvin-531a9758?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAxDQzUBfWIIr5vfMaJMAk_WHEnIvcB_gmM
+INFO:root:02-08-2021:11:42:23||531298173|got linkedin response200
+INFO:root:02-08-2021:11:42:23||531298173|Bill-Irvin-Region Sales Director
+INFO:root:02-08-2021:11:42:38||531298174|zooinfo response200
+INFO:root:02-08-2021:11:42:48||531298174|got linkedin response200
+INFO:root:02-08-2021:11:42:48||531298174|Donna-Brown-Executive Director of Human Resources
+INFO:root:02-08-2021:11:43:04||531325566|zooinfo response200
+INFO:root:02-08-2021:11:43:05||531325566|https://www.linkedin.com/in/clarice-gordo-0b7aa26?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAE6kAsBcPrD9C6rK_oAcacZa7t9CaNq4YU
+INFO:root:02-08-2021:11:43:06||531325566|got linkedin response200
+INFO:root:02-08-2021:11:43:06||531325566|Clarice-Gordo-Regional Director, Human Resources
+INFO:root:02-08-2021:11:43:21||531325567|zooinfo response200
+INFO:root:02-08-2021:11:43:22||531325567|https://www.linkedin.com/in/brian-beckley-570777179?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACpLTWQBpSe_Vdoq83dc0IvMGNdSWpj1ATo
+INFO:root:02-08-2021:11:43:23||531325567|got linkedin response200
+INFO:root:02-08-2021:11:43:23||531325567|Brian-Beckley-Chief Information Officer
+INFO:root:02-08-2021:11:43:40||531325568|zooinfo response200
+INFO:root:02-08-2021:11:43:41||531325568|https://www.linkedin.com/in/davidpmarchand?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAyDIQBsL5bC_obPPkE98F1umNB4HNPFq8
+INFO:root:02-08-2021:11:43:41||531325568|got linkedin response200
+INFO:root:02-08-2021:11:43:41||531325568|Dave-Marchand-CIO
+INFO:root:02-08-2021:11:43:55||531325569|zooinfo response200
+INFO:root:02-08-2021:11:43:56||531325569|https://www.linkedin.com/in/anthonybelden?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAL9dYBRD6lyyPkNwOdToFxhv3Dr6CXdu8
+INFO:root:02-08-2021:11:43:57||531325569|got linkedin response200
+INFO:root:02-08-2021:11:43:57||531325569|Anthony-Belden-Senior Director of IT - ERP Product Management
+INFO:root:02-08-2021:11:44:11||531325570|zooinfo response200
+INFO:root:02-08-2021:11:44:20||531325570|got linkedin response200
+INFO:root:02-08-2021:11:44:20||531325570|Tom-Savage-Chief Financial Officer
+INFO:root:02-08-2021:11:44:36||531325571|zooinfo response200
+INFO:root:02-08-2021:11:44:49||531325571|got linkedin response200
+INFO:root:02-08-2021:11:44:49||531325571|Eric J.-Rogers, CPA, CITP-Portfolio CFO
+INFO:root:02-08-2021:11:45:03||531325572|zooinfo response200
+INFO:root:02-08-2021:11:45:04||531325572|https://www.linkedin.com/in/tyler-nitta-2521ba13?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAKy-94BUWg1CpiFQOLSBv1X-6xu2P8BDQ8
+INFO:root:02-08-2021:11:45:05||531325572|got linkedin response200
+INFO:root:02-08-2021:11:45:05||531325572|Tyler-Nitta-IT End User Support Manager
+INFO:root:02-08-2021:11:45:19||531325573|zooinfo response200
+INFO:root:02-08-2021:11:45:20||531325573|https://www.linkedin.com/in/christa-hokenson-621b82?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAsXPkB0aHCQm05jUw4oJQ0xdpp5jeoRUo
+INFO:root:02-08-2021:11:45:21||531325573|got linkedin response200
+INFO:root:02-08-2021:11:45:21||531325573|Christa-Hokenson-Chief Human Resources Officer
+INFO:root:02-08-2021:11:45:37||531326150|zooinfo response200
+INFO:root:02-08-2021:11:45:39||531326150|https://www.linkedin.com/in/marcia-paris-mba-pmp%C2%AE-452a1854?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAuKgX4Bd5bJjJNZKuHGXCO_QzO4fgVlxkY
+INFO:root:02-08-2021:11:45:40||531326150|got linkedin response200
+INFO:root:02-08-2021:11:45:40||531326150|Marcia-Paris, MBA, PMP®-Chief Information Officer
+INFO:root:02-08-2021:11:45:56||531326151|zooinfo response200
+INFO:root:02-08-2021:11:45:57||531326151|https://www.linkedin.com/in/craigdhodges?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAIp1kB0bViJ34AkVDrLfoLl_XNEMhOt_Q
+INFO:root:02-08-2021:11:45:58||531326151|got linkedin response200
+INFO:root:02-08-2021:11:45:58||531326151|Craig-Hodges-Chief Information Officer
+INFO:root:02-08-2021:11:46:13||531326152|zooinfo response200
+INFO:root:02-08-2021:11:46:14||531326152|https://www.linkedin.com/in/tugnawat?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAACd3ycBLX3Lzp_kXx7JG7Z1zsI0QGMc6mI
+INFO:root:02-08-2021:11:46:15||531326152|got linkedin response200
+INFO:root:02-08-2021:11:46:15||531326152|Surbhi-Tugnawat-Data Privacy and Integrity Advisory Committee Member
+INFO:root:02-08-2021:11:46:32||531326153|zooinfo response200
+INFO:root:02-08-2021:11:46:33||531326153|https://www.linkedin.com/in/leonravenna?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAbldkBt04WwDQs6jGy60dgVS0kxJHAwPw
+INFO:root:02-08-2021:11:46:33||531326153|got linkedin response200
+INFO:root:02-08-2021:11:46:33||531326153|Leon-Ravenna-Chief Information Security Officer
+INFO:root:02-08-2021:11:46:49||531326154|zooinfo response200
+INFO:root:02-08-2021:11:46:49||531326154|https://www.linkedin.com/in/keithspirgel?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAe0GIB--Hvkm_NIxYfUBeukYbQtUHs42k
+INFO:root:02-08-2021:11:46:50||531326154|got linkedin response200
+INFO:root:02-08-2021:11:46:50||531326154|Keith-Spirgel-Chief Operating Officer -- Urban Outfitters Group
+INFO:root:02-08-2021:11:47:09||531326155|zooinfo response200
+INFO:root:02-08-2021:11:47:10||531326155|https://www.linkedin.com/in/melinda-lewis-castonguay-34451629?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAXzB2QBNd6UrZbVJ6eC0SiaV43yVgcs5gU
+INFO:root:02-08-2021:11:47:10||531326155|got linkedin response200
+INFO:root:02-08-2021:11:47:10||531326155|Melinda-Lewis (Castonguay)-Sr. IT Manager, Global Business Applications
+INFO:root:02-08-2021:11:47:28||531326156|zooinfo response200
+INFO:root:02-08-2021:11:47:39||531326156|got linkedin response200
+INFO:root:02-08-2021:11:47:39||531326156|Mike-Smith-Director of IT Network and Security
+INFO:root:02-08-2021:11:47:58||531326157|zooinfo response200
+INFO:root:02-08-2021:11:47:59||531326157|https://www.linkedin.com/in/brian-fauchier-20404919?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAO-UeQBSJdTLjLMzPReHAZmfikJ86HPEck
+INFO:root:02-08-2021:11:47:59||531326157|got linkedin response200
+INFO:root:02-08-2021:11:47:59||531326157|Brian-Fauchier-Director of Sales ENGINEERING & Support
+INFO:root:02-08-2021:11:48:19||531327069|zooinfo response200
+INFO:root:02-08-2021:11:48:19||531327069|https://www.linkedin.com/in/yonah-kaplovitz-a6341533?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAcAmKsBkjoo9wuRG0WYbhx6Jnn8pQd8Ihw
+INFO:root:02-08-2021:11:48:20||531327069|got linkedin response200
+INFO:root:02-08-2021:11:48:20||531327069|Yonah-Kaplovitz-Director of Human Resources, Staffing, and Recruiting
+INFO:root:02-08-2021:11:48:38||531327070|zooinfo response200
+INFO:root:02-08-2021:11:48:39||531327070|https://www.linkedin.com/in/adamjmontero?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAJ49vMBZyxrSdB3GH7nc5fRpCir5SsCxoE
+INFO:root:02-08-2021:11:48:40||531327070|got linkedin response200
+INFO:root:02-08-2021:11:48:40||531327070|Adam-Montero-Director of Cloud Software Development
+INFO:root:02-08-2021:11:48:57||531327071|zooinfo response200
+INFO:root:02-08-2021:11:48:58||531327071|https://www.linkedin.com/in/matthew-losi-8034155b?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAyyl0MB6JPy-A47gy1zVzCZV9Mgu5fB3W4
+INFO:root:02-08-2021:11:48:58||531327071|got linkedin response200
+INFO:root:02-08-2021:11:48:58||531327071|Matthew-Losi-Director of Financial Planning and Analysis
+INFO:root:02-08-2021:11:49:16||531327072|zooinfo response200
+INFO:root:02-08-2021:11:49:17||531327072|https://www.linkedin.com/in/jonathangatz?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAwgczEBkPbfNIUgzSNbQtkAVtTwFdq6ZCM
+INFO:root:02-08-2021:11:49:18||531327072|got linkedin response200
+INFO:root:02-08-2021:11:49:18||531327072|Jon-Gatz, MBA, SPHR-AVP, Talent Acquisition
+INFO:root:02-08-2021:11:49:35||531367500|zooinfo response200
+INFO:root:02-08-2021:11:49:36||531367500|https://www.linkedin.com/in/harlowdodge?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAA-SY2QB42IIlBQ8g_LoHo7GqDyYKScA6lk
+INFO:root:02-08-2021:11:49:37||531367500|got linkedin response200
+INFO:root:02-08-2021:11:49:37||531367500|Harlow-Dodge-Chief Operating Officer
+INFO:root:02-08-2021:11:49:54||531367502|zooinfo response200
+INFO:root:02-08-2021:11:49:55||531367502|https://www.linkedin.com/in/k-kevin-balicki-31134349?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAoxzf0Bk1IWLmLEiOXC37z6YFnuMTlppUU
+INFO:root:02-08-2021:11:49:55||531367502|got linkedin response200
+INFO:root:02-08-2021:11:49:55||531367502|K (Kevin)-Balicki-Vice President of Sales
+INFO:root:02-08-2021:11:50:13||531367504|zooinfo response200
+INFO:root:02-08-2021:11:50:15||531367504|https://www.linkedin.com/in/jeff-haight-736b0417?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAOLkxoBaEOp0OVrwOZbjJT8nh8tJHbnD1E
+INFO:root:02-08-2021:11:50:15||531367504|got linkedin response200
+INFO:root:02-08-2021:11:50:15||531367504|Jeff-Haight-Regional Sales Manager
+INFO:root:02-08-2021:11:50:35||531367507|zooinfo response200
+INFO:root:02-08-2021:11:50:36||531367507|https://www.linkedin.com/in/juan-cordova-73935552?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAsV_t0BSTy7aQkCDxICp5U9iL0FdXT9E8w
+INFO:root:02-08-2021:11:50:37||531367507|got linkedin response200
+INFO:root:02-08-2021:11:50:37||531367507|Juan-Cordova-Eastern Regional Sales Manager
+INFO:root:02-08-2021:11:50:54||531367509|zooinfo response200
+INFO:root:02-08-2021:11:51:04||531367509|got linkedin response200
+INFO:root:02-08-2021:11:51:04||531367509|Brandi Armstead -MA, MSHRM, SHRM-CP-Human Resources Manager
+INFO:root:02-08-2021:11:51:23||531367511|zooinfo response200
+INFO:root:02-08-2021:11:51:24||531367511|https://www.linkedin.com/in/catherine-benke-a5b4a017?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAN0D-cBjF7mg6AcTdfwOZ7uPCk9-EjDlkY
+INFO:root:02-08-2021:11:51:25||531367511|got linkedin response200
+INFO:root:02-08-2021:11:51:25||531367511|error in extracting contact'companyUrn'
+INFO:root:02-08-2021:11:51:44||531367513|zooinfo response200
+INFO:root:02-08-2021:11:51:45||531367513|https://www.linkedin.com/in/alisonrberry?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAMJ9LcBYPm4X9IeLO_a6smR-0EfoPdF5cg
+INFO:root:02-08-2021:11:51:45||531367513|got linkedin response200
+INFO:root:02-08-2021:11:51:45||531367513|Alison-Berry-Partner
+INFO:root:02-08-2021:11:52:01||531367515|zooinfo response200
+INFO:root:02-08-2021:11:52:02||531367515|https://www.linkedin.com/in/bob-venezia-6076b950?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAArIQycB75oTc-ITAiRXsLGHJZqA6bGPKN0
+INFO:root:02-08-2021:11:52:02||531367515|got linkedin response200
+INFO:root:02-08-2021:11:52:02||531367515|error in extracting contact'companyUrn'
+INFO:root:02-08-2021:11:52:18||531367518|zooinfo response200
+INFO:root:02-08-2021:11:52:18||531367518|https://www.linkedin.com/in/mike-sulzer-pe-83b54914?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAALtgW8BJBT-nVpAECQ3JyiM7Srjwv0rQzI
+INFO:root:02-08-2021:11:52:19||531367518|got linkedin response200
+INFO:root:02-08-2021:11:52:19||531367518|Mike-Sulzer, PE-Executive Vice President of Operations
+INFO:root:02-08-2021:11:52:38||531367520|zooinfo response200
+INFO:root:02-08-2021:11:52:39||531367520|https://www.linkedin.com/in/andrea-catalina-parada-83a33120?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAARR4m4BI3AyGG3FJ5qdIkI5QFV7Fu7t1Vk
+INFO:root:02-08-2021:11:52:40||531367520|got linkedin response200
+INFO:root:02-08-2021:11:52:40||531367520|Andrea Catalina-Parada-Chief Operating Officer for Latam
+INFO:root:02-08-2021:11:52:57||531367522|zooinfo response200
+INFO:root:02-08-2021:11:52:58||531367522|https://www.linkedin.com/in/michael-poshkus-26386272?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAA9utOsBEuGpbA_W7hf4r1qNfVCsYNlsvJo
+INFO:root:02-08-2021:11:52:58||531367522|got linkedin response200
+INFO:root:02-08-2021:11:52:58||531367522|Michael-Poshkus-Senior Client Finance Manager
+INFO:root:02-08-2021:11:53:13||531367525|zooinfo response200
+INFO:root:02-08-2021:11:53:14||531367525|https://www.linkedin.com/in/katelynmckinley?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAHoWroB8_QpqPzHDGiUDNSsmo04h_n8Xsg
+INFO:root:02-08-2021:11:53:14||531367525|got linkedin response200
+INFO:root:02-08-2021:11:53:14||531367525|Katelyn-Palacorolla-Director Of Finance And Operations
+INFO:root:02-08-2021:11:53:33||531367527|zooinfo response200
+INFO:root:02-08-2021:11:53:34||531367527|https://www.linkedin.com/in/ben-onnie-31b00434?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAcenMcBv7o5ef8H_TLGfTHzROoCT61Rn3A
+INFO:root:02-08-2021:11:53:35||531367527|got linkedin response200
+INFO:root:02-08-2021:11:53:35||531367527|Ben-Onnie-Chief Operating Officer / Co-Founder
+INFO:root:02-08-2021:11:53:50||531367529|zooinfo response200
+INFO:root:02-08-2021:11:53:51||531367529|https://www.linkedin.com/in/mcmanusaaron?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAz0_dgB9wnFDtawGiJXpmu9D-whV1qZiLs
+INFO:root:02-08-2021:11:53:52||531367529|got linkedin response200
+INFO:root:02-08-2021:11:53:52||531367529|Aaron-McManus-Finance Manager
+INFO:root:02-08-2021:11:54:07||531367531|zooinfo response200
+INFO:root:02-08-2021:11:54:08||531367531|https://www.linkedin.com/in/mayank87?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAMCIRMBuCbwKY0P3ab3szBxq_ZaFh-arJ8
+INFO:root:02-08-2021:11:54:08||531367531|got linkedin response200
+INFO:root:02-08-2021:11:54:08||531367531|Mayank-Singh, MS, PHR-Human Resources Manager
+INFO:root:02-08-2021:11:54:27||531367536|zooinfo response200
+INFO:root:02-08-2021:11:54:28||531367536|https://www.linkedin.com/in/ty-naegele-40b754a?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAHj5ksBW9An0H2ZqrPg7l9alEzlO8dJ9pI
+INFO:root:02-08-2021:11:54:28||531367536|got linkedin response200
+INFO:root:02-08-2021:11:54:28||531367536|Ty-Naegele-Controller
+INFO:root:02-08-2021:11:54:44||531367539|zooinfo response200
+INFO:root:02-08-2021:11:54:45||531367539|https://www.linkedin.com/in/deb-shakarian-88848224?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAUNimgB7dGGVoEB-oYvnaZOp7WnDzYHZlc
+INFO:root:02-08-2021:11:54:46||531367539|got linkedin response200
+INFO:root:02-08-2021:11:54:46||531367539|Deb-Shakarian-Controller
+INFO:root:02-08-2021:11:55:01||531367542|zooinfo response200
+INFO:root:02-08-2021:11:55:02||531367542|https://www.linkedin.com/in/tracy-randall-5a9242188?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACwsbNEBuno3zTVyrrJQlRbXsSEeUtVkiNE
+INFO:root:02-08-2021:11:55:02||531367542|got linkedin response200
+INFO:root:02-08-2021:11:55:02||531367542|Tracy-Randall-Financial Controller
+INFO:root:02-08-2021:11:55:18||531367544|zooinfo response200
+INFO:root:02-08-2021:11:55:19||531367544|https://www.linkedin.com/in/jay-kalantar-4012b6?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAALPcEBktyR2G41hjltKipH_5Ofxw4GO90
+INFO:root:02-08-2021:11:55:20||531367544|got linkedin response200
+INFO:root:02-08-2021:11:55:20||531367544|Jay-Kalantar-Chief Operating Officer
+INFO:root:02-08-2021:11:55:35||531367547|zooinfo response200
+INFO:root:02-08-2021:11:55:36||531367547|https://www.linkedin.com/in/jordan-richardson-099498b4?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABhGv3UB0K8LErUcTK9DDA_7gPlTXPHbkqs
+INFO:root:02-08-2021:11:55:36||531367547|got linkedin response200
+INFO:root:02-08-2021:11:55:36||531367547|Jordan-Richardson-Major Market Sales Director
+INFO:root:02-08-2021:11:55:52||531367549|zooinfo response200
+INFO:root:02-08-2021:11:55:54||531367549|https://www.linkedin.com/in/michael-luxenberg-cpa-69a03927?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAWFo5YBKjRNduF9a8bBOvP6piwrYc9swj4
+INFO:root:02-08-2021:11:55:54||531367549|got linkedin response200
+INFO:root:02-08-2021:11:55:54||531367549|Michael-Luxenberg, CPA-VP Accounting, Controller
+INFO:root:02-08-2021:11:56:12||531367551|zooinfo response200
+INFO:root:02-08-2021:11:56:12||531367551|https://www.linkedin.com/in/lynn-wehrenberg-3167725?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAEAqkIBSTq5-_Ru73XVsW_q4Jic6IBST5g
+INFO:root:02-08-2021:11:56:13||531367551|got linkedin response200
+INFO:root:02-08-2021:11:56:13||531367551|Lynn-Wehrenberg-Manager Human Resources
+INFO:root:02-08-2021:11:56:32||531367553|zooinfo response200
+INFO:root:02-08-2021:11:56:33||531367553|https://www.linkedin.com/in/bob-miskura-bb23283a?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAg8IrYBNlVNFhX1BLLhNDQgHQQXinxxGk4
+INFO:root:02-08-2021:11:56:34||531367553|got linkedin response200
+INFO:root:02-08-2021:11:56:34||531367553|Bob-Miskura-Senior Vice President and Chief Financial Officer
+INFO:root:02-08-2021:11:56:48||531367555|zooinfo response200
+INFO:root:02-08-2021:11:56:49||531367555|https://www.linkedin.com/in/stumbrealena?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABRyokkBlPAalZIdMR_adlbTt0c9A84bisQ
+INFO:root:02-08-2021:11:56:49||531367555|got linkedin response200
+INFO:root:02-08-2021:11:56:49||531367555|Alena-Stumbre, MSM-HRM-Human Resources Manager
+INFO:root:02-08-2021:11:57:06||531367557|zooinfo response200
+INFO:root:02-08-2021:11:57:07||531367557|https://www.linkedin.com/in/tina-keefe-mba-59bb6465?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAA3gGEcB_uLoRYF5TlcT3V_ObIEUeNvpDHg
+INFO:root:02-08-2021:11:57:08||531367557|got linkedin response200
+INFO:root:02-08-2021:11:57:08||531367557|Tina-Keefe, MBA-Finance Operations Director
+INFO:root:02-08-2021:11:57:25||531367560|zooinfo response200
+INFO:root:02-08-2021:11:57:34||531367560|got linkedin response200
+INFO:root:02-08-2021:11:57:35||531367560|Carol-Tylman-Human Resource Manager
+INFO:root:02-08-2021:11:57:52||531367562|zooinfo response200
+INFO:root:02-08-2021:11:57:53||531367562|https://www.linkedin.com/in/susan-romenesko-shrm-cp-95867018?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAOoRFQB0PrFTY4gAHcrI-R6bH2OUlm_7ss
+INFO:root:02-08-2021:11:57:54||531367562|got linkedin response200
+INFO:root:02-08-2021:11:57:54||531367562|Susan-Romenesko, SHRM-CP-Human Resources Manager
+INFO:root:02-08-2021:11:58:10||531367564|zooinfo response200
+INFO:root:02-08-2021:11:58:11||531367564|https://www.linkedin.com/in/duncan-mcverry-94a6377?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAFW34oBVP8-U-_jVUCwq1r9O29HWRrT1S0
+INFO:root:02-08-2021:11:58:12||531367564|got linkedin response200
+INFO:root:02-08-2021:11:58:12||531367564|Duncan-McVerry-Finance Director
+INFO:root:02-08-2021:11:58:30||531367566|zooinfo response200
+INFO:root:02-08-2021:11:58:30||531367566|https://www.linkedin.com/in/letitia-janifer-323a355?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAEK3osBcRNzcDeCfZPBz70j9xqcg8S7NDs
+INFO:root:02-08-2021:11:58:31||531367566|got linkedin response200
+INFO:root:02-08-2021:11:58:31||531367566|Letitia-Janifer-Vice President, Finance and Contracts
+INFO:root:02-08-2021:11:58:46||531367568|zooinfo response200
+INFO:root:02-08-2021:11:58:47||531367568|https://www.linkedin.com/in/scott-r-jones-b0b8777?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAFfvHsBB97tcm-GN0gWFUKl7fkPxMhlotI
+INFO:root:02-08-2021:11:58:48||531367568|got linkedin response200
+INFO:root:02-08-2021:11:58:48||531367568|Scott R-Jones-Chief Financial Officer
+INFO:root:02-08-2021:11:59:05||531367571|zooinfo response200
+INFO:root:02-08-2021:11:59:06||531367571|https://www.linkedin.com/in/alfonso-zepeda-1b83292b?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAZG89wBK-DEgSJg2uULFc7b9YtdD7xLra4
+INFO:root:02-08-2021:11:59:07||531367571|got linkedin response200
+INFO:root:02-08-2021:11:59:07||531367571|Alfonso-Zepeda-Sales Manager
+INFO:root:02-08-2021:11:59:24||531367573|zooinfo response200
+INFO:root:02-08-2021:11:59:25||531367573|https://www.linkedin.com/in/shanemlott?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABXP_W4B0nWzzLdipdztkUZkWHeGkD38q6U
+INFO:root:02-08-2021:11:59:25||531367573|got linkedin response200
+INFO:root:02-08-2021:11:59:25||531367573|Shane-Lott-Sales Manager
+INFO:root:02-08-2021:11:59:39||531367575|zooinfo response429
+INFO:root:02-08-2021:11:59:40||531367575|https://www.linkedin.com/in/gus-tosoni-462a6a24?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAUj5AoBKoc79FBLfM7YftUj0nGYvrLusos
+INFO:root:02-08-2021:11:59:41||531367575|got linkedin response200
+INFO:root:02-08-2021:11:59:41||531367575|Gus-Tosoni-Vice President Operations
+INFO:root:02-08-2021:11:59:55||531367578|zooinfo response429
+INFO:root:02-08-2021:11:59:56||531367578|https://www.linkedin.com/in/douglas-granger-3604a81?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAABAIfgBMnaG3T3tWqXtGFz4l9O2Hzizdqw
+INFO:root:02-08-2021:11:59:56||531367578|got linkedin response200
+INFO:root:02-08-2021:11:59:56||531367578|Douglas-Granger-Vice President Operations
+INFO:root:02-08-2021:12:00:12||531367580|zooinfo response200
+INFO:root:02-08-2021:12:00:13||531367580|https://www.linkedin.com/in/craig-haddock-71b482116?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABzm6YcBPPJj9lpgWwOyIqJcdkOOm8zzt8g
+INFO:root:02-08-2021:12:00:13||531367580|got linkedin response200
+INFO:root:02-08-2021:12:00:13||531367580|Craig-Haddock-Director of Operations
+INFO:root:02-08-2021:12:00:33||531367583|zooinfo response200
+INFO:root:02-08-2021:12:00:34||531367583|https://www.linkedin.com/in/davidhoppens?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAARU40BL6_46iFpNIFFPzd8C_MGVu8ijN4
+INFO:root:02-08-2021:12:00:34||531367583|got linkedin response200
+INFO:root:02-08-2021:12:00:34||531367583|David-Hoppens-Vice President Sales & Marketing
+INFO:root:02-08-2021:12:00:54||531367585|zooinfo response200
+INFO:root:02-08-2021:12:00:55||531367585|https://www.linkedin.com/in/chachiflores?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAA2sBjwB5veAriGxuN3rzEx3ORz53kJ0sIU
+INFO:root:02-08-2021:12:00:55||531367585|got linkedin response200
+INFO:root:02-08-2021:12:00:55||531367585|Chachi-Flores-Senior Digital Sales Manager
+INFO:root:02-08-2021:12:01:14||531367588|zooinfo response200
+INFO:root:02-08-2021:12:01:15||531367588|https://www.linkedin.com/in/shanejorgenson?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAHL8e0BTBKn4LGkRcipz5GZR19lzbP4vmk
+INFO:root:02-08-2021:12:01:15||531367588|got linkedin response200
+INFO:root:02-08-2021:12:01:15||531367588|Shane-Jorgenson-Chief Operating Officer
+INFO:root:02-08-2021:12:01:31||531367593|zooinfo response200
+INFO:root:02-08-2021:12:01:32||531367593|https://www.linkedin.com/in/erin-chesser-221b00105?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABqulTkBCVIngzWegJZGllxSYQ_PlDqf8II
+INFO:root:02-08-2021:12:01:32||531367593|got linkedin response200
+INFO:root:02-08-2021:12:01:32||531367593|Erin-Chesser-Underwriting Operations Manager
+INFO:root:02-08-2021:12:01:50||531367596|zooinfo response200
+INFO:root:02-08-2021:12:01:50||531367596|https://www.linkedin.com/in/pamela-emmendorfer-aa39a910?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAJIWNsBuxcCaaNKT_AvpzP01pRZOevQQEo
+INFO:root:02-08-2021:12:01:51||531367596|got linkedin response200
+INFO:root:02-08-2021:12:01:51||531367596|Pamela-Emmendorfer-Vice President & Director of Human Resources
+INFO:root:02-08-2021:12:02:09||531367600|zooinfo response200
+INFO:root:02-08-2021:12:02:10||531367600|https://www.linkedin.com/in/andrew-bailin-b8a567142?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACKcN9oBJzvSX0zFTKJOVh29IahQX3diHIw
+INFO:root:02-08-2021:12:02:11||531367600|got linkedin response200
+INFO:root:02-08-2021:12:02:11||531367600|Andrew-Bailin-National Sales Manager
+INFO:root:02-08-2021:12:02:25||531367603|zooinfo response200
+INFO:root:02-08-2021:12:02:50||531367605|zooinfo response200
+INFO:root:02-08-2021:12:03:03||531367605|got linkedin response200
+INFO:root:02-08-2021:12:03:03||531367605|Richard-Weiss-Director of Sales
+INFO:root:02-08-2021:12:03:22||531367608|zooinfo response200
+INFO:root:02-08-2021:12:03:22||531367608|https://www.linkedin.com/in/rkhines?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAFH01kBotImOvPr2m78dW8n5MHDVNTJ80w
+INFO:root:02-08-2021:12:03:23||531367608|got linkedin response200
+INFO:root:02-08-2021:12:03:23||531367608|Kelly-Hines-Chief Financial Officer
+INFO:root:02-08-2021:12:03:41||531367610|zooinfo response200
+INFO:root:02-08-2021:12:03:41||531367610|https://www.linkedin.com/in/tamir-levy-31a25826?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAVgRMYB2adOxpqsQSUwji-N2mnIt7L175c
+INFO:root:02-08-2021:12:03:42||531367610|got linkedin response200
+INFO:root:02-08-2021:12:03:42||531367610|Tamir-Levy-Vice President of Sales
+INFO:root:02-08-2021:12:03:57||531367614|zooinfo response200
+INFO:root:02-08-2021:12:03:58||531367614|https://www.linkedin.com/in/seth-holman-71894549?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAApIpcQBe27hymWgOPFGJhMLUC1RHcKIhPY
+INFO:root:02-08-2021:12:03:58||531367614|got linkedin response200
+INFO:root:02-08-2021:12:03:58||531367614|Seth-Holman-National Sales Manager
+INFO:root:02-08-2021:12:04:16||531367616|zooinfo response200
+INFO:root:02-08-2021:12:04:18||531367616|https://www.linkedin.com/in/stevenandrews2?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAATKnNEB2KpCz3HwCD2eKNDr4HlPL8WuNC4
+INFO:root:02-08-2021:12:04:19||531367616|got linkedin response200
+INFO:root:02-08-2021:12:04:19||531367616|Steven-Andrews-Vice President, Finance & Accounting
+INFO:root:02-08-2021:12:04:34||531367618|zooinfo response200
+INFO:root:02-08-2021:12:04:35||531367618|https://www.linkedin.com/in/david-baldree-09a82211?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAJvX_YBBAdlOuc1pdlD6MRT3JFCL1dgbys
+INFO:root:02-08-2021:12:04:36||531367618|got linkedin response200
+INFO:root:02-08-2021:12:04:36||531367618|David-Baldree-Vice President of Operations
+INFO:root:02-08-2021:12:04:50||531367620|zooinfo response200
+INFO:root:02-08-2021:12:04:51||531367620|https://www.linkedin.com/in/marc-brownstein-51367?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAACGB8BAvpilYWIIoU5xkXDVQCNuakv3ro
+INFO:root:02-08-2021:12:04:52||531367620|got linkedin response200
+INFO:root:02-08-2021:12:04:52||531367620|Marc-Brownstein-Chairperson
+INFO:root:02-08-2021:12:05:12||531367622|zooinfo response200
+INFO:root:02-08-2021:12:05:13||531367622|https://www.linkedin.com/in/chris-canterbury-0a37b03a?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAhN73sBq7BeugXwzcpoldVtgV0wvZxRw7s
+INFO:root:02-08-2021:12:05:13||531367622|got linkedin response200
+INFO:root:02-08-2021:12:05:13||531367622|Chris-Canterbury-Controller
+INFO:root:02-08-2021:12:05:29||531367624|zooinfo response200
+INFO:root:02-08-2021:12:05:37||531367624|got linkedin response200
+INFO:root:02-08-2021:12:05:37||531367624|Peter J-Chrzanowski, CCEA® -Chief Operating Officer
+INFO:root:02-08-2021:12:05:53||531367626|zooinfo response200
+INFO:root:02-08-2021:12:05:54||531367626|https://www.linkedin.com/in/kristina-faller?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAKc9DoBCBF3CUwveRaH8v_xD7fixL4GtSU
+INFO:root:02-08-2021:12:05:54||531367626|got linkedin response200
+INFO:root:02-08-2021:12:05:54||531367626|Kristina-Faller-Senior Vice President, Operations and Strategy
+INFO:root:02-08-2021:12:06:09||531367629|zooinfo response200
+INFO:root:02-08-2021:12:06:10||531367629|https://www.linkedin.com/in/damien-newman-3a442112?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAKNuuwBIAzo2jCsfQCFKWl1b563j6SOCBg
+INFO:root:02-08-2021:12:06:11||531367629|got linkedin response200
+INFO:root:02-08-2021:12:06:11||531367629|Damien-Newman-Chief Financial Officer
+INFO:root:02-08-2021:12:06:25||531367631|zooinfo response200
+INFO:root:02-08-2021:12:06:37||531367631|got linkedin response200
+INFO:root:02-08-2021:12:06:37||531367631|Timothy-Jenkins-Sr. Manager, Talent Acquisition - Engineering and Technology
+INFO:root:02-08-2021:12:06:54||531367633|zooinfo response200
+INFO:root:02-08-2021:12:06:55||531367633|https://www.linkedin.com/in/marvin-ohlenbusch-27220951?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAArjJjYBxukVoASIVT5kStRh6n29A-uHwMg
+INFO:root:02-08-2021:12:06:56||531367633|got linkedin response200
+INFO:root:02-08-2021:12:06:56||531367633|Marvin-Ohlenbusch-COO
+INFO:root:02-08-2021:12:07:11||531367635|zooinfo response200
+INFO:root:02-08-2021:12:07:22||531367635|got linkedin response200
+INFO:root:02-08-2021:12:07:22||531367635|Kristin-May-Chief Financial Officer
+INFO:root:02-08-2021:12:07:40||531367637|zooinfo response200
+INFO:root:02-08-2021:12:08:02||531367654|zooinfo response200
+INFO:root:02-08-2021:12:08:03||531367654|https://www.linkedin.com/in/kathie-tuoni-2b2887?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAhGOYB2FHoT-kUcDCrWSVL6tfxeWxoCFU
+INFO:root:02-08-2021:12:08:04||531367654|got linkedin response200
+INFO:root:02-08-2021:12:08:04||531367654|Kathie-Tuoni-COO
+INFO:root:02-08-2021:12:08:23||531367669|zooinfo response200
+INFO:root:02-08-2021:12:08:30||531367669|got linkedin response200
+INFO:root:02-08-2021:12:08:30||531367669|Robert-Johnson-Quality Assurance / Food Safety / Sanitation / EHS  Manager
+INFO:root:02-08-2021:12:08:50||531367671|zooinfo response200
+INFO:root:02-08-2021:12:08:51||531367671|https://www.linkedin.com/in/susan-morrison-a2b72226?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAVyKUMBQMwJ-joSEUfoBAxsZgxYbfb9BiU
+INFO:root:02-08-2021:12:08:52||531367671|got linkedin response200
+INFO:root:02-08-2021:12:08:52||531367671|Susan-Morrison-Controller
+INFO:root:02-08-2021:12:09:10||531367673|zooinfo response200
+INFO:root:02-08-2021:12:09:19||531367673|got linkedin response200
+INFO:root:02-08-2021:12:09:19||531367673|David-Long-Chief Financial Officer
+INFO:root:02-08-2021:12:09:37||531367675|zooinfo response200
+INFO:root:02-08-2021:12:09:38||531367675|https://www.linkedin.com/in/krista-turner?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAACEIsgB0_gtqycEIKPZrflimnVaIXgk29U
+INFO:root:02-08-2021:12:09:38||531367675|got linkedin response200
+INFO:root:02-08-2021:12:09:38||531367675|Krista-Turner-Vice President of Operations
+INFO:root:02-08-2021:12:09:54||531367677|zooinfo response200
+INFO:root:02-08-2021:12:09:54||531367677|https://www.linkedin.com/in/jennifer-mcintosh-22070262?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAA1GQrgBwzY4uA4x3nQbEoSi7lNa0BqEXE4
+INFO:root:02-08-2021:12:09:55||531367677|got linkedin response200
+INFO:root:02-08-2021:12:09:55||531367677|Jennifer-McIntosh-Controller
+INFO:root:02-08-2021:12:10:12||531367680|zooinfo response200
+INFO:root:02-08-2021:12:10:12||531367680|https://www.linkedin.com/in/jim-sealy-55b31389?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABK73FcByYYQsS7nv5-YuU2j14kJ15Q9L_Q
+INFO:root:02-08-2021:12:10:13||531367680|got linkedin response200
+INFO:root:02-08-2021:12:10:13||531367680|error in extracting contact'*company'
+INFO:root:02-08-2021:12:10:27||531367682|zooinfo response200
+INFO:root:02-08-2021:12:10:27||531367682|https://www.linkedin.com/in/lindsaynaze?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAADIKakBmw8xtUdQ-wUBZeFEvjMe_7oPtvk
+INFO:root:02-08-2021:12:10:28||531367682|got linkedin response200
+INFO:root:02-08-2021:12:10:28||531367682|Lindsay-Naze-CFO
+INFO:root:02-08-2021:12:10:46||531367684|zooinfo response200
+INFO:root:02-08-2021:12:10:47||531367684|https://www.linkedin.com/in/susangout?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAEGvxABIYQ6lTUs4dIR-PYAcw_BuyE81r4
+INFO:root:02-08-2021:12:10:48||531367684|got linkedin response200
+INFO:root:02-08-2021:12:10:48||531367684|Susan-Gout-SVP Finance
+INFO:root:02-08-2021:12:11:07||531367687|zooinfo response200
+INFO:root:02-08-2021:12:11:08||531367687|https://www.linkedin.com/in/lauren-schulte-5b379a75?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAA_0w9cBDQZ21ef-ifWuGcr1w2Y5zCkdUC0
+INFO:root:02-08-2021:12:11:08||531367687|got linkedin response200
+INFO:root:02-08-2021:12:11:08||531367687|Lauren-Schulte-Program Manager
+INFO:root:02-08-2021:12:11:25||531367689|zooinfo response200
+INFO:root:02-08-2021:12:11:36||531367689|got linkedin response200
+INFO:root:02-08-2021:12:11:36||531367689|Shelley-Welsh-Sr. VP, CFO
+INFO:root:02-08-2021:12:11:50||531367691|zooinfo response200
+INFO:root:02-08-2021:12:11:58||531367691|got linkedin response200
+INFO:root:02-08-2021:12:11:58||531367691|Valerie-Doyle-Controller
+INFO:root:02-08-2021:12:12:17||531367694|zooinfo response200
+INFO:root:02-08-2021:12:12:18||531367694|https://www.linkedin.com/in/kevin-pehlman-82b443a?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAHYLOMBXo4RbnxIxVai4ExVAm-lnV1xsAw
+INFO:root:02-08-2021:12:12:19||531367694|got linkedin response200
+INFO:root:02-08-2021:12:12:19||531367694|Kevin-Pehlman-Chief Operating Officer
+INFO:root:02-08-2021:12:12:35||531367696|zooinfo response200
+INFO:root:02-08-2021:12:12:35||531367696|https://www.linkedin.com/in/courtneytwardy?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAWtBwMBGmuQFUFzpm4q5pFa9MVC43vlEmk
+INFO:root:02-08-2021:12:12:42||531367696|got linkedin response200
+INFO:root:02-08-2021:12:12:42||531367696|Courtney-Twardy-SVP, Finance
+INFO:root:02-08-2021:12:12:59||531367699|zooinfo response200
+INFO:root:02-08-2021:12:12:59||531367699|https://www.linkedin.com/in/kate-may-b508537?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAFe_6wBl5SFWFCMH5DRKB10YbEFHGfcPkE
+INFO:root:02-08-2021:12:13:00||531367699|got linkedin response200
+INFO:root:02-08-2021:12:13:00||531367699|Kate-May-CFO- SVP of Finance and Administration
+INFO:root:02-08-2021:12:13:17||531367701|zooinfo response200
+INFO:root:02-08-2021:12:13:18||531367701|https://www.linkedin.com/in/selineh-yeghikian-a7899b28?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAXXVTwBiypDlIQjjHy9CrVn5KmrrTTVnSA
+INFO:root:02-08-2021:12:13:19||531367701|got linkedin response200
+INFO:root:02-08-2021:12:13:19||531367701|Selineh-Yeghikian-Director of Finance
+INFO:root:02-08-2021:12:13:36||531367704|zooinfo response200
+INFO:root:02-08-2021:12:13:37||531367704|https://www.linkedin.com/in/olga-luevano-silva-aphr-68b10958?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAweTIsBm35EkC8QTBlUHaBbU5G62ldsThI
+INFO:root:02-08-2021:12:13:37||531367704|got linkedin response200
+INFO:root:02-08-2021:12:13:37||531367704|Olga-Luevano Silva - aPHR-Human Resources Manager
+INFO:root:02-08-2021:12:13:52||531367707|zooinfo response200
+INFO:root:02-08-2021:12:13:54||531367707|https://www.linkedin.com/in/adambergwood?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAEdVJ4BKhDwcqXTeP1pYRLWNreqZHzaQXU
+INFO:root:02-08-2021:12:13:55||531367707|got linkedin response200
+INFO:root:02-08-2021:12:13:55||531367707|Adam-Wood, MBA-Sales Development Manager
+INFO:root:02-08-2021:12:14:09||531367711|zooinfo response200
+INFO:root:02-08-2021:12:14:10||531367711|https://www.linkedin.com/in/markshaneyfelt?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAcjmdoBWbYChfCJOl420UZDv_-1lRLMxAM
+INFO:root:02-08-2021:12:14:11||531367711|got linkedin response200
+INFO:root:02-08-2021:12:14:11||531367711|Mark-Shaneyfelt-Director of Sales & Marketing
+INFO:root:02-08-2021:12:14:25||531367714|zooinfo response200
+INFO:root:02-08-2021:12:14:26||531367714|https://www.linkedin.com/in/schusterjohn?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAALAm8IBMS54Hjiike_S3qpqTfJgsfX59mk
+INFO:root:02-08-2021:12:14:26||531367714|got linkedin response200
+INFO:root:02-08-2021:12:14:26||531367714|John-Schuster-Vice President of Operations
+INFO:root:02-08-2021:12:14:43||531367717|zooinfo response200
+INFO:root:02-08-2021:12:14:44||531367717|https://www.linkedin.com/in/ana-seleme-96952915?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAMacCEBme_Q9xXN11QRxgCWqyztRKlu1V8
+INFO:root:02-08-2021:12:14:45||531367717|got linkedin response200
+INFO:root:02-08-2021:12:14:45||531367717|Ana-Seleme-Regional Sales Manager Latin America & Export Sales
+INFO:root:02-08-2021:12:15:02||531367720|zooinfo response200
+INFO:root:02-08-2021:12:15:12||531367720|got linkedin response200
+INFO:root:02-08-2021:12:15:12||531367720|Lara-Speights, M.Ed., CALT, LDT-Vice President of Family Support and Adult Literacy 
+INFO:root:02-08-2021:12:15:29||531367723|zooinfo response200
+INFO:root:02-08-2021:12:15:38||531367723|got linkedin response200
+INFO:root:02-08-2021:12:15:38||531367723|Laura-Gandara-Area Director Of Human Resources
+INFO:root:02-08-2021:12:15:57||531367726|zooinfo response200
+INFO:root:02-08-2021:12:15:57||531367726|https://www.linkedin.com/in/chris-stiles-9b23a45a?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAyEDpYBR7pPn5JZr8p6LSOOFkY9cIB5vQA
+INFO:root:02-08-2021:12:15:58||531367726|got linkedin response200
+INFO:root:02-08-2021:12:15:58||531367726|Chris-Stiles-Sales Director
+INFO:root:02-08-2021:12:16:17||531367728|zooinfo response200
+INFO:root:02-08-2021:12:16:17||531367728|https://www.linkedin.com/in/jeffneidhardt?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAACWvDwB17V8fuLxVsQR0TGgiVZYLqKnkfY
+INFO:root:02-08-2021:12:16:18||531367728|got linkedin response200
+INFO:root:02-08-2021:12:16:18||531367728|Jeff-Neidhardt-VP Finance and Administration
+INFO:root:02-08-2021:12:16:38||531367729|zooinfo response200
+INFO:root:02-08-2021:12:16:39||531367729|https://www.linkedin.com/in/richard-crotzer-36770846?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAm3K_8BTbzNm2ilsGkJzGRNiZPK_WpF94c
+INFO:root:02-08-2021:12:16:39||531367729|got linkedin response200
+INFO:root:02-08-2021:12:16:39||531367729|Richard-Crotzer-Senior Vice President Of Global Sales
+INFO:root:02-08-2021:12:16:55||531367730|zooinfo response200
+INFO:root:02-08-2021:12:16:56||531367730|https://www.linkedin.com/in/tim-murphy-4a0ba935?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAd5PXgBrgO7JqUzNf2jYSooU5eBlPFXSbo
+INFO:root:02-08-2021:12:16:56||531367730|got linkedin response200
+INFO:root:02-08-2021:12:16:56||531367730|Tim-Murphy-Vice President of Sales
+INFO:root:02-08-2021:12:17:12||531367731|zooinfo response200
+INFO:root:02-08-2021:12:17:13||531367731|https://www.linkedin.com/in/dana-brush-cpa-cam-58816852?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAsOyzgBeuJ5UB44KJPV18tAweeOxgwh3YE
+INFO:root:02-08-2021:12:17:13||531367731|got linkedin response200
+INFO:root:02-08-2021:12:17:13||531367731|Dana-Brush, CPA, CAM-Chief Financial Officer
+INFO:root:02-08-2021:12:17:28||531367732|zooinfo response200
+INFO:root:02-08-2021:12:17:29||531367732|https://www.linkedin.com/in/brad-orders-528707?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAaxjABsvTQJQFeK0tXJzwjoQAekIsf6vs
+INFO:root:02-08-2021:12:17:29||531367732|got linkedin response200
+INFO:root:02-08-2021:12:17:29||531367732|Brad-Orders-CFO
+INFO:root:02-08-2021:12:17:46||531367733|zooinfo response200
+INFO:root:02-08-2021:12:17:46||531367733|https://www.linkedin.com/in/cherrylannerinos?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAYS2b8BMcTyAjKYW9u2ym7cb1Gix_6fXL8
+INFO:root:02-08-2021:12:17:47||531367733|got linkedin response200
+INFO:root:02-08-2021:12:17:47||531367733|Cherryl Anne-Rinos-Accounting Manager
+INFO:root:02-08-2021:12:18:06||531367734|zooinfo response200
+INFO:root:02-08-2021:12:18:06||531367734|https://www.linkedin.com/in/laura-simkins-7ab1637?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAFEurMBpRoFplwlpf4apIZ4qAIpaIanbFQ
+INFO:root:02-08-2021:12:18:07||531367734|got linkedin response200
+INFO:root:02-08-2021:12:18:07||531367734|Laura-Simkins-Chief Operating Officer
+INFO:root:02-08-2021:12:18:29||531367735|zooinfo response200
+INFO:root:02-08-2021:12:18:30||531367735|https://www.linkedin.com/in/mark-sadowski-09199513?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAALQly0BflveshU2hmanpd-3EFIlxqAJTGI
+INFO:root:02-08-2021:12:18:31||531367735|got linkedin response200
+INFO:root:02-08-2021:12:18:31||531367735|Mark-Sadowski-CFO
+INFO:root:02-08-2021:12:18:50||531367736|zooinfo response200
+INFO:root:02-08-2021:12:18:51||531367736|https://www.linkedin.com/in/jengresenz?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAqbz-cBnwzDdar0tP4aNeZ47mmS4qZEb_U
+INFO:root:02-08-2021:12:18:51||531367736|got linkedin response200
+INFO:root:02-08-2021:12:18:51||531367736|Jen-Gresenz-Director of Finance
+INFO:root:02-08-2021:12:19:11||531367737|zooinfo response200
+INFO:root:02-08-2021:12:19:12||531367737|https://www.linkedin.com/in/matthew-walters-cpa?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAZUbvEB-5EE5ruTKngjJiUF6z-L1LyQIp8
+INFO:root:02-08-2021:12:19:12||531367737|got linkedin response200
+INFO:root:02-08-2021:12:19:12||531367737|Matthew-Walters, CPA-Controller
+INFO:root:02-08-2021:12:19:29||531367738|zooinfo response200
+INFO:root:02-08-2021:12:19:30||531367738|https://www.linkedin.com/in/lauren-purse-50702b27?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAWFXxcBBPALHp-SVVB4py84XgpohoKL6mw
+INFO:root:02-08-2021:12:19:31||531367738|got linkedin response200
+INFO:root:02-08-2021:12:19:31||531367738|Lauren-Purse-Controller
+INFO:root:02-08-2021:12:19:50||531367739|zooinfo response200
+INFO:root:02-08-2021:12:19:58||531367739|got linkedin response200
+INFO:root:02-08-2021:12:19:58||531367739|Chris-Hartman-Chief Financial Officer
+INFO:root:02-08-2021:12:20:13||531367740|zooinfo response200
+INFO:root:02-08-2021:12:20:14||531367740|https://www.linkedin.com/in/mac-jones-83287b17?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAOCleYBkwnH5aQUYez7D8RNjTSuN_CUUT8
+INFO:root:02-08-2021:12:20:14||531367740|got linkedin response200
+INFO:root:02-08-2021:12:20:14||531367740|Mac-Jones-Sales mgr
+INFO:root:02-08-2021:12:20:34||531367741|zooinfo response200
+INFO:root:02-08-2021:12:20:35||531367741|https://www.linkedin.com/in/dlktwo?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAADCPP4BDFbWVLhoNDBL-BkycG2YDoaHRTM
+INFO:root:02-08-2021:12:20:36||531367741|got linkedin response200
+INFO:root:02-08-2021:12:20:36||531367741|Dana-Christensen-Acucote Inc. Regional Sales Manager IL, WI, MI, MN
+INFO:root:02-08-2021:12:20:51||531367742|zooinfo response200
+INFO:root:02-08-2021:12:21:01||531367742|got linkedin response200
+INFO:root:02-08-2021:12:21:01||531367742|Wendy-Cummings-Regional Sales Director
+INFO:root:02-08-2021:12:21:21||531367743|zooinfo response200
+INFO:root:02-08-2021:12:21:22||531367743|https://www.linkedin.com/in/kathryn-cummings-baa7a355?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAuvaPIBPx_ltP3yaYpvx5hXnNQVVds0Sjk
+INFO:root:02-08-2021:12:21:22||531367743|got linkedin response200
+INFO:root:02-08-2021:12:21:22||531367743|Kathryn-Cummings-Director of Sales Support and Procurement
+INFO:root:02-08-2021:12:21:40||531367744|zooinfo response200
+INFO:root:02-08-2021:12:21:41||531367744|https://www.linkedin.com/in/leo-menuzzo-90212a88?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABKHNpIBdnMCVhMv-gdQhn7iSrzm4ZO9P38
+INFO:root:02-08-2021:12:21:42||531367744|got linkedin response200
+INFO:root:02-08-2021:12:21:42||531367744|Leo-Menuzzo-General Sales Manager
+INFO:root:02-08-2021:12:21:57||531367745|zooinfo response200
+INFO:root:02-08-2021:12:21:58||531367745|https://www.linkedin.com/in/mike-west-04049a7?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAFRPLABSR4uh64y6K1JlsppF6BAhaMr8mw
+INFO:root:02-08-2021:12:21:58||531367745|got linkedin response200
+INFO:root:02-08-2021:12:21:58||531367745|Mike-West-Senior Vice President;  Human Resources Director
+INFO:root:02-08-2021:12:22:17||531367746|zooinfo response200
+INFO:root:02-08-2021:12:22:18||531367746|https://www.linkedin.com/in/kristi-eller-001087a?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAHKV0EBl5ZSANzpJVITGV7EI1zuWFYY658
+INFO:root:02-08-2021:12:22:18||531367746|got linkedin response200
+INFO:root:02-08-2021:12:22:18||531367746|Kristi-Eller-Chief Operations Officer
+INFO:root:02-08-2021:12:22:35||531367747|zooinfo response200
+INFO:root:02-08-2021:12:22:36||531367747|https://www.linkedin.com/in/tedloucks?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAALfLdEB40BwvgEMVVVaTo_CxSyjA7u-etw
+INFO:root:02-08-2021:12:22:36||531367747|got linkedin response200
+INFO:root:02-08-2021:12:22:36||531367747|Ted-Loucks-Chief Operating Officer
+INFO:root:02-08-2021:12:22:53||531367748|zooinfo response200
+INFO:root:02-08-2021:12:22:54||531367748|https://www.linkedin.com/in/jamie-baker-77205180?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABEXoAYBuhn-ltWxD8TQOOTwH-G2YNBs3mM
+INFO:root:02-08-2021:12:22:55||531367748|got linkedin response200
+INFO:root:02-08-2021:12:22:55||531367748|Jamie-Baker-HR Manager
+INFO:root:02-08-2021:12:23:13||531367749|zooinfo response200
+INFO:root:02-08-2021:12:23:14||531367749|https://www.linkedin.com/in/zalina-borukhovich-a351b02a?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAYUbMkBCeS0PlO9GXTKPgxsYIx5so0Qh5E
+INFO:root:02-08-2021:12:23:14||531367749|got linkedin response200
+INFO:root:02-08-2021:12:23:14||531367749|error in extracting contact'companyUrn'
+INFO:root:02-08-2021:12:23:31||531367750|zooinfo response200
+INFO:root:02-08-2021:12:23:32||531367750|https://www.linkedin.com/in/geoff-katz-9981661?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAzcAQBxTU4Jc02_p7IRiwY67vJh4hNIvg
+INFO:root:02-08-2021:12:23:33||531367750|got linkedin response200
+INFO:root:02-08-2021:12:23:33||531367750|Geoff-Katz-VP of Operations
+INFO:root:02-08-2021:12:23:47||531367751|zooinfo response200
+INFO:root:02-08-2021:12:24:12||531367752|zooinfo response200
+INFO:root:02-08-2021:12:24:20||531367752|got linkedin response200
+INFO:root:02-08-2021:12:24:20||531367752|Shamini Peter --Accomplished Supply Chain  Professional-Chief Operating Officer and Head of Supply Chain
+INFO:root:02-08-2021:12:24:35||531367754|zooinfo response200
+INFO:root:02-08-2021:12:24:36||531367754|https://www.linkedin.com/in/brian-koontz-51285432?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAbjct4BCMiHE4pvvBFzrHwTDVgW-BiWcv4
+INFO:root:02-08-2021:12:24:37||531367754|got linkedin response200
+INFO:root:02-08-2021:12:24:37||531367754|Brian-Koontz-Operations Manager
+INFO:root:02-08-2021:12:24:57||531367755|zooinfo response200
+INFO:root:02-08-2021:12:24:58||531367755|https://www.linkedin.com/in/stianoksavik?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAgcRgBe-j0nqaCUsXfn64DPSobvtqO4Eo
+INFO:root:02-08-2021:12:24:58||531367755|got linkedin response200
+INFO:root:02-08-2021:12:24:58||531367755|Stian-Oksavik-Senior Network Architect
+INFO:root:02-08-2021:12:25:13||531367756|zooinfo response200
+INFO:root:02-08-2021:12:25:13||531367756|https://www.linkedin.com/in/sharon-harrelson-grubbs-080955b1?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABfPsyABk2dStbhkCaoNSQYEDLWS2IWCiGA
+INFO:root:02-08-2021:12:25:14||531367756|got linkedin response200
+INFO:root:02-08-2021:12:25:14||531367756|Sharon Harrelson-Grubbs-Executive Business Manager
+INFO:root:02-08-2021:12:25:30||531367757|zooinfo response200
+INFO:root:02-08-2021:12:25:31||531367757|https://www.linkedin.com/in/brianpancoast?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAG0iK8BmtNOT2wzHddG-FPz0UdkEc2bZlM
+INFO:root:02-08-2021:12:25:32||531367757|got linkedin response200
+INFO:root:02-08-2021:12:25:32||531367757|Brian-Pancoast-Controller/Cost Control Manager
+INFO:root:02-08-2021:12:25:52||531367758|zooinfo response200
+INFO:root:02-08-2021:12:26:01||531367758|got linkedin response200
+INFO:root:02-08-2021:12:26:01||531367758|Michael-Gurney-President/CEO
+INFO:root:02-08-2021:12:26:21||531367759|zooinfo response200
+INFO:root:02-08-2021:12:26:30||531367759|got linkedin response200
+INFO:root:02-08-2021:12:26:30||531367759|Katie-Gifford, MBA-Controller
+INFO:root:02-08-2021:12:26:45||531367760|zooinfo response200
+INFO:root:02-08-2021:12:26:46||531367760|https://www.linkedin.com/in/michael-gadd?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAGju34BL-5JpmZZg754Bg95PiMEumcSnJo
+INFO:root:02-08-2021:12:26:46||531367760|got linkedin response200
+INFO:root:02-08-2021:12:26:47||531367760|Michael-Gadd-Chief Financial Officer
+INFO:root:02-08-2021:12:27:03||531367761|zooinfo response200
+INFO:root:02-08-2021:12:27:04||531367761|https://www.linkedin.com/in/john-e-fletcher?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAI86oIBWiXw7OFPzLh9Ixgt7emAvk6clGg
+INFO:root:02-08-2021:12:27:04||531367761|got linkedin response200
+INFO:root:02-08-2021:12:27:04||531367761|John-Fletcher-VP / Comptroller / IT Director / Data Protection Officer
+INFO:root:02-08-2021:12:27:20||531367762|zooinfo response200
+INFO:root:02-08-2021:12:27:20||531367762|https://www.linkedin.com/in/kathy-puckett-3131b823?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAATVrr8BGxubKYKeL29USBVdtptCR6Ug60U
+INFO:root:02-08-2021:12:27:21||531367762|got linkedin response200
+INFO:root:02-08-2021:12:27:21||531367762|Kathy-Puckett-Senior Accounting Manager
+INFO:root:02-08-2021:12:27:37||531367763|zooinfo response200
+INFO:root:02-08-2021:12:27:38||531367763|https://www.linkedin.com/in/chrisparmeter?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAEWoY8Bv-gJR7EG9NEfaJVOS6_PH-e7Yqc
+INFO:root:02-08-2021:12:27:38||531367763|got linkedin response200
+INFO:root:02-08-2021:12:27:38||531367763|Chris-Parmeter-HR Manager
+INFO:root:02-08-2021:12:27:38||531367763|error in extracting linkedin company Name ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+INFO:root:02-08-2021:12:27:54||531367764|zooinfo response200
+INFO:root:02-08-2021:12:27:55||531367764|https://www.linkedin.com/in/mikegregor?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAOHCCABxoJWeHpk3wJzHHKkJh31TUykd1w
+INFO:root:02-08-2021:12:27:56||531367764|got linkedin response200
+INFO:root:02-08-2021:12:27:56||531367764|Mike-Gregor, CPA, CA-VP Finance

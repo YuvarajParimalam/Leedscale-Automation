@@ -1,0 +1,394 @@
+INFO:root:04-08-2021:08:15:24||531616985|zooinfo response200
+INFO:root:04-08-2021:08:16:11||531616985|got linkedin response200
+INFO:root:04-08-2021:08:16:11||531616985|Valerio-Contriciani-HR Manager
+INFO:root:04-08-2021:08:16:29||531616986|got linkedin response200
+INFO:root:04-08-2021:08:16:29||531616986|Juliano de Mello-Araujo-Growth Executive Manager
+INFO:root:04-08-2021:08:16:47||531616987|zooinfo response200
+INFO:root:04-08-2021:08:16:55||531616987|got linkedin response200
+INFO:root:04-08-2021:08:16:55||531616987|Leonardo-Marinho-Analista Sr. de Inteligência de Negócios
+INFO:root:04-08-2021:08:17:11||531616988|zooinfo response200
+INFO:root:04-08-2021:08:17:12||531616988|https://www.linkedin.com/in/leonardo-letteriello-22969624?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAUVisEBtuyjSVxht2-LeCjNd2mWviEL6Hc
+INFO:root:04-08-2021:08:17:12||531616988|got linkedin response200
+INFO:root:04-08-2021:08:17:13||531616988|Leonardo-Letteriello-Diretor de TI
+INFO:root:04-08-2021:08:17:31||531616989|zooinfo response200
+INFO:root:04-08-2021:08:17:32||531616989|https://www.linkedin.com/in/jailson-lima-14685920?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAARlsoYBOxEBJ1YiWm1rJT_bsIbGkqC0_24
+INFO:root:04-08-2021:08:17:32||531616989|got linkedin response200
+INFO:root:04-08-2021:08:17:32||531616989|Jailson-Lima-Diretor de TI
+INFO:root:04-08-2021:08:17:49||531616990|zooinfo response200
+INFO:root:04-08-2021:08:17:50||531616990|https://www.linkedin.com/in/ronaldo-sales-6b96759?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAGzNK0BzakhGE9b5qJ-DbTKBT8HLJGrE1A
+INFO:root:04-08-2021:08:17:51||531616990|got linkedin response200
+INFO:root:04-08-2021:08:17:51||531616990|Ronaldo-Sales-Operations Director of Non-Functional Services
+INFO:root:04-08-2021:08:18:08||531618193|zooinfo response200
+INFO:root:04-08-2021:08:18:14||531618193|got linkedin response200
+INFO:root:04-08-2021:08:18:14||531618193|Gilcivani -Coelho -Coordenador comercial Friboi
+INFO:root:04-08-2021:08:18:29||531618197|zooinfo response200
+INFO:root:04-08-2021:08:18:30||531618197|https://www.linkedin.com/in/alisson-marinelli-pontes?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABWB9uQB0zmBnffjzEF8pifaVkNUFKvAUVs
+INFO:root:04-08-2021:08:18:31||531618197|got linkedin response200
+INFO:root:04-08-2021:08:18:31||531618197|Alisson-Marinelli Pontes-Gerente de Trade
+INFO:root:04-08-2021:08:20:31||531618201|zooinfo errorHTTPSConnectionPool(host='www.dnb.com', port=443): Max retries exceeded with url: /business-directory/company-profiles.aperam_inox_america_do_sul_s-a.053f57f69ca4212373e833a984464c68.html (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response')))
+INFO:root:04-08-2021:08:20:43||531618201|got linkedin response200
+INFO:root:04-08-2021:08:20:43||531618201|Geraldo Magela-Mendes Assis-Commissioning Coordinator
+INFO:root:04-08-2021:08:21:00||531618204|zooinfo response200
+INFO:root:04-08-2021:08:21:00||531618204|https://www.linkedin.com/in/samuel-gustavo-theodoro-0922766?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAEbV-4BITF0EjYtC5yP77OWikGXkU7CPqA
+INFO:root:04-08-2021:08:21:01||531618204|got linkedin response200
+INFO:root:04-08-2021:08:21:01||531618204|Samuel Gustavo-Theodoro-CFO, Diretor Financeiro, Compliance Officer
+INFO:root:04-08-2021:08:21:19||531618208|zooinfo response200
+INFO:root:04-08-2021:08:21:20||531618208|https://www.linkedin.com/in/mauricio-cabral-96ab1646?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAnGouIB2GVpeTSJq7G9EvY_YlYj8GjNiF4
+INFO:root:04-08-2021:08:21:20||531618208|got linkedin response200
+INFO:root:04-08-2021:08:21:20||531618208|Mauricio-Cabral-Gerente de vendas nacional
+INFO:root:04-08-2021:08:21:39||531618211|zooinfo response200
+INFO:root:04-08-2021:08:21:49||531618211|got linkedin response200
+INFO:root:04-08-2021:08:21:49||531618211|error in extracting contactsingle positional indexer is out-of-bounds
+INFO:root:04-08-2021:08:22:06||531618214|zooinfo response200
+INFO:root:04-08-2021:08:22:16||531618214|got linkedin response200
+INFO:root:04-08-2021:08:22:16||531618214|André Massami-Unno-Gerente de Suprimentos & TI @Tubos Brasil
+INFO:root:04-08-2021:08:22:30||531618217|zooinfo response200
+INFO:root:04-08-2021:08:22:52||531618220|zooinfo response200
+INFO:root:04-08-2021:08:22:53||531618220|https://www.linkedin.com/in/herickmorais?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAEGbzkBtfr4tvG4OBLR_23JthYgARDVvtc
+INFO:root:04-08-2021:08:22:54||531618220|got linkedin response200
+INFO:root:04-08-2021:08:22:54||531618220|Herick-Morais, MBA, PMP-Commercial Controlling Executive Manager
+INFO:root:04-08-2021:08:23:13||531618223|zooinfo response200
+INFO:root:04-08-2021:08:23:21||531618223|got linkedin response200
+INFO:root:04-08-2021:08:23:21||531618223|Vinicius-Amanajas-Gerente TI
+INFO:root:04-08-2021:08:23:37||531618226|zooinfo response200
+INFO:root:04-08-2021:08:23:38||531618226|https://www.linkedin.com/in/fabricio-schmidt-15939441?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAjG6NUBBUgSsF5gFuVJsppZL1zT38zWbGM
+INFO:root:04-08-2021:08:23:39||531618226|got linkedin response200
+INFO:root:04-08-2021:08:23:39||531618226|Fabricio-Schmidt-Professor Contratado
+INFO:root:04-08-2021:08:23:53||531618229|zooinfo response200
+INFO:root:04-08-2021:08:24:04||531618229|got linkedin response403
+INFO:root:04-08-2021:08:24:04||531618229|error in extracting contact'$type'
+INFO:root:04-08-2021:08:24:22||531618231|zooinfo response200
+INFO:root:04-08-2021:08:24:23||531618231|https://www.linkedin.com/in/maiquel-rodrigo-lehnen-657067156?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACViOOMB8TvKePIgr5KPiE5gSsYZSm2T2JY
+INFO:root:04-08-2021:08:24:23||531618231|got linkedin response200
+INFO:root:04-08-2021:08:24:23||531618231|Maiquel Rodrigo-Lehnen-Supervisor de vendas - Mercado Externo
+INFO:root:04-08-2021:08:24:41||531618235|zooinfo response200
+INFO:root:04-08-2021:08:24:51||531618235|got linkedin response200
+INFO:root:04-08-2021:08:24:51||531618235|Maiara-Rocha-Supervisora de Vendas
+INFO:root:04-08-2021:08:25:08||531618239|zooinfo response200
+INFO:root:04-08-2021:08:25:08||531618239|https://www.linkedin.com/in/lilian-rosario-72923a64?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAA2PkpEBFWR1yCU08pFS667-stm-ZF-8oX8
+INFO:root:04-08-2021:08:25:09||531618239|got linkedin response200
+INFO:root:04-08-2021:08:25:09||531618239|Lilian-Rosario-Gerente de cobrança
+INFO:root:04-08-2021:08:25:22||531618242|zooinfo response200
+INFO:root:04-08-2021:08:25:32||531618242|got linkedin response200
+INFO:root:04-08-2021:08:25:32||531618242|Rodrigo-Calegari-supervisor de expedição
+INFO:root:04-08-2021:08:25:47||531618244|zooinfo response200
+INFO:root:04-08-2021:08:25:58||531618244|got linkedin response200
+INFO:root:04-08-2021:08:25:58||531618244|Aloisio-Giovelli-Presidente
+INFO:root:04-08-2021:08:26:16||531618247|zooinfo response200
+INFO:root:04-08-2021:08:26:17||531618247|https://www.linkedin.com/in/adilce-spode-keller-b5225731?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAafMq4BQYwIFH2TYPB_kCavtyyud67CyE0
+INFO:root:04-08-2021:08:26:18||531618247|got linkedin response200
+INFO:root:04-08-2021:08:26:18||531618247|Adilce Spode-Keller-Gerente de TI
+INFO:root:04-08-2021:08:26:35||531618250|zooinfo response200
+INFO:root:04-08-2021:08:26:36||531618250|https://www.linkedin.com/in/milton-zenyu-nakasone-a2546878?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABBxEb0BLaJVLMDVlIRkbsgt7-xmXEWd8Q8
+INFO:root:04-08-2021:08:26:36||531618250|got linkedin response200
+INFO:root:04-08-2021:08:26:36||531618250|Milton Zenyu-Nakasone-Gerente de Vendas
+INFO:root:04-08-2021:08:26:50||531618253|zooinfo response200
+INFO:root:04-08-2021:08:26:51||531618253|https://www.linkedin.com/in/felipesdavila?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABlH4M8BhA0kfNhJQGFdm1M1tyHtqFZEDhk
+INFO:root:04-08-2021:08:26:51||531618253|got linkedin response200
+INFO:root:04-08-2021:08:26:51||531618253|Felipe-D'avila-Coordenador de TI
+INFO:root:04-08-2021:08:27:06||531618256|zooinfo response200
+INFO:root:04-08-2021:08:27:14||531618256|got linkedin response200
+INFO:root:04-08-2021:08:27:14||531618256|Bruno-Santos-Financial Analyst
+INFO:root:04-08-2021:08:27:29||531618259|zooinfo response200
+INFO:root:04-08-2021:08:27:36||531618259|got linkedin response200
+INFO:root:04-08-2021:08:27:36||531618259|Rodrigo-Almendares-National Sales Manager México & Latin America Direct Markets
+INFO:root:04-08-2021:08:27:54||531618262|zooinfo response200
+INFO:root:04-08-2021:08:28:04||531618262|got linkedin response403
+INFO:root:04-08-2021:08:28:04||531618262|error in extracting contact'$type'
+INFO:root:04-08-2021:08:28:23||531618266|zooinfo response200
+INFO:root:04-08-2021:08:28:23||531618266|https://www.linkedin.com/in/marlonconceicao?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAW2ZgBt2_wV5MaoeGmNrYgPazqiASEhTk
+INFO:root:04-08-2021:08:28:24||531618266|got linkedin response200
+INFO:root:04-08-2021:08:28:24||531618266|Marlon-Conceição-IT Manager
+INFO:root:04-08-2021:08:28:44||531618269|zooinfo response200
+INFO:root:04-08-2021:08:28:45||531618269|https://www.linkedin.com/in/marcio-hoppen-4508371b?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAQ3dLwBFGtCTcy_BapHGeB_TNAYkT2k_Ec
+INFO:root:04-08-2021:08:28:46||531618269|got linkedin response200
+INFO:root:04-08-2021:08:28:46||531618269|Marcio-Hoppen-GERENTE
+INFO:root:04-08-2021:08:29:00||531618272|zooinfo response200
+INFO:root:04-08-2021:08:29:09||531618272|got linkedin response200
+INFO:root:04-08-2021:08:29:09||531618272|Lucas-Baldisserotto-CEO CIEE-RS
+INFO:root:04-08-2021:08:29:26||531618274|zooinfo response200
+INFO:root:04-08-2021:08:29:35||531618274|got linkedin response200
+INFO:root:04-08-2021:08:29:35||531618274|Marcelo -Marinho Viana-Supervisor de Vendas Regional - MG
+INFO:root:04-08-2021:08:29:55||531618277|zooinfo response200
+INFO:root:04-08-2021:08:30:02||531618277|got linkedin response400
+INFO:root:04-08-2021:08:30:02||531618277|error in extracting contact'included'
+INFO:root:04-08-2021:08:30:17||531618280|zooinfo response200
+INFO:root:04-08-2021:08:30:29||531618280|got linkedin response200
+INFO:root:04-08-2021:08:30:29||531618280|Lucelia-Siqueira-Gerente de Recursos Humanos
+INFO:root:04-08-2021:08:30:45||531618283|zooinfo response200
+INFO:root:04-08-2021:08:30:46||531618283|https://www.linkedin.com/in/fernando-pereira-10a577206?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADRowtoBVr3mrrYtjsEefNNDRNQ_-bLmadA
+INFO:root:04-08-2021:08:30:46||531618283|got linkedin response200
+INFO:root:04-08-2021:08:30:46||531618283|Fernando-Pereira-Representante Comercial 
+INFO:root:04-08-2021:08:31:02||531618287|zooinfo response200
+INFO:root:04-08-2021:08:31:13||531618287|got linkedin response200
+INFO:root:04-08-2021:08:31:13||531618287|andreia-souza-Gerente de vendas
+INFO:root:04-08-2021:08:31:30||531618289|zooinfo response200
+INFO:root:04-08-2021:08:31:38||531618289|got linkedin response200
+INFO:root:04-08-2021:08:31:38||531618289|Fernando-Altenhofen-Coordenador Comercial ME
+INFO:root:04-08-2021:08:31:52||531618291|zooinfo response200
+INFO:root:04-08-2021:08:31:53||531618291|https://www.linkedin.com/in/jorgehenriquesilva?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAALstWEBEPqeQWzV5hdIXQ9g4juM5ofnHS8
+INFO:root:04-08-2021:08:31:54||531618291|got linkedin response200
+INFO:root:04-08-2021:08:31:54||531618291|Jorge Henrique-Silva-Gerente de Marketing e Customer Success 
+INFO:root:04-08-2021:08:32:08||531618292|zooinfo response200
+INFO:root:04-08-2021:08:32:09||531618292|https://www.linkedin.com/in/sandro-martins-5a7179?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAGQw8BH2PKgxd5WGddb9CAZmQi284V2Lk
+INFO:root:04-08-2021:08:32:10||531618292|got linkedin response200
+INFO:root:04-08-2021:08:32:10||531618292|Sandro-Martins-Manager IT
+INFO:root:04-08-2021:08:32:27||531618293|zooinfo response200
+INFO:root:04-08-2021:08:32:35||531618293|got linkedin response403
+INFO:root:04-08-2021:08:32:35||531618293|error in extracting contact'$type'
+INFO:root:04-08-2021:08:32:51||531618294|zooinfo response200
+INFO:root:04-08-2021:08:32:51||531618294|https://www.linkedin.com/in/rodrigo-dalcim-11a8bba3?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABYGVeYB9XCBNSNhGbCvXQsaByCy1OJwhAk
+INFO:root:04-08-2021:08:32:52||531618294|got linkedin response200
+INFO:root:04-08-2021:08:32:52||531618294|Rodrigo-Dalcim-Gerente de vendas
+INFO:root:04-08-2021:08:33:07||531618295|zooinfo response200
+INFO:root:04-08-2021:08:33:18||531618295|got linkedin response400
+INFO:root:04-08-2021:08:33:18||531618295|error in extracting contact'included'
+INFO:root:04-08-2021:08:33:32||531618296|zooinfo response200
+INFO:root:04-08-2021:08:33:40||531618296|got linkedin response200
+INFO:root:04-08-2021:08:33:40||531618296|Valter Carlos-Bordini-Gerente Regional de Vendas
+INFO:root:04-08-2021:08:34:00||531618298|zooinfo response200
+INFO:root:04-08-2021:08:34:00||531618298|https://www.linkedin.com/in/regiane-seleme-dias-4850384a?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAApTy6UBiu7qtfPL3fz-G4_hRkvjSFQ1vhU
+INFO:root:04-08-2021:08:34:01||531618298|got linkedin response200
+INFO:root:04-08-2021:08:34:01||531618298|Regiane-Seleme Dias-Supervisora de vendas
+INFO:root:04-08-2021:08:34:19||531618299|zooinfo response200
+INFO:root:04-08-2021:08:34:20||531618299|https://www.linkedin.com/in/gilberto-garcia-6b621723?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAATWTCoBJOqhhZY5JjeMmLPHeITjpTHuEKI
+INFO:root:04-08-2021:08:34:20||531618299|got linkedin response200
+INFO:root:04-08-2021:08:34:20||531618299|Gilberto-Garcia-Diretor Vendas
+INFO:root:04-08-2021:08:34:41||531618300|zooinfo response200
+INFO:root:04-08-2021:08:35:02||531618301|zooinfo response200
+INFO:root:04-08-2021:08:35:03||531618301|https://www.linkedin.com/in/ilka-toyomoto-furtado-9045b744?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAlX61QBc91TPpWyxplL_p8rJUg_2EFN5yo
+INFO:root:04-08-2021:08:35:03||531618301|got linkedin response200
+INFO:root:04-08-2021:08:35:03||531618301|Ilka-Toyomoto Furtado-HR Business Partner and Partnership Initiative Leader
+INFO:root:04-08-2021:08:35:19||531618302|zooinfo response200
+INFO:root:04-08-2021:08:35:43||531618303|zooinfo response200
+INFO:root:04-08-2021:08:35:44||531618303|https://www.linkedin.com/in/rafaelueda?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAFqTuYBad5NW19GvBJsN40Z37bg0Fepy-w
+INFO:root:04-08-2021:08:35:45||531618303|got linkedin response200
+INFO:root:04-08-2021:08:35:45||531618303|Rafael-Ueda, MBA, PMP, MSc-IT Manager
+INFO:root:04-08-2021:08:36:03||531618304|zooinfo response200
+INFO:root:04-08-2021:08:36:04||531618304|https://www.linkedin.com/in/gustavo-tsukamoto-52a57837?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAe8m_IBbrUKXDIm4MCgXNFfhFnac6aBQqc
+INFO:root:04-08-2021:08:36:04||531618304|got linkedin response200
+INFO:root:04-08-2021:08:36:04||531618304|Gustavo-Tsukamoto-HR Coordinator
+INFO:root:04-08-2021:08:36:21||531618305|zooinfo response200
+INFO:root:04-08-2021:08:36:29||531618305|got linkedin response200
+INFO:root:04-08-2021:08:36:29||531618305|Miquéas-Matos-Diretor de RH na SantaCruz Distribuidora de Medicamentos
+INFO:root:04-08-2021:08:36:46||531618306|zooinfo response200
+INFO:root:04-08-2021:08:36:46||531618306|https://www.linkedin.com/in/celia-r-zanella-de-almeida-9672b035?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAdXKF8BhLkvqaCIf9ikHYIFuXmvz8aQrUs
+INFO:root:04-08-2021:08:36:47||531618306|got linkedin response200
+INFO:root:04-08-2021:08:36:47||531618306|Celia R.-Zanella de Almeida-Human Resources Director & Brazil HR Shared Services
+INFO:root:04-08-2021:08:37:00||531618307|zooinfo response200
+INFO:root:04-08-2021:08:37:01||531618307|https://www.linkedin.com/in/regis-moreira-da-silva-61154b6?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAEl7a0B5-XbcZvIo9S88yCligxOt86YhfQ
+INFO:root:04-08-2021:08:37:02||531618307|got linkedin response200
+INFO:root:04-08-2021:08:37:02||531618307|Regis-Moreira da Silva-IT Manager
+INFO:root:04-08-2021:08:37:17||531618308|zooinfo response200
+INFO:root:04-08-2021:08:37:18||531618308|https://www.linkedin.com/in/miqu%C3%A9as-matos-6539a320?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAARq7d8B9zcs2GQ1nu0d8WwaIyphdaIvW4k
+INFO:root:04-08-2021:08:37:18||531618308|got linkedin response200
+INFO:root:04-08-2021:08:37:18||531618308|Miquéas-Matos-Diretor de RH na SantaCruz Distribuidora de Medicamentos
+INFO:root:04-08-2021:08:37:37||531618309|zooinfo response200
+INFO:root:04-08-2021:08:37:46||531618309|got linkedin response200
+INFO:root:04-08-2021:08:37:46||531618309|Hallanna-Bold Collier-Coordenador de RH
+INFO:root:04-08-2021:08:38:05||531618310|zooinfo response200
+INFO:root:04-08-2021:08:38:06||531618310|https://www.linkedin.com/in/ana-caroline-ramos-9753a243?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAkiUOkB-HUKDlNCFHuQyoou5n13zK21cdk
+INFO:root:04-08-2021:08:38:06||531618310|got linkedin response200
+INFO:root:04-08-2021:08:38:06||531618310|Ana Caroline-Ramos-Supervisora de RH
+INFO:root:04-08-2021:08:38:23||531618311|zooinfo response200
+INFO:root:04-08-2021:08:38:23||531618311|https://www.linkedin.com/in/ana-paula-menezes-859b8140?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAi3V4UBxLmW9-c9-ZhFe8x2pas4MeoF03E
+INFO:root:04-08-2021:08:38:24||531618311|got linkedin response200
+INFO:root:04-08-2021:08:38:24||531618311|Ana Paula-Menezes -Supervisora Regional de RH
+INFO:root:04-08-2021:08:38:39||531618312|zooinfo response200
+INFO:root:04-08-2021:08:38:49||531618312|got linkedin response200
+INFO:root:04-08-2021:08:38:49||531618312|Luciano-Santos-IT Manager - Customer Support - Latin America Region
+INFO:root:04-08-2021:08:39:09||531618313|zooinfo response200
+INFO:root:04-08-2021:08:39:11||531618313|https://www.linkedin.com/in/luisfabio?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAMGlB8BS1uChhFs__TEQS75b7CbO9xA3Rg
+INFO:root:04-08-2021:08:39:15||531618313|got linkedin response200
+INFO:root:04-08-2021:08:39:15||531618313|Luis Fábio-Pinho, Dr.-Government Affairs, Legal and PMO Director at PREMier outsourced by BYD Brazil
+INFO:root:04-08-2021:08:39:31||531618314|zooinfo response200
+INFO:root:04-08-2021:08:39:32||531618314|https://www.linkedin.com/in/fabiopettian?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAgSSsB1nEWNn1KyLTHudBtJxYXzdrbXFQ
+INFO:root:04-08-2021:08:39:33||531618314|got linkedin response200
+INFO:root:04-08-2021:08:39:33||531618314|Fabio Henrique-Pettian-Senior Business Analyst
+INFO:root:04-08-2021:08:39:48||531618315|zooinfo response200
+INFO:root:04-08-2021:08:39:49||531618315|https://www.linkedin.com/in/rafael-scalha-9108b488?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABKkexwBupsEUt3OBPdApvhvv83kfW5N1jE
+INFO:root:04-08-2021:08:39:50||531618315|got linkedin response200
+INFO:root:04-08-2021:08:39:50||531618315|Rafael-Scalha-Senior IT Security Manager and Product Service Owner
+INFO:root:04-08-2021:08:40:05||531618316|zooinfo response200
+INFO:root:04-08-2021:08:40:11||531618316|got linkedin response200
+INFO:root:04-08-2021:08:40:11||531618316|Lucas-Idargo-Treasury Expert
+INFO:root:04-08-2021:08:40:30||531618317|zooinfo response200
+INFO:root:04-08-2021:08:40:31||531618317|https://www.linkedin.com/in/fabio-losnak-cissp-pmp-4b7a1314?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAL_YAsBS8hNEmYaqdC9jfq1De73q_E8w30
+INFO:root:04-08-2021:08:40:31||531618317|got linkedin response200
+INFO:root:04-08-2021:08:40:31||531618317|Fabio-Losnak, CISSP, PMP-IT Infrastructure & Security Lead
+INFO:root:04-08-2021:08:40:48||531618318|zooinfo response200
+INFO:root:04-08-2021:08:40:49||531618318|https://www.linkedin.com/in/valeriomatias?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAANgd0Bz0PyHEkswNxdWA8KkBzG1kd3UfY
+INFO:root:04-08-2021:08:40:49||531618318|got linkedin response200
+INFO:root:04-08-2021:08:40:49||531618318|Valerio-Matias-IT Manager for Software Development
+INFO:root:04-08-2021:08:41:06||531618319|zooinfo response200
+INFO:root:04-08-2021:08:41:07||531618319|https://www.linkedin.com/in/cristianosamel?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAALN6ScBQyhgwqcA9PFEXNYX-HVEWRcWGo4
+INFO:root:04-08-2021:08:41:08||531618319|got linkedin response200
+INFO:root:04-08-2021:08:41:08||531618319|Cristiano-Samel-Gerente de operações de TI
+INFO:root:04-08-2021:08:41:22||531618320|zooinfo response200
+INFO:root:04-08-2021:08:41:31||531618320|got linkedin response200
+INFO:root:04-08-2021:08:41:31||531618320|Thiago-Garcia-Head of IT Controlling GrupoSC
+INFO:root:04-08-2021:08:41:47||531618321|zooinfo response200
+INFO:root:04-08-2021:08:41:48||531618321|https://www.linkedin.com/in/paulochaves?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAKKyi8BFzexcnX7aQJkSYyG7JTOljKZYJs
+INFO:root:04-08-2021:08:41:49||531618321|got linkedin response200
+INFO:root:04-08-2021:08:41:49||531618321|Paulo-Chaves-Software System Engineer Lead
+INFO:root:04-08-2021:08:42:07||531618322|zooinfo response200
+INFO:root:04-08-2021:08:42:14||531618322|got linkedin response200
+INFO:root:04-08-2021:08:42:14||531618322|Emerson-Barbosa de Oliveira-Gerente de tecnologia da informação
+INFO:root:04-08-2021:08:42:32||531618323|zooinfo response200
+INFO:root:04-08-2021:08:42:45||531618323|got linkedin response200
+INFO:root:04-08-2021:08:42:45||531618323|Flávio  Henrique-Nicomedes-Gerente de TI
+INFO:root:04-08-2021:08:43:00||531618324|zooinfo response200
+INFO:root:04-08-2021:08:43:11||531618324|got linkedin response200
+INFO:root:04-08-2021:08:43:11||531618324|Rodrigo-Cursino-Senior Infrastructure Specialist
+INFO:root:04-08-2021:08:43:26||531618325|zooinfo response200
+INFO:root:04-08-2021:08:43:27||531618325|https://www.linkedin.com/in/gilbertorodrigues-1905?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAASbpEMBvDvplCH5VreVwZ6sawS-3BJl1BI
+INFO:root:04-08-2021:08:43:28||531618325|got linkedin response200
+INFO:root:04-08-2021:08:43:28||531618325|Gilberto-Rodrigues-Project Managers Team Coordinator
+INFO:root:04-08-2021:08:43:46||531618326|zooinfo response200
+INFO:root:04-08-2021:08:43:47||531618326|https://www.linkedin.com/in/silvana-freire-34372048?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAoSt-MBZQVmeq1chxtW4jsIEwvZsEHNNqY
+INFO:root:04-08-2021:08:43:47||531618326|got linkedin response200
+INFO:root:04-08-2021:08:43:47||531618326|Silvana-Freire-Supervisor de Infraestrutura de TI
+INFO:root:04-08-2021:08:44:02||531618327|zooinfo response200
+INFO:root:04-08-2021:08:44:03||531618327|https://www.linkedin.com/in/paula-prado-48496574?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAA_NtmQBqJl_NIZN0NOuL3xtwEZVcKiSbD0
+INFO:root:04-08-2021:08:44:03||531618327|got linkedin response200
+INFO:root:04-08-2021:08:44:03||531618327|Paula-Prado-IT Manager
+INFO:root:04-08-2021:08:44:21||531618328|zooinfo response200
+INFO:root:04-08-2021:08:44:45||531618329|zooinfo response200
+INFO:root:04-08-2021:08:44:46||531618329|https://www.linkedin.com/in/adrianonucci?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAiIdMBlPjs4gxYahuG6c23PUdZjWEQSAA
+INFO:root:04-08-2021:08:44:46||531618329|got linkedin response200
+INFO:root:04-08-2021:08:44:46||531618329|Adriano-Nucci-Head de TI
+INFO:root:04-08-2021:08:45:04||531618330|zooinfo response200
+INFO:root:04-08-2021:08:45:15||531618330|got linkedin response200
+INFO:root:04-08-2021:08:45:15||531618330|Najla-Maroun-Research Internship - Automation and Control
+INFO:root:04-08-2021:08:45:30||531618331|zooinfo response200
+INFO:root:04-08-2021:08:45:41||531618331|got linkedin response200
+INFO:root:04-08-2021:08:45:41||531618331|error in extracting contact'dateRange'
+INFO:root:04-08-2021:08:45:59||531618332|zooinfo response200
+INFO:root:04-08-2021:08:46:00||531618332|https://www.linkedin.com/in/mariana-ferla-4a28a7149?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACPny_oB6-6n_MIx02GrodPqWgY07UULFUs
+INFO:root:04-08-2021:08:46:00||531618332|got linkedin response200
+INFO:root:04-08-2021:08:46:00||531618332|mariana-ferla-Consultor de franquias 
+INFO:root:04-08-2021:08:46:19||531618333|zooinfo response200
+INFO:root:04-08-2021:08:46:29||531618333|got linkedin response200
+INFO:root:04-08-2021:08:46:29||531618333|Renan-Covo Piton-Gestor de Operações
+INFO:root:04-08-2021:08:46:45||531618334|zooinfo response200
+INFO:root:04-08-2021:08:47:09||531618335|zooinfo response200
+INFO:root:04-08-2021:08:47:10||531618335|https://www.linkedin.com/in/danilo-amendola-de-almeida-83039632?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAbRyiQBrLDPewNx-ZuGetZpLaaSQ4JgRQc
+INFO:root:04-08-2021:08:47:11||531618335|got linkedin response200
+INFO:root:04-08-2021:08:47:11||531618335|Danilo-Amendola de Almeida-Gerente de vendas
+INFO:root:04-08-2021:08:47:26||531618336|zooinfo response200
+INFO:root:04-08-2021:08:47:34||531618336|got linkedin response200
+INFO:root:04-08-2021:08:47:34||531618336|Renato-Lira-Gerente comercial
+INFO:root:04-08-2021:08:47:48||531618337|zooinfo response200
+INFO:root:04-08-2021:08:47:49||531618337|https://www.linkedin.com/in/lindomar-silva-6586b026?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAVxJqQBqJaDi7S_gybEAdbhXY_QLnqs8hM
+INFO:root:04-08-2021:08:47:49||531618337|got linkedin response200
+INFO:root:04-08-2021:08:47:49||531618337|Lindomar-Silva-Gerente Regional de Vendas
+INFO:root:04-08-2021:08:48:06||531618338|zooinfo response200
+INFO:root:04-08-2021:08:48:26||531618339|zooinfo response200
+INFO:root:04-08-2021:08:48:33||531618339|got linkedin response200
+INFO:root:04-08-2021:08:48:33||531618339|Fábio-André-Gerente
+INFO:root:04-08-2021:08:48:51||531618341|zooinfo response200
+INFO:root:04-08-2021:08:48:51||531618341|https://www.linkedin.com/in/nicolauahn?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAGM0qcBSdbrYSwx35DnKhj6WcIsLsQa38c
+INFO:root:04-08-2021:08:48:52||531618341|got linkedin response200
+INFO:root:04-08-2021:08:48:52||531618341|Nicolau-Ahn-Commercial Director
+INFO:root:04-08-2021:08:49:09||531618342|zooinfo response200
+INFO:root:04-08-2021:08:49:31||531618343|zooinfo response200
+INFO:root:04-08-2021:08:49:43||531618343|got linkedin response200
+INFO:root:04-08-2021:08:49:43||531618343|error in extracting contact'companyUrn'
+INFO:root:04-08-2021:08:49:59||531618344|zooinfo response200
+INFO:root:04-08-2021:08:49:59||531618344|https://www.linkedin.com/in/vin%C3%ADcius-loge-098029b6?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABiQfzQBeBsvOpR_Pyju_Q29_g_uL20QfsY
+INFO:root:04-08-2021:08:50:00||531618344|got linkedin response200
+INFO:root:04-08-2021:08:50:00||531618344|Vinícius-Loge-Supervisor de operações de vendas
+INFO:root:04-08-2021:08:50:16||531618345|zooinfo response200
+INFO:root:04-08-2021:08:50:27||531618345|got linkedin response200
+INFO:root:04-08-2021:08:50:27||531618345|Henrique-Barnard-Strategic Vendor Management Microsoft for the Dutch government
+INFO:root:04-08-2021:08:50:45||531618346|zooinfo response200
+INFO:root:04-08-2021:08:50:46||531618346|https://www.linkedin.com/in/pedro-melo-534198114?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAByA3fgBqj4qpoTi5IytNkN2KfE6OXVMETM
+INFO:root:04-08-2021:08:50:46||531618346|got linkedin response200
+INFO:root:04-08-2021:08:50:46||531618346|Pedro-Melo-Gerente de vendas
+INFO:root:04-08-2021:08:50:59||531618347|zooinfo response200
+INFO:root:04-08-2021:08:51:09||531618347|got linkedin response200
+INFO:root:04-08-2021:08:51:09||531618347|Valdemir-Ramos-Supervisor Dangerous Goods Export CS
+INFO:root:04-08-2021:08:51:23||531618348|zooinfo response200
+INFO:root:04-08-2021:08:51:33||531618348|got linkedin response200
+INFO:root:04-08-2021:08:51:33||531618348|Francisco Alencar-Sobrinho-Gerente de Vendas
+INFO:root:04-08-2021:08:51:52||531618349|zooinfo response200
+INFO:root:04-08-2021:08:52:04||531618349|got linkedin response200
+INFO:root:04-08-2021:08:52:04||531618349|Márcio-Oliveira-Supervisor de vendas
+INFO:root:04-08-2021:08:52:18||531618351|zooinfo response200
+INFO:root:04-08-2021:08:52:30||531618351|got linkedin response200
+INFO:root:04-08-2021:08:52:30||531618351|Adriano-Marques-Supervisor de vendas
+INFO:root:04-08-2021:08:52:45||531618353|zooinfo response200
+INFO:root:04-08-2021:08:52:46||531618353|https://www.linkedin.com/in/deivide-dalto-3105aaa6?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABaDSzwBaF9kcIauqS-sh33oJR3aXEARyeI
+INFO:root:04-08-2021:08:52:46||531618353|got linkedin response200
+INFO:root:04-08-2021:08:52:46||531618353|Deivide-Dalto-Gerente de Vendas
+INFO:root:04-08-2021:08:53:02||531618354|zooinfo response200
+INFO:root:04-08-2021:08:53:10||531618354|got linkedin response200
+INFO:root:04-08-2021:08:53:10||531618354|João-Maffei-Gestão Comercial Nacional - Vendas, Marketing e Operacões Logisticas.
+INFO:root:04-08-2021:08:53:29||531618355|zooinfo response200
+INFO:root:04-08-2021:08:53:40||531618355|got linkedin response200
+INFO:root:04-08-2021:08:53:40||531618355|Jadir Fonseca-Junior-Gerente de vendas distrital
+INFO:root:04-08-2021:08:53:56||531618356|zooinfo response200
+INFO:root:04-08-2021:08:53:57||531618356|https://www.linkedin.com/in/nelson-marcos-moschetta-213812a0?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABV6P68BBcl4X0yAGCp5DQEKnEhLCTj0vas
+INFO:root:04-08-2021:08:53:58||531618356|got linkedin response200
+INFO:root:04-08-2021:08:53:58||531618356|Nelson Marcos-Moschetta-Gerente de Vendas
+INFO:root:04-08-2021:08:54:14||531618357|zooinfo response200
+INFO:root:04-08-2021:08:54:26||531618357|got linkedin response200
+INFO:root:04-08-2021:08:54:26||531618357|Nelson Marcos-Moschetta-Gerente de Vendas
+INFO:root:04-08-2021:08:54:41||531618358|zooinfo response200
+INFO:root:04-08-2021:08:54:53||531618358|got linkedin response200
+INFO:root:04-08-2021:08:54:53||531618358|Edson-Lopes-Gerente de Vendas
+INFO:root:04-08-2021:08:55:06||531618359|zooinfo response200
+INFO:root:04-08-2021:08:55:18||531618359|got linkedin response200
+INFO:root:04-08-2021:08:55:18||531618359|Roberta-Ferreira Gomes-Community & Communication Manager
+INFO:root:04-08-2021:08:55:36||531618360|zooinfo response200
+INFO:root:04-08-2021:08:55:43||531618360|got linkedin response200
+INFO:root:04-08-2021:08:55:43||531618360|error in extracting contact'dateRange'
+INFO:root:04-08-2021:08:55:59||531618361|zooinfo response200
+INFO:root:04-08-2021:08:56:06||531618361|got linkedin response200
+INFO:root:04-08-2021:08:56:06||531618361|Fernando-Seixas-Field Force Effectiveness Coordinator
+INFO:root:04-08-2021:08:56:25||531618362|zooinfo response200
+INFO:root:04-08-2021:08:56:32||531618362|got linkedin response200
+INFO:root:04-08-2021:08:56:32||531618362|Felix-Banuchi-Director Of Strategic Partnerships
+INFO:root:04-08-2021:08:56:47||531618363|zooinfo response200
+INFO:root:04-08-2021:08:56:56||531618363|got linkedin response200
+INFO:root:04-08-2021:08:56:56||531618363|Andreia-Brasil-Assistente Regional
+INFO:root:04-08-2021:08:57:13||531618364|zooinfo response200
+INFO:root:04-08-2021:08:57:24||531618364|got linkedin response200
+INFO:root:04-08-2021:08:57:24||531618364|Rafael-Apostólico-eCommerce Regional Business Development Manager - Asean
+INFO:root:04-08-2021:08:57:42||531618365|zooinfo response200
+INFO:root:04-08-2021:08:57:52||531618365|got linkedin response403
+INFO:root:04-08-2021:08:57:52||531618365|error in extracting contact'$type'
+INFO:root:04-08-2021:08:58:10||531618366|zooinfo response200
+INFO:root:04-08-2021:08:58:22||531618366|got linkedin response200
+INFO:root:04-08-2021:08:58:22||531618366|Marcelo-Sorani-Gerente de Operações de Vendas
+INFO:root:04-08-2021:08:58:41||531618367|zooinfo response200
+INFO:root:04-08-2021:08:58:48||531618367|got linkedin response200
+INFO:root:04-08-2021:08:58:48||531618367|error in extracting contact'dateRange'
+INFO:root:04-08-2021:08:59:06||531634119|zooinfo response200
+INFO:root:04-08-2021:08:59:13||531634119|got linkedin response200
+INFO:root:04-08-2021:08:59:13||531634119|Lucas C.-Ferreira-Head, Unix/Linux Support Unit
+INFO:root:04-08-2021:08:59:30||531634120|zooinfo response200
+INFO:root:04-08-2021:08:59:37||531634120|got linkedin response200
+INFO:root:04-08-2021:08:59:37||531634120|Juan Roberto-Ramirez-Vice President Credit Risk Management at American Expres
+INFO:root:04-08-2021:08:59:53||531634122|zooinfo response200
+INFO:root:04-08-2021:08:59:54||531634122|https://www.linkedin.com/in/f%C3%A1bio-luiz-ferreira-bonadia-9974748?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAF-B4MB6EYCxHjXNkFvpsZ-zDFpP4idf08
+INFO:root:04-08-2021:08:59:54||531634122|got linkedin response200
+INFO:root:04-08-2021:08:59:54||531634122|Fábio Luiz-Ferreira Bonadia-FP&A and Budget Planning Manager
+INFO:root:04-08-2021:09:00:09||531634124|zooinfo response200
+INFO:root:04-08-2021:09:00:10||531634124|https://www.linkedin.com/in/mauricioluiz?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAIynEBXYN3N5akhT9emi5GO87r0Bo8WuU
+INFO:root:04-08-2021:09:00:11||531634124|got linkedin response200
+INFO:root:04-08-2021:09:00:11||531634124|Mauricio-Luiz-VP of Enterprise Technology Solutions
+INFO:root:04-08-2021:09:01:55||531634126|zooinfo errorHTTPSConnectionPool(host='www.dnb.com', port=443): Max retries exceeded with url: /business-directory/company-profiles.salobo_metais_s-a.c1fdeb80c1d3a61f9e29c08db5eaf70b.html (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response')))
+INFO:root:04-08-2021:09:02:04||531634126|got linkedin response200
+INFO:root:04-08-2021:09:02:04||531634126|Luiz Gustavo-Farina-National Business Development Manager
+INFO:root:04-08-2021:09:02:38||531634130|zooinfo response200
+INFO:root:04-08-2021:09:02:39||531634130|https://www.linkedin.com/in/wesley-oliveira-mba-2071731a?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAPweGcBH1y5D-2DQtOPTKctJFtoFd-hJ_4
+INFO:root:04-08-2021:09:02:39||531634130|got linkedin response200
+INFO:root:04-08-2021:09:02:39||531634130|Wesley-Oliveira, MBA-Solutions Engineer Manager
+INFO:root:04-08-2021:09:02:53||531634133|zooinfo response200
+INFO:root:04-08-2021:09:02:54||531634133|https://www.linkedin.com/in/vanessa-de-souza-morais-carvalho-784a2110?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAJJZRQB8g_tvd4RyvCMEAe20sx-oggeixg
+INFO:root:04-08-2021:09:02:54||531634133|got linkedin response200
+INFO:root:04-08-2021:09:02:54||531634133|Vanessa-de Souza Morais Carvalho-Gerente de Planejamento e Administração de Vendas
+INFO:root:04-08-2021:09:03:08||531634134|zooinfo response200
+INFO:root:04-08-2021:09:03:16||531634134|got linkedin response200
+INFO:root:04-08-2021:09:03:16||531634134|error in extracting contact'companyUrn'

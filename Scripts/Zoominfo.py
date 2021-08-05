@@ -30,11 +30,12 @@ headers = {
    }
 
 def Zoominfo_scraper(url,id):
+    print('inside zoominfo')
     try:
-        for i in range(5):
+        for _ in range(5):
             response= requests.get(url,headers=headers,proxies=proxies)
-            time.sleep(random.randint(2,5))
             if response.status_code==200:
+                time.sleep(5)
                 print('got response.from zoomfino')
                 break
         

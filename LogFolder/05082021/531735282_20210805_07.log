@@ -1,0 +1,608 @@
+INFO:root:05-08-2021:07:25:53||531735282|zooinfo response200
+INFO:root:05-08-2021:07:26:01||531735282|got linkedin response403
+INFO:root:05-08-2021:07:26:01||531735282|error in extracting contact'$type'
+INFO:root:05-08-2021:07:26:16||531735283|zooinfo response200
+INFO:root:05-08-2021:07:26:27||531735283|got linkedin response403
+INFO:root:05-08-2021:07:26:27||531735283|error in extracting contact'$type'
+INFO:root:05-08-2021:07:26:41||531757088|zooinfo response200
+INFO:root:05-08-2021:07:28:39||531735282|zooinfo response200
+INFO:root:05-08-2021:07:29:26||531735282|got linkedin response403
+INFO:root:05-08-2021:07:29:26||531735282|error in extracting contact'$type'
+INFO:root:05-08-2021:07:29:39||531735283|zooinfo response200
+INFO:root:05-08-2021:07:29:51||531735283|got linkedin response403
+INFO:root:05-08-2021:07:29:51||531735283|error in extracting contact'$type'
+INFO:root:05-08-2021:07:30:07||531757088|zooinfo response200
+INFO:root:05-08-2021:07:30:08||531757088|https://www.linkedin.com/in/katharina-hochuli-71360b19?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAPT5j8BjriqXFg5lx_CodAalJDdPxdYl2k
+INFO:root:05-08-2021:07:30:08||531757088|got linkedin response200
+INFO:root:05-08-2021:07:30:08||531757088|Katharina-Hochuli-Head Marketing Initiatives Group & Sustainability Vice President
+INFO:root:05-08-2021:07:30:26||531757089|zooinfo response200
+INFO:root:05-08-2021:07:30:27||531757089|https://www.linkedin.com/in/daniela-maria-hofst%C3%A4tter-3155aba0?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABVx8gEBDSaC_wTqsWHLd0NoXZQZ9tCkItE
+INFO:root:05-08-2021:07:30:27||531757089|got linkedin response200
+INFO:root:05-08-2021:07:30:27||531757089|Daniela-Maria-Hofstätter-Senior Manager Marketing Europe
+INFO:root:05-08-2021:07:30:45||531757090|zooinfo response200
+INFO:root:05-08-2021:07:30:53||531757090|got linkedin response200
+INFO:root:05-08-2021:07:30:53||531757090|Julia-Badura-Digital Marketing Manager
+INFO:root:05-08-2021:07:31:07||531757091|zooinfo response200
+INFO:root:05-08-2021:07:31:18||531757091|got linkedin response200
+INFO:root:05-08-2021:07:31:18||531757091|Kata-Györke-Szász-Marketing Automation Manager
+INFO:root:05-08-2021:07:31:37||531757092|zooinfo response200
+INFO:root:05-08-2021:07:31:37||531757092|https://www.linkedin.com/in/julia-rankl-17bb33114?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABykzC8BqTKfyGXtmhAApAf00p64-kkOZ5I
+INFO:root:05-08-2021:07:31:38||531757092|got linkedin response200
+INFO:root:05-08-2021:07:31:38||531757092|Julia-Rankl-Sales and Marketing Manager TCT EMEA
+INFO:root:05-08-2021:07:31:52||531757093|zooinfo response200
+INFO:root:05-08-2021:07:32:02||531757093|got linkedin response200
+INFO:root:05-08-2021:07:32:02||531757093|Veronika-Kolb-Online Marketing Manager
+INFO:root:05-08-2021:07:32:20||531757094|zooinfo response200
+INFO:root:05-08-2021:07:32:21||531757094|https://www.linkedin.com/in/celso-freitas-36813812?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAKC1wABfxrT7m5aEgw1hqBqDzcXgedk4Xw
+INFO:root:05-08-2021:07:32:22||531757094|got linkedin response200
+INFO:root:05-08-2021:07:32:22||531757094|Celso-Freitas-Senior VP of Marketing and Digital Solutions
+INFO:root:05-08-2021:07:32:41||531757095|zooinfo response200
+INFO:root:05-08-2021:07:32:42||531757095|https://www.linkedin.com/in/barbara-bleier-serentschy-a31bb1155?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACVf24UBvFAQMppA149eYsw8QfQK2b0WmSI
+INFO:root:05-08-2021:07:32:42||531757095|got linkedin response200
+INFO:root:05-08-2021:07:32:42||531757095|Barbara-Bleier-Serentschy-Leitung Marketing
+INFO:root:05-08-2021:07:32:57||531757096|zooinfo response200
+INFO:root:05-08-2021:07:32:58||531757096|https://www.linkedin.com/in/andreaswanda?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABrASBABsahJIVQA-_KPC4aB8ubhScCoSeM
+INFO:root:05-08-2021:07:32:59||531757096|got linkedin response200
+INFO:root:05-08-2021:07:32:59||531757096|PhDr. Andreas-Wanda-Head of Corporate Marketing & Communications
+INFO:root:05-08-2021:07:33:13||531757097|zooinfo response200
+INFO:root:05-08-2021:07:33:14||531757097|https://www.linkedin.com/in/sa%C5%A1a-djordjevi%C4%87-45673440?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAimpIIBT47b1Do_3z1r2TB2NRb7NrrzQhM
+INFO:root:05-08-2021:07:33:15||531757097|got linkedin response200
+INFO:root:05-08-2021:07:33:15||531757097|Saša-Djordjevi\u0107-Leiter Marketing & Kommunikation, Krisen- und Wissensmanagement VAMED-KMB
+INFO:root:05-08-2021:07:33:31||531757098|zooinfo response200
+INFO:root:05-08-2021:07:33:31||531757098|https://www.linkedin.com/in/martin-wagner-362306b?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAIAvnoBDJzGzvcROdylU4m5tDO09UYUX6A
+INFO:root:05-08-2021:07:33:32||531757098|got linkedin response200
+INFO:root:05-08-2021:07:33:32||531757098|Martin-Wagner-Managing Director
+INFO:root:05-08-2021:07:33:48||531757099|zooinfo response200
+INFO:root:05-08-2021:07:33:49||531757099|https://www.linkedin.com/in/marcelbrun?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAveDBUBtTdZtSu47tLz5JNUXYzsZ1mW3O8
+INFO:root:05-08-2021:07:33:50||531757099|got linkedin response200
+INFO:root:05-08-2021:07:33:50||531757099|Marcel-Brun-Regional Marketing Director, SAP Customer Experience for Middle & Eastern Europe
+INFO:root:05-08-2021:07:34:04||531757101|zooinfo response200
+INFO:root:05-08-2021:07:34:05||531757101|https://www.linkedin.com/in/clemens-mann?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABaK71UBxj2OUJspY1Dz6L1pTJpePsKypLo
+INFO:root:05-08-2021:07:34:05||531757101|got linkedin response200
+INFO:root:05-08-2021:07:34:05||531757101|Clemens-Mann-Vice President Marketing - ANDRITZ Automation
+INFO:root:05-08-2021:07:34:19||531757102|zooinfo response200
+INFO:root:05-08-2021:07:34:20||531757102|https://www.linkedin.com/in/martina-thek-a5629b1a9?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADChUSIBGmuI1HXuMjzWq2LD9skcaui4yhM
+INFO:root:05-08-2021:07:34:21||531757102|got linkedin response200
+INFO:root:05-08-2021:07:34:21||531757102|Martina-Thek-Marketing Manager
+INFO:root:05-08-2021:07:34:37||531757103|zooinfo response200
+INFO:root:05-08-2021:07:34:49||531757103|got linkedin response200
+INFO:root:05-08-2021:07:34:49||531757103|Christiane-Leitner-Marketing Manager
+INFO:root:05-08-2021:07:35:08||531757104|zooinfo response200
+INFO:root:05-08-2021:07:35:09||531757104|https://www.linkedin.com/in/marion-mantler-68678470?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAA8QesYBPaW0qKJMxXwu_YYe80bNd5Ke8RE
+INFO:root:05-08-2021:07:35:10||531757104|got linkedin response200
+INFO:root:05-08-2021:07:35:10||531757104|Marion-Mantler-Manager Content Marketing, Events, Fairs & Promotions & Family Marketing
+INFO:root:05-08-2021:07:35:27||531757106|zooinfo response200
+INFO:root:05-08-2021:07:35:27||531757106|https://www.linkedin.com/in/alexandra-alina-burchiu-mba-6a278262?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAA1IzVoBaVG7iusgCQkDBqFCCv6WI4npork
+INFO:root:05-08-2021:07:35:28||531757106|got linkedin response200
+INFO:root:05-08-2021:07:35:28||531757106|Alexandra Alina-Burchiu, MBA-Product Marketing Manager
+INFO:root:05-08-2021:07:35:43||531757107|zooinfo response200
+INFO:root:05-08-2021:07:35:44||531757107|https://www.linkedin.com/in/christoph-hochschwarzer-080351195?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAC3KkCABd7T1Qb2HGZzcB5BehmVk1NI-Z64
+INFO:root:05-08-2021:07:35:45||531757107|got linkedin response200
+INFO:root:05-08-2021:07:35:45||531757107|Christoph-Hochschwarzer-Digital Marketing Manager
+INFO:root:05-08-2021:07:36:06||531760414|zooinfo response200
+INFO:root:05-08-2021:07:36:12||531760414|got linkedin response200
+INFO:root:05-08-2021:07:36:12||531760414|Anaïs-Moreno-Inside Sales Transformation Project Manager
+INFO:root:05-08-2021:07:36:34||531760416|zooinfo response200
+INFO:root:05-08-2021:07:36:41||531760416|got linkedin response403
+INFO:root:05-08-2021:07:36:41||531760416|error in extracting contact'$type'
+INFO:root:05-08-2021:07:36:59||531760418|zooinfo response200
+INFO:root:05-08-2021:07:37:07||531760418|got linkedin response403
+INFO:root:05-08-2021:07:37:07||531760418|error in extracting contact'$type'
+INFO:root:05-08-2021:07:37:27||531760421|zooinfo response200
+INFO:root:05-08-2021:07:37:28||531760421|https://www.linkedin.com/in/lefevrearnaud?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAACuhAMBbEGURpeeOtaCrG0WlBfN7P_lH2A
+INFO:root:05-08-2021:07:37:28||531760421|got linkedin response200
+INFO:root:05-08-2021:07:37:28||531760421|Arnaud-Lefevre-Sales and Marketing Director
+INFO:root:05-08-2021:07:37:47||531760422|zooinfo response200
+INFO:root:05-08-2021:07:37:48||531760422|https://www.linkedin.com/in/maieralexandra?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAFiHhgB9S7pE-IlCDR2MzvTYum2PIa0O0M
+INFO:root:05-08-2021:07:37:49||531760422|got linkedin response200
+INFO:root:05-08-2021:07:37:49||531760422|Alexandra-Maier-Director, Global Marketing & Communications - Media Solutions 
+INFO:root:05-08-2021:07:38:04||531760424|zooinfo response200
+INFO:root:05-08-2021:07:38:05||531760424|https://www.linkedin.com/in/matalexa?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABHulpsB0hvJb4h01MKkk6wq_chAOGDmz44
+INFO:root:05-08-2021:07:38:05||531760424|got linkedin response200
+INFO:root:05-08-2021:07:38:05||531760424|Alexandru-MATEI-B2B Marketing Director, On-demand Networks Program
+INFO:root:05-08-2021:07:38:25||531760426|zooinfo response200
+INFO:root:05-08-2021:07:38:35||531760426|got linkedin response403
+INFO:root:05-08-2021:07:38:35||531760426|error in extracting contact'$type'
+INFO:root:05-08-2021:07:38:50||531760428|zooinfo response200
+INFO:root:05-08-2021:07:38:51||531760428|https://www.linkedin.com/in/aliz%C3%A9-nguyen-a610a154?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAtnNqkBeTYw3kBojez6nsV847zT6XsXm4Q
+INFO:root:05-08-2021:07:38:51||531760428|got linkedin response200
+INFO:root:05-08-2021:07:38:51||531760428|Alizé-Nguyen-Marketing Director SkinCeuticals France
+INFO:root:05-08-2021:07:39:09||531760430|zooinfo response200
+INFO:root:05-08-2021:07:39:10||531760430|https://www.linkedin.com/in/ana%C3%AFs-levallois?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABYSg28BEnlPNu0_YlIJx0VZNQLnhrVdOGY
+INFO:root:05-08-2021:07:39:11||531760430|got linkedin response403
+INFO:root:05-08-2021:07:39:11||531760430|error in extracting contact'$type'
+INFO:root:05-08-2021:07:39:28||531760431|zooinfo response200
+INFO:root:05-08-2021:07:39:29||531760431|https://www.linkedin.com/in/ledily?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAI07oEBuSlVaAHgNiBGQInKt0_R7z3_dQ8
+INFO:root:05-08-2021:07:39:29||531760431|got linkedin response200
+INFO:root:05-08-2021:07:39:29||531760431|Anna-Le Dily-Digital Marketing Manager
+INFO:root:05-08-2021:07:39:48||531760434|zooinfo response200
+INFO:root:05-08-2021:07:39:49||531760434|https://www.linkedin.com/in/anne-le-gallet-4415962b?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAZQr_EBBzW_j9AGHROA83-S0IsZ8rXrn7U
+INFO:root:05-08-2021:07:39:49||531760434|got linkedin response200
+INFO:root:05-08-2021:07:39:49||531760434|Anne-LE GALLET-Directrice Marketing
+INFO:root:05-08-2021:07:40:05||531760435|zooinfo response200
+INFO:root:05-08-2021:07:40:17||531760435|got linkedin response200
+INFO:root:05-08-2021:07:40:17||531760435|Anne-REBARDY-Directrice Marketing et Stratégie RATP TRAVEL RETAIL 
+INFO:root:05-08-2021:07:40:37||531760436|zooinfo response200
+INFO:root:05-08-2021:07:40:45||531760436|got linkedin response200
+INFO:root:05-08-2021:07:40:45||531760436|Anne-Laure-PAROIS-Ajointe au Directeur Marketing et Communication de MMA
+INFO:root:05-08-2021:07:41:01||531760437|zooinfo response200
+INFO:root:05-08-2021:07:41:02||531760437|https://www.linkedin.com/in/anne-marie-gaultier-bb45213?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAACcW3gBYzd5f3cNfZeE1lAe4oPMMdzoEAg
+INFO:root:05-08-2021:07:41:03||531760437|got linkedin response200
+INFO:root:05-08-2021:07:41:03||531760437|Anne-Marie-Gaultier-Marketing and communication director
+INFO:root:05-08-2021:07:41:21||531760438|zooinfo response200
+INFO:root:05-08-2021:07:41:22||531760438|https://www.linkedin.com/in/artemiyrozhetskin?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAA5tdjUBgk93_pzKzs9Kkp9gcRvzegZJubE
+INFO:root:05-08-2021:07:41:22||531760438|got linkedin response200
+INFO:root:05-08-2021:07:41:22||531760438|Artemiy-Rozhetskin-Senior Strategic Marketing & Innovation Manager
+INFO:root:05-08-2021:07:41:40||531760439|zooinfo response200
+INFO:root:05-08-2021:07:41:40||531760439|https://www.linkedin.com/in/antoinewintrebert?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAqjKkBdlz07WQe6FODmvXJEHCJzssJEMg
+INFO:root:05-08-2021:07:41:41||531760439|got linkedin response200
+INFO:root:05-08-2021:07:41:41||531760439|Antoine-Wintrebert-Responsable Marketing Digital
+INFO:root:05-08-2021:07:42:02||531760440|zooinfo response200
+INFO:root:05-08-2021:07:42:09||531760440|got linkedin response200
+INFO:root:05-08-2021:07:42:09||531760440|Sébastien-Vieilledent-Directeur Technique National
+INFO:root:05-08-2021:07:42:28||531760441|zooinfo response200
+INFO:root:05-08-2021:07:42:29||531760441|https://www.linkedin.com/in/benjaminraute?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAqLOf8BV1e5-jPj9AT_sAbKW3JGUKfKGNE
+INFO:root:05-08-2021:07:42:30||531760441|got linkedin response200
+INFO:root:05-08-2021:07:42:30||531760441|Benjamin-Raute-Marketing & Business Development Manager
+INFO:root:05-08-2021:07:42:51||531760442|zooinfo response200
+INFO:root:05-08-2021:07:42:52||531760442|https://www.linkedin.com/in/beno%C3%AEt-grisoni-787b085?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAENzlcBaRM1vB-uL1fdq77ddsMGKcR1RXs
+INFO:root:05-08-2021:07:42:53||531760442|got linkedin response200
+INFO:root:05-08-2021:07:42:53||531760442|Benoît-Grisoni-Directeur Marketing
+INFO:root:05-08-2021:07:43:07||531760443|zooinfo response200
+INFO:root:05-08-2021:07:43:08||531760443|https://www.linkedin.com/in/b%C3%A9r%C3%A9nice-germain-b4175820?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAARh5WEB-O7ozU84Cf4rhUAxm90Vz7nYbgk
+INFO:root:05-08-2021:07:43:09||531760443|got linkedin response200
+INFO:root:05-08-2021:07:43:09||531760443|Bérénice-Germain-Marketing & Communication and Transformation Director of Europe Cluster
+INFO:root:05-08-2021:07:43:30||531760444|zooinfo response200
+INFO:root:05-08-2021:07:43:31||531760444|https://www.linkedin.com/in/bertrand-hartemann-80264255?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAuprgIB9FzVleCUpMYhcHa3f1W3ML0BwkQ
+INFO:root:05-08-2021:07:43:32||531760444|got linkedin response200
+INFO:root:05-08-2021:07:43:32||531760444|Bertrand-Hartemann-Global Head of Marketing & Sales | B2C
+INFO:root:05-08-2021:07:43:48||531760445|zooinfo response200
+INFO:root:05-08-2021:07:43:49||531760445|https://www.linkedin.com/in/boualem-taieb-307506189?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACxkNjcBJFffE87FeTG-g7XG_cE-Su73Uc4
+INFO:root:05-08-2021:07:43:50||531760445|got linkedin response200
+INFO:root:05-08-2021:07:43:50||531760445|Boualem-TAIEB-GOP/CMO/Capital Markets en Middle Office
+INFO:root:05-08-2021:07:44:08||531760446|zooinfo response200
+INFO:root:05-08-2021:07:44:09||531760446|https://www.linkedin.com/in/bruno-genevois-21979159?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAxlRPUBvFz_6qi1Sa-79JLIUvfW9JJFI3k
+INFO:root:05-08-2021:07:44:10||531760446|got linkedin response200
+INFO:root:05-08-2021:07:44:10||531760446|Bruno-Genevois-Head of Sales & Marketing, Point of Care
+INFO:root:05-08-2021:07:44:30||531760447|zooinfo response200
+INFO:root:05-08-2021:07:44:31||531760447|https://www.linkedin.com/in/bruno-hohmann-5b08172?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAB6A5QBQlHd06nNtcQn_W936gqm5NGpQ4k
+INFO:root:05-08-2021:07:44:31||531760447|got linkedin response200
+INFO:root:05-08-2021:07:44:31||531760447|Bruno-Hohmann-Vice President Sales & Marketing Brazil
+INFO:root:05-08-2021:07:44:48||531760448|zooinfo response200
+INFO:root:05-08-2021:07:44:59||531760448|got linkedin response200
+INFO:root:05-08-2021:07:44:59||531760448|Benoit-Seignoret-Directeur Marketing Digital
+INFO:root:05-08-2021:07:45:15||531760449|zooinfo response200
+INFO:root:05-08-2021:07:45:24||531760449|got linkedin response200
+INFO:root:05-08-2021:07:45:24||531760449|Caroline-Allorant-Responsable du service Marketing, Communication et Digital
+INFO:root:05-08-2021:07:45:43||531760450|zooinfo response200
+INFO:root:05-08-2021:07:45:44||531760450|https://www.linkedin.com/in/catherine-genton-1963649?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAGndgIByUh6G5sAgdAKA_mrrorw1fGukn0
+INFO:root:05-08-2021:07:45:45||531760450|got linkedin response200
+INFO:root:05-08-2021:07:45:45||531760450|Catherine-Genton-Immunology Sales & Marketing director 
+INFO:root:05-08-2021:07:46:03||531760451|zooinfo response200
+INFO:root:05-08-2021:07:46:10||531760451|got linkedin response200
+INFO:root:05-08-2021:07:46:10||531760451|celine-geeraert-Responsable des projets IT -  Domaine Logistique Centrale
+INFO:root:05-08-2021:07:46:24||531760452|zooinfo response200
+INFO:root:05-08-2021:07:46:25||531760452|https://www.linkedin.com/in/c%C3%A9line-ligaire?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABmZ6-YBWjz1MkRUmAtuuN14CPsXfmrVJZo
+INFO:root:05-08-2021:07:46:26||531760452|got linkedin response403
+INFO:root:05-08-2021:07:46:26||531760452|error in extracting contact'$type'
+INFO:root:05-08-2021:07:46:41||531760453|zooinfo response200
+INFO:root:05-08-2021:07:46:41||531760453|https://www.linkedin.com/in/constance-fouquet-a7865759?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAxgYjwBQdCULxp4SjIWP9fL3tHYODbTFJg
+INFO:root:05-08-2021:07:46:42||531760453|got linkedin response200
+INFO:root:05-08-2021:07:46:42||531760453|Constance-Fouquet-Chief Marketing Officer
+INFO:root:05-08-2021:07:46:58||531760454|zooinfo response200
+INFO:root:05-08-2021:07:46:59||531760454|https://www.linkedin.com/in/carolina-garnier-b014542?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAABsBjEB7fj6fC3Ud8V8jFFW8ey-RNZXJxc
+INFO:root:05-08-2021:07:46:59||531760454|got linkedin response200
+INFO:root:05-08-2021:07:46:59||531760454|Carolina-Garnier-Marketing, Communication and Strategic Projects Director
+INFO:root:05-08-2021:07:47:13||531760455|zooinfo response200
+INFO:root:05-08-2021:07:47:14||531760455|https://www.linkedin.com/in/charles-saadoun-6b84ba?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAS8mwBYQ5qp4YvV4U3sKh8iO4gJfcyzEU
+INFO:root:05-08-2021:07:47:14||531760455|got linkedin response200
+INFO:root:05-08-2021:07:47:14||531760455|Charles-SAADOUN-Director of Sales and Marketing
+INFO:root:05-08-2021:07:47:33||531760456|zooinfo response200
+INFO:root:05-08-2021:07:47:34||531760456|https://www.linkedin.com/in/chloe-lepoivre-3a097817?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAOGSygBPn6c-_O1uQi5hl_5doMZYRgEmmw
+INFO:root:05-08-2021:07:47:35||531760456|got linkedin response200
+INFO:root:05-08-2021:07:47:35||531760456|Chloe-Lepoivre-Head of Global Marketing
+INFO:root:05-08-2021:07:47:51||531760457|zooinfo response200
+INFO:root:05-08-2021:07:47:52||531760457|https://www.linkedin.com/in/christinegironponchel?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAA5EIREBIKj0CObF0hVkX2IlWFr1pJ16GxU
+INFO:root:05-08-2021:07:47:53||531760457|got linkedin response200
+INFO:root:05-08-2021:07:47:53||531760457|Christine-Giron Ponchel-Responsable marketing & communication
+INFO:root:05-08-2021:07:48:10||531760458|zooinfo response200
+INFO:root:05-08-2021:07:48:10||531760458|https://www.linkedin.com/in/claudia-reichmuth-42747b23?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAATf458BXg1iuHCaTbtZLXd-UYbjkJTsMgY
+INFO:root:05-08-2021:07:48:11||531760458|got linkedin response200
+INFO:root:05-08-2021:07:48:11||531760458|Claudia-Reichmuth-Director of Strategic Marketing and Voice of Customer
+INFO:root:05-08-2021:07:48:30||531760459|zooinfo response200
+INFO:root:05-08-2021:07:48:31||531760459|https://www.linkedin.com/in/constance-de-sousa?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAFL0FIBsxAOnkmAbTEON0_3yPqwD0jMx4o
+INFO:root:05-08-2021:07:48:32||531760459|got linkedin response200
+INFO:root:05-08-2021:07:48:32||531760459|Constance-De Sousa-Head of marketing and communications Southern Europe
+INFO:root:05-08-2021:07:48:46||531760460|zooinfo response200
+INFO:root:05-08-2021:07:48:47||531760460|https://www.linkedin.com/in/coraline-s%C3%A9quier-00760819?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAPTzgcBqJYK_Ii3o0fL-eV3nohFVddTl9E
+INFO:root:05-08-2021:07:48:47||531760460|got linkedin response200
+INFO:root:05-08-2021:07:48:47||531760460|Coraline-Séquier-Head of marketing and communications France & Northern Europe
+INFO:root:05-08-2021:07:49:06||531760461|zooinfo response200
+INFO:root:05-08-2021:07:49:17||531760461|got linkedin response200
+INFO:root:05-08-2021:07:49:17||531760461|Camille-Perrin-Directrice Marketing & Communication Publicitaire
+INFO:root:05-08-2021:07:49:35||531760462|zooinfo response200
+INFO:root:05-08-2021:07:49:45||531760462|got linkedin response200
+INFO:root:05-08-2021:07:49:45||531760462|Dorothée-TAVAN CAGNET-Responsable Events et Content B2b
+INFO:root:05-08-2021:07:50:01||531760463|zooinfo response200
+INFO:root:05-08-2021:07:50:01||531760463|https://www.linkedin.com/in/delphine-hoguet-5b690242?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAkIXNoB_kSerUtsXu1hX7BA0jqt9y-dNRo
+INFO:root:05-08-2021:07:50:02||531760463|got linkedin response200
+INFO:root:05-08-2021:07:50:02||531760463|Delphine-Hoguet-Responsable Marketing
+INFO:root:05-08-2021:07:50:17||531760464|zooinfo response200
+INFO:root:05-08-2021:07:50:18||531760464|https://www.linkedin.com/in/delphinejacq?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAHahusBE6C09RqKgewSrvffK3q62HIYhss
+INFO:root:05-08-2021:07:50:18||531760464|got linkedin response200
+INFO:root:05-08-2021:07:50:18||531760464|Delphine-JACQ-Marketing Director Diabetes Care
+INFO:root:05-08-2021:07:50:34||531760465|zooinfo response200
+INFO:root:05-08-2021:07:50:35||531760465|https://www.linkedin.com/in/delphinepenalva?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAMLk9cBtNhDxJU4jUjNdOU38R4aZI24cHA
+INFO:root:05-08-2021:07:50:35||531760465|got linkedin response200
+INFO:root:05-08-2021:07:50:35||531760465|Delphine-Penalva-Directrice Communication et Marketing
+INFO:root:05-08-2021:07:50:52||531760466|zooinfo response200
+INFO:root:05-08-2021:07:50:53||531760466|https://www.linkedin.com/in/didier-thalgott-8651a216?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAM7KE0BY7dvgFgNtaVHZaprS3J8sHqElXU
+INFO:root:05-08-2021:07:50:54||531760466|got linkedin response200
+INFO:root:05-08-2021:07:50:54||531760466|Didier-Thalgott-Senior Vice President Business Development, Sales & Marketing        Marelli Automotive Lighting
+INFO:root:05-08-2021:07:51:12||531760467|zooinfo response200
+INFO:root:05-08-2021:07:51:13||531760467|https://www.linkedin.com/in/dominique-barthe-7316224?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAADNu5UBfACv8A7qRlUcmomOY8Y4Jb6NChI
+INFO:root:05-08-2021:07:51:13||531760467|got linkedin response200
+INFO:root:05-08-2021:07:51:13||531760467|Dominique-Barthe-APAC Regional Marketing Director
+INFO:root:05-08-2021:07:51:28||531760468|zooinfo response200
+INFO:root:05-08-2021:07:51:29||531760468|https://www.linkedin.com/in/dominiquedelfaud?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAEBstQB9c9M8GKxieIO4qVjcc7ONT5YeZc
+INFO:root:05-08-2021:07:51:30||531760468|got linkedin response200
+INFO:root:05-08-2021:07:51:30||531760468|Dominique-Delfaud \u25c6 MANE-Director Marketing, Sensory Evaluation, Consumer Research
+INFO:root:05-08-2021:07:51:46||531760469|zooinfo response200
+INFO:root:05-08-2021:07:51:55||531760469|got linkedin response200
+INFO:root:05-08-2021:07:51:55||531760469|Eymeric-Ojardias-Sales & Marketing Manager
+INFO:root:05-08-2021:07:52:13||531760470|zooinfo response200
+INFO:root:05-08-2021:07:52:14||531760470|https://www.linkedin.com/in/emiliesaut?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAEC77sB5LL6RHHxt8t0W0LqvQTuDEJQPsA
+INFO:root:05-08-2021:07:52:14||531760470|got linkedin response200
+INFO:root:05-08-2021:07:52:14||531760470|Emilie-Aninat Saüt-External marketing expert
+INFO:root:05-08-2021:07:52:31||531760471|zooinfo response200
+INFO:root:05-08-2021:07:52:32||531760471|https://www.linkedin.com/in/emmatoulancoat?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABVfUZEBl3UNcIkokwF54LI7eA6t4mXsaDo
+INFO:root:05-08-2021:07:52:32||531760471|got linkedin response200
+INFO:root:05-08-2021:07:52:32||531760471|Emma-Toulancoat-Product Manager France & WER at Coface
+INFO:root:05-08-2021:07:52:47||531760472|zooinfo response200
+INFO:root:05-08-2021:07:52:48||531760472|https://www.linkedin.com/in/emmanuellefouquet?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAArfS6kBSzIalx-DQktvshy-svALz-BqFSk
+INFO:root:05-08-2021:07:52:49||531760472|got linkedin response200
+INFO:root:05-08-2021:07:52:49||531760472|Emmanuelle-Fouquet-Retail CRM & Marketing Manager
+INFO:root:05-08-2021:07:53:02||531760473|zooinfo response200
+INFO:root:05-08-2021:07:53:03||531760473|https://www.linkedin.com/in/erika-saillant-8113485?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAADwso0B5VAlECdJfzsP8LYNtdsFE3Aw-e0
+INFO:root:05-08-2021:07:53:04||531760473|got linkedin response200
+INFO:root:05-08-2021:07:53:04||531760473|Erika-Saillant-Strategy and Marketing Director France Belgium
+INFO:root:05-08-2021:07:53:20||531760474|zooinfo response200
+INFO:root:05-08-2021:07:53:21||531760474|https://www.linkedin.com/in/eug%C3%A9nie-charri%C3%A8re-52588031?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAa2uu0BlYhqubsW43hm6uRge59-mJRzkC8
+INFO:root:05-08-2021:07:53:21||531760474|got linkedin response200
+INFO:root:05-08-2021:07:53:21||531760474|Eugénie-Charrière-Global Marketing & Strategy Director
+INFO:root:05-08-2021:07:53:38||531760475|zooinfo response200
+INFO:root:05-08-2021:07:53:45||531760475|got linkedin response200
+INFO:root:05-08-2021:07:53:45||531760475|Émilie-Vallerent-Adjointe Direction Marketing
+INFO:root:05-08-2021:07:54:01||531760476|zooinfo response200
+INFO:root:05-08-2021:07:54:03||531760476|https://www.linkedin.com/in/nina-dietrich?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAD6xYABecrbAL3Q9fFLXwNGwm4i5rC2zV8
+INFO:root:05-08-2021:07:54:04||531760476|got linkedin response200
+INFO:root:05-08-2021:07:54:04||531760476|Nina-Dietrich-Director, Growth Marketing, Expedia Partner Solutions
+INFO:root:05-08-2021:07:54:21||531760477|zooinfo response200
+INFO:root:05-08-2021:07:54:22||531760477|https://www.linkedin.com/in/andrewwatson18?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAKEwzwBjNWVtCsAbBz_ZR1w14_HC3HsFU0
+INFO:root:05-08-2021:07:54:22||531760477|got linkedin response200
+INFO:root:05-08-2021:07:54:22||531760477|Andrew-Watson-Vice President Marketing & Digital - Europe, Middle East & Africa
+INFO:root:05-08-2021:07:54:42||531760478|zooinfo response200
+INFO:root:05-08-2021:07:54:42||531760478|https://www.linkedin.com/in/anjaleesalter?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAwyCCIB7aKEDxp2B1JaVfBIDNyIN4NtsF8
+INFO:root:05-08-2021:07:54:43||531760478|got linkedin response200
+INFO:root:05-08-2021:07:54:43||531760478|Anjalee-Salter-Marketing Manager
+INFO:root:05-08-2021:07:54:59||531760479|zooinfo response200
+INFO:root:05-08-2021:07:54:59||531760479|https://www.linkedin.com/in/mariemckelvie?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAZQwmABsxmIskOXXLZZ4Xrg1rzWosdylF4
+INFO:root:05-08-2021:07:55:01||531760479|got linkedin response200
+INFO:root:05-08-2021:07:55:01||531760479|Marie-McKelvie-Marketing Manager – Direct Mortgages & Insurance
+INFO:root:05-08-2021:07:55:20||531760480|zooinfo response200
+INFO:root:05-08-2021:07:55:20||531760480|https://www.linkedin.com/in/licarey?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAblr4BgQX442pa4uU5i__c4Imk4Bn-JLA
+INFO:root:05-08-2021:07:55:21||531760480|got linkedin response200
+INFO:root:05-08-2021:07:55:21||531760480|Lisa-Carey-Chief Marketing Officer
+INFO:root:05-08-2021:07:55:40||531760481|zooinfo response200
+INFO:root:05-08-2021:07:55:41||531760481|https://www.linkedin.com/in/kimberley-edwards-b38a8976?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABAtYxwBrfAXNrh3rmQ_sNG5X8ABbNltggU
+INFO:root:05-08-2021:07:55:42||531760481|got linkedin response200
+INFO:root:05-08-2021:07:55:42||531760481|Kimberley-Edwards-Marketing Manager
+INFO:root:05-08-2021:07:56:00||531760482|zooinfo response200
+INFO:root:05-08-2021:07:56:00||531760482|https://www.linkedin.com/in/danielle-mcginley-a51a6a13?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAALTl10BFWRO0LPvyfiEdX3oM4wJnnXTeJw
+INFO:root:05-08-2021:07:56:01||531760482|got linkedin response200
+INFO:root:05-08-2021:07:56:01||531760482|Danielle-McGinley-City Director of Sales & Marketing
+INFO:root:05-08-2021:07:56:20||531760484|zooinfo response200
+INFO:root:05-08-2021:07:56:21||531760484|https://www.linkedin.com/in/meenalvarsani?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAABl7qMBOAYFtOvREpxy36px14yAGa286TE
+INFO:root:05-08-2021:07:56:21||531760484|got linkedin response200
+INFO:root:05-08-2021:07:56:21||531760484|Meenal-Varsani-Head of Marketing I Brand Partnerships I Customer Engagement
+INFO:root:05-08-2021:07:56:37||531760485|zooinfo response200
+INFO:root:05-08-2021:07:56:38||531760485|https://www.linkedin.com/in/sarah-graham-74008b58?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAwdFmAB9DFi2AOUYiQwT44NNzW-p4r2efo
+INFO:root:05-08-2021:07:56:39||531760485|got linkedin response200
+INFO:root:05-08-2021:07:56:39||531760485|Sarah-Graham-Head of Brand Marketing and Communications - Retail: Soho Home and Cowshed
+INFO:root:05-08-2021:07:56:54||531760486|zooinfo response200
+INFO:root:05-08-2021:07:56:55||531760486|https://www.linkedin.com/in/heidi-bridle-7572559?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAGjYvMB1Z998KOrx7Ba1eUMpU0uLQVzx1Q
+INFO:root:05-08-2021:07:56:55||531760486|got linkedin response200
+INFO:root:05-08-2021:07:56:55||531760486|Heidi-Bridle-Digital Marketing Director (Social Media)
+INFO:root:05-08-2021:07:57:11||531760487|zooinfo response200
+INFO:root:05-08-2021:07:57:12||531760487|https://www.linkedin.com/in/peteakerman?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAIVodIBP1vVAQRIeeyspy5ONoOD8NZVYmM
+INFO:root:05-08-2021:07:57:12||531760487|got linkedin response200
+INFO:root:05-08-2021:07:57:12||531760487|Pete-Akerman-Global Marketing Director
+INFO:root:05-08-2021:07:57:30||531760488|zooinfo response200
+INFO:root:05-08-2021:07:57:31||531760488|https://www.linkedin.com/in/jonas-malheiro-38b0305?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAADkxRsBwNQorTY_2kR3al8-JD8ObO1POMQ
+INFO:root:05-08-2021:07:57:31||531760488|got linkedin response200
+INFO:root:05-08-2021:07:57:31||531760488|Jonas-Malheiro-Vice President Sales & Marketing Europe & Americas
+INFO:root:05-08-2021:07:57:49||531760489|zooinfo response200
+INFO:root:05-08-2021:07:57:49||531760489|https://www.linkedin.com/in/barbaramorenofernandez?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAQDYhoBj0hZQxSqVpWAe1POgPJb2OUg1Xc
+INFO:root:05-08-2021:07:57:50||531760489|got linkedin response200
+INFO:root:05-08-2021:07:57:50||531760489|Barbara-Moreno-Head of Marketing, Amadeus NDC [X] program
+INFO:root:05-08-2021:07:58:08||531760490|zooinfo response200
+INFO:root:05-08-2021:07:58:09||531760490|https://www.linkedin.com/in/benjamin-yang-85a8421b?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAQ3pkYBAoQ5P3t0l5jYSPqOWRVvG2p56fs
+INFO:root:05-08-2021:07:58:09||531760490|got linkedin response200
+INFO:root:05-08-2021:07:58:09||531760490|Benjamin-Yang-Head of Marketing
+INFO:root:05-08-2021:07:58:26||531760491|zooinfo response200
+INFO:root:05-08-2021:07:58:28||531760491|https://www.linkedin.com/in/lizpenney?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAR-i6cBoLZy6h6vROgPVkDilMOkp-gpH7U
+INFO:root:05-08-2021:07:58:29||531760491|got linkedin response200
+INFO:root:05-08-2021:07:58:29||531760491|Liz-Penney-Head Of Marketing
+INFO:root:05-08-2021:07:58:48||531760492|zooinfo response200
+INFO:root:05-08-2021:07:58:49||531760492|https://www.linkedin.com/in/karen-broughton-824a211?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAABUNVwBumbqk4_pXC3XJLsIlsqYQ-EVeB4
+INFO:root:05-08-2021:07:58:49||531760492|got linkedin response200
+INFO:root:05-08-2021:07:58:49||531760492|Karen-Broughton-Sales and Marketing Director
+INFO:root:05-08-2021:07:59:04||531760493|zooinfo response200
+INFO:root:05-08-2021:07:59:05||531760493|https://www.linkedin.com/in/mark-cullen-skp?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAEe2NkBndaAnFkx3GiPWU135Tq13KSk8gs
+INFO:root:05-08-2021:07:59:06||531760493|got linkedin response200
+INFO:root:05-08-2021:07:59:06||531760493|Mark-Cullen-Chief Marketing Officer
+INFO:root:05-08-2021:07:59:23||531760494|zooinfo response200
+INFO:root:05-08-2021:07:59:24||531760494|https://www.linkedin.com/in/snwright19?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAC4Vw4BojbzJmyleq1InnorrU176AvPZMg
+INFO:root:05-08-2021:07:59:25||531760494|got linkedin response200
+INFO:root:05-08-2021:07:59:25||531760494|Nicholas-Wright-Chief Marketing Officer, EMEA
+INFO:root:05-08-2021:07:59:42||531760495|zooinfo response200
+INFO:root:05-08-2021:07:59:43||531760495|https://www.linkedin.com/in/steve-nutbeam-1a370839?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAgdGwsBB86RPC7w3RiRJFVSUVOeg5ONMGA
+INFO:root:05-08-2021:07:59:43||531760495|got linkedin response200
+INFO:root:05-08-2021:07:59:43||531760495|Steve-Nutbeam-Chief Marketing Officer, International Private Bank
+INFO:root:05-08-2021:07:59:59||531760496|zooinfo response200
+INFO:root:05-08-2021:08:00:00||531760496|https://www.linkedin.com/in/rohima-begum-611399162?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACbbHS0BLxGizWxq9G9MZ3KSZ-X2RUG-_5E
+INFO:root:05-08-2021:08:00:00||531760496|got linkedin response200
+INFO:root:05-08-2021:08:00:00||531760496|Rohima-Begum-Vendor Marketing Manager
+INFO:root:05-08-2021:08:00:17||531760497|zooinfo response200
+INFO:root:05-08-2021:08:00:18||531760497|https://www.linkedin.com/in/laura-espig-b0329786?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABIyBnMBto1LdWHhzjtoOMUTTHvVOR-YyZc
+INFO:root:05-08-2021:08:00:19||531760497|got linkedin response200
+INFO:root:05-08-2021:08:00:19||531760497|Laura-Espig-Senior Manager, Marketing Europe
+INFO:root:05-08-2021:08:00:37||531760498|zooinfo response200
+INFO:root:05-08-2021:08:00:48||531760498|got linkedin response200
+INFO:root:05-08-2021:08:00:48||531760498|Tim-Osler-Senior Account Manager
+INFO:root:05-08-2021:08:01:03||531760499|zooinfo response200
+INFO:root:05-08-2021:08:01:04||531760499|https://www.linkedin.com/in/paul-aubert-7aa61535?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAdjTzIBA216F1-3hEpgj36XEizvC89Ydfg
+INFO:root:05-08-2021:08:01:05||531760499|got linkedin response200
+INFO:root:05-08-2021:08:01:05||531760499|Paul-Aubert-Associate Director - Product Marketing and Communications
+INFO:root:05-08-2021:08:01:19||531760500|zooinfo response200
+INFO:root:05-08-2021:08:01:20||531760500|https://www.linkedin.com/in/rachaelhorsthuis?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAASkNZgBk8jHd9ImaedPCjTEnWeKZI6VF5A
+INFO:root:05-08-2021:08:01:20||531760500|got linkedin response200
+INFO:root:05-08-2021:08:01:21||531760500|Rachael-Horsthuis-Senior Manager - Marketing, Group Communications and CSR
+INFO:root:05-08-2021:08:01:36||531760503|zooinfo response200
+INFO:root:05-08-2021:08:01:37||531760503|https://www.linkedin.com/in/paul-leaper-66614226?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAVcAS4BP7snde1S6fPtEhYLumQlIV4voYc
+INFO:root:05-08-2021:08:01:37||531760503|got linkedin response200
+INFO:root:05-08-2021:08:01:37||531760503|Paul-Leaper-Marketing manager English Regions and BBC Weather
+INFO:root:05-08-2021:08:01:52||531760504|zooinfo response200
+INFO:root:05-08-2021:08:01:53||531760504|https://www.linkedin.com/in/christopherbigsby?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAZnXiYBtYiqZFscVTLW_2qQNjW26XxiHG4
+INFO:root:05-08-2021:08:01:54||531760504|got linkedin response200
+INFO:root:05-08-2021:08:01:54||531760504|Christopher-Bigsby-Marketing Automation Manager
+INFO:root:05-08-2021:08:02:08||531760505|zooinfo response200
+INFO:root:05-08-2021:08:02:09||531760505|https://www.linkedin.com/in/gemma-tregellas-8a8b2872?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAA95AQABbiH_1st2U3E9sKiVfyWH0T8w7w4
+INFO:root:05-08-2021:08:02:10||531760505|got linkedin response200
+INFO:root:05-08-2021:08:02:10||531760505|Gemma-Tregellas-Marketing Communications Manager
+INFO:root:05-08-2021:08:02:27||531760506|zooinfo response200
+INFO:root:05-08-2021:08:02:28||531760506|https://www.linkedin.com/in/rebecca-spellman-4b824599?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABTb0IwB2Iyzb1TFbdk1eYRCEG7OhKt52B0
+INFO:root:05-08-2021:08:02:29||531760506|got linkedin response200
+INFO:root:05-08-2021:08:02:29||531760506|Rebecca-Spellman-Marketing Manager
+INFO:root:05-08-2021:08:02:46||531760507|zooinfo response200
+INFO:root:05-08-2021:08:02:46||531760507|https://www.linkedin.com/in/martyncarroll?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAL0m4UBy7PPVG1hdGwblg1ocBA8_t44iBE
+INFO:root:05-08-2021:08:02:47||531760507|got linkedin response200
+INFO:root:05-08-2021:08:02:47||531760507|Martyn-Carroll-Marketing Content Manager
+INFO:root:05-08-2021:08:03:03||531760508|zooinfo response200
+INFO:root:05-08-2021:08:03:05||531760508|https://www.linkedin.com/in/mporr?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAHAJjcBfcBQh3glzfzcG7QiN5vLf9o4avs
+INFO:root:05-08-2021:08:03:05||531760508|got linkedin response200
+INFO:root:05-08-2021:08:03:05||531760508|Michael-Orr-Product Marketing Director
+INFO:root:05-08-2021:08:03:20||531760509|zooinfo response200
+INFO:root:05-08-2021:08:03:21||531760509|https://www.linkedin.com/in/laura-dalziel?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABEI5yABLPqrG1rJs5woCsJmZJ-BntjjWlw
+INFO:root:05-08-2021:08:03:21||531760509|got linkedin response200
+INFO:root:05-08-2021:08:03:21||531760509|Laura-Dalziel-Global Marketing Director- Hays Talent Solutions
+INFO:root:05-08-2021:08:03:38||531760510|zooinfo response200
+INFO:root:05-08-2021:08:03:39||531760510|https://www.linkedin.com/in/adamkite?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABFJfpgBHwnXjE91wJ2ZzhlES8cjvfDhisU
+INFO:root:05-08-2021:08:03:39||531760510|got linkedin response200
+INFO:root:05-08-2021:08:03:39||531760510|Adam-Kite-Director, Digital Marketing - Global
+INFO:root:05-08-2021:08:03:56||531760511|zooinfo response200
+INFO:root:05-08-2021:08:03:56||531760511|https://www.linkedin.com/in/miaharper?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAHwVtQBJqbeyUUZoMKEmp3OHifJbP4KxxU
+INFO:root:05-08-2021:08:03:57||531760511|got linkedin response200
+INFO:root:05-08-2021:08:03:57||531760511|Mia-Harper-Director, International Field Marketing
+INFO:root:05-08-2021:08:04:16||531760512|zooinfo response200
+INFO:root:05-08-2021:08:04:17||531760512|https://www.linkedin.com/in/davidtyers?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAADowFYBBfMp82kHXJW_B4dgFN10hDB2STo
+INFO:root:05-08-2021:08:04:18||531760512|got linkedin response200
+INFO:root:05-08-2021:08:04:18||531760512|David-Tyers-Senior Director, Marketing Strategy & Planning
+INFO:root:05-08-2021:08:04:34||531760513|zooinfo response200
+INFO:root:05-08-2021:08:04:35||531760513|https://www.linkedin.com/in/neil-dowling?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAGdUKQBXfUnzCN3iZ36wQp_ek6aWHF9YIU
+INFO:root:05-08-2021:08:04:36||531760513|got linkedin response200
+INFO:root:05-08-2021:08:04:36||531760513|Neil-Dowling-Vice President - Global Integrated Marketing
+INFO:root:05-08-2021:08:04:53||531760514|zooinfo response200
+INFO:root:05-08-2021:08:04:54||531760514|https://www.linkedin.com/in/melindaboza?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAFIaPUBfet2GR1sSLKhXIeSEkQA8-CRLbw
+INFO:root:05-08-2021:08:04:55||531760514|got linkedin response200
+INFO:root:05-08-2021:08:04:55||531760514|• Melinda-Boza •-Field Marketing Manager - UKI
+INFO:root:05-08-2021:08:05:10||531760515|zooinfo response200
+INFO:root:05-08-2021:08:05:18||531760515|got linkedin response200
+INFO:root:05-08-2021:08:05:18||531760515|Gary-Trotman-Senior Solutions Marketing Manager - 5G/IoT
+INFO:root:05-08-2021:08:05:34||531760517|zooinfo response200
+INFO:root:05-08-2021:08:05:44||531760517|got linkedin response200
+INFO:root:05-08-2021:08:05:44||531760517|Sophie-DEULOT-Responsable marketing opérationnel
+INFO:root:05-08-2021:08:05:57||531760518|zooinfo response200
+INFO:root:05-08-2021:08:05:58||531760518|https://www.linkedin.com/in/bini-patel-1a447b92?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABOlkkwB-YOuJIC7-Xv5G6VqpoR8yzPGJH0
+INFO:root:05-08-2021:08:05:59||531760518|got linkedin response200
+INFO:root:05-08-2021:08:05:59||531760518|Bini-Patel-Marketing Manager
+INFO:root:05-08-2021:08:06:15||531760519|zooinfo response200
+INFO:root:05-08-2021:08:06:15||531760519|https://www.linkedin.com/in/boydollie?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAHaUuoBaDps37tmiEn1fOQ3e7fGZ4eJkag
+INFO:root:05-08-2021:08:06:16||531760519|got linkedin response200
+INFO:root:05-08-2021:08:06:16||531760519|Ollie-Boyd-Global Online Marketing Manager
+INFO:root:05-08-2021:08:06:29||531760520|zooinfo response200
+INFO:root:05-08-2021:08:06:30||531760520|https://www.linkedin.com/in/ryan-stewart1?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAJpuuYBcQ96CmLOGAsk-BP4CxrRLYu66Go
+INFO:root:05-08-2021:08:06:31||531760520|got linkedin response200
+INFO:root:05-08-2021:08:06:31||531760520|Ryan-Stewart-EMEA Marketing Senior Manager
+INFO:root:05-08-2021:08:06:49||531760521|zooinfo response200
+INFO:root:05-08-2021:08:06:50||531760521|https://www.linkedin.com/in/marc-gossage-380391b?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAIDddABz6UtCneZOC6mtV8BxZmO21n9MQE
+INFO:root:05-08-2021:08:06:51||531760521|got linkedin response200
+INFO:root:05-08-2021:08:06:51||531760521|Marc-Gossage-Senior Marketing Communications Manager
+INFO:root:05-08-2021:08:07:05||531761060|zooinfo response200
+INFO:root:05-08-2021:08:07:06||531761060|https://www.linkedin.com/in/kerstinstrauss?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAGo7vEBygP_nP-S1heUPpvyM3BfhwwR26Y
+INFO:root:05-08-2021:08:07:07||531761060|got linkedin response200
+INFO:root:05-08-2021:08:07:07||531761060|Kerstin-Strauss-Senior Marketing Manager 
+INFO:root:05-08-2021:08:07:21||531761061|zooinfo response200
+INFO:root:05-08-2021:08:07:22||531761061|https://www.linkedin.com/in/sarah-ireland-33673027?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAWf-NoBJgUaBKHHfyvFau-cOWQgaAJMh3k
+INFO:root:05-08-2021:08:07:22||531761061|got linkedin response200
+INFO:root:05-08-2021:08:07:22||531761061|Sarah-Ireland-Head of Marketing, Europe
+INFO:root:05-08-2021:08:07:39||531761062|zooinfo response200
+INFO:root:05-08-2021:08:07:40||531761062|https://www.linkedin.com/in/jeremy-cartwright-86869713?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAALFRRAB0F4pUXxVcRyNrw-sSqjB_t2quyA
+INFO:root:05-08-2021:08:07:40||531761062|got linkedin response200
+INFO:root:05-08-2021:08:07:40||531761062|Jeremy-Cartwright-Customer Success Director, North Europe - Marketing Effectiveness
+INFO:root:05-08-2021:08:08:00||531761063|zooinfo response200
+INFO:root:05-08-2021:08:08:00||531761063|https://www.linkedin.com/in/adam-horne-95b66476?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABAdblcB-IjRj_Ltieiz3csCT8yI7nfDbCc
+INFO:root:05-08-2021:08:08:01||531761063|got linkedin response200
+INFO:root:05-08-2021:08:08:01||531761063|Adam-Horne-Senior Digital Marketing Manager
+INFO:root:05-08-2021:08:08:15||531761064|zooinfo response200
+INFO:root:05-08-2021:08:08:16||531761064|https://www.linkedin.com/in/michael-lynch-a7159235?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAdh-HUBzsbcVSF0_M07Pkfe9XLlESPTGQo
+INFO:root:05-08-2021:08:08:17||531761064|got linkedin response200
+INFO:root:05-08-2021:08:08:17||531761064|error in extracting contact'companyUrn'
+INFO:root:05-08-2021:08:08:35||531761065|zooinfo response200
+INFO:root:05-08-2021:08:08:37||531761065|https://www.linkedin.com/in/sam-walker-b2a89421?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAASUalIBgjXEjNj8mwxRQpCk5i3fMy3uZ3c
+INFO:root:05-08-2021:08:08:37||531761065|got linkedin response200
+INFO:root:05-08-2021:08:08:37||531761065|Sam-Walker-Head of Marketing - Home Essentials
+INFO:root:05-08-2021:08:08:57||531761066|zooinfo response200
+INFO:root:05-08-2021:08:08:57||531761066|https://www.linkedin.com/in/paulmray?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAACdBrkBct9imIPMw7uZWITv4MUx4hxJtpg
+INFO:root:05-08-2021:08:08:58||531761066|got linkedin response200
+INFO:root:05-08-2021:08:08:58||531761066|Paul-Ray-Head of Brand & Marketing - FS
+INFO:root:05-08-2021:08:09:14||531761067|zooinfo response200
+INFO:root:05-08-2021:08:09:14||531761067|https://www.linkedin.com/in/yvette-dainton-a9b9a02?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAACAfBcBjr42pAm534f0IX6IGFNMi2Xb8iE
+INFO:root:05-08-2021:08:09:15||531761067|got linkedin response200
+INFO:root:05-08-2021:08:09:15||531761067|Yvette-Dainton-Marketing Director
+INFO:root:05-08-2021:08:09:32||531761068|zooinfo response200
+INFO:root:05-08-2021:08:09:33||531761068|https://www.linkedin.com/in/emma-plant-24045b14?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAALqEJABk_BEsM0oQv6xVzcVy4ZPU2JlOI0
+INFO:root:05-08-2021:08:09:34||531761068|got linkedin response200
+INFO:root:05-08-2021:08:09:34||531761068|Emma-Plant-Field Marketing Manager MFG
+INFO:root:05-08-2021:08:09:49||531761069|zooinfo response200
+INFO:root:05-08-2021:08:09:57||531761069|got linkedin response200
+INFO:root:05-08-2021:08:09:57||531761069|Lakhvir-Lelly-Marketing Director
+INFO:root:05-08-2021:08:10:11||531761070|zooinfo response200
+INFO:root:05-08-2021:08:10:12||531761070|https://www.linkedin.com/in/laura-penn-a015391b?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAQsIWEB94EQwjVSzTRx4WiY8O9JfM2dbIU
+INFO:root:05-08-2021:08:10:13||531761070|got linkedin response200
+INFO:root:05-08-2021:08:10:13||531761070|Laura-Penn-Sales & Marketing Director
+INFO:root:05-08-2021:08:10:27||531761071|zooinfo response200
+INFO:root:05-08-2021:08:10:28||531761071|https://www.linkedin.com/in/oliver-tyler-57300822?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAASg2ScBdn9eNUPpasswpLHJ2MXGlSJ-21c
+INFO:root:05-08-2021:08:10:28||531761071|got linkedin response200
+INFO:root:05-08-2021:08:10:28||531761071|Oliver-Tyler-Vice President, Marketing
+INFO:root:05-08-2021:08:10:45||531761072|zooinfo response200
+INFO:root:05-08-2021:08:10:46||531761072|https://www.linkedin.com/in/romilly-gray-32352694?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABQCyEsBc78QrqD7hHvXkOKnM5jzbcShr0g
+INFO:root:05-08-2021:08:10:47||531761072|got linkedin response200
+INFO:root:05-08-2021:08:10:47||531761072|Romilly-Gray-Marketing Manager
+INFO:root:05-08-2021:08:11:04||531761073|zooinfo response200
+INFO:root:05-08-2021:08:11:04||531761073|https://www.linkedin.com/in/andrew-costello-5914a4b1?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABe-SD0BluCOC1h35iyyxf__1vvoPnxVNZs
+INFO:root:05-08-2021:08:11:05||531761073|got linkedin response200
+INFO:root:05-08-2021:08:11:05||531761073|Andrew-Costello-Marketing Manager - High Voltage, Customer Solutions and Digital Marketing - CRM UK&I
+INFO:root:05-08-2021:08:11:23||531761074|zooinfo response200
+INFO:root:05-08-2021:08:11:24||531761074|https://www.linkedin.com/in/ronnie-cavanagh-0a029041?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAjDAXgBW5P-qpD3Aly7R2GHoz8xm2aEBLk
+INFO:root:05-08-2021:08:11:24||531761074|got linkedin response200
+INFO:root:05-08-2021:08:11:24||531761074|Ronnie-Cavanagh-Digital Marketing Manager
+INFO:root:05-08-2021:08:11:41||531761075|zooinfo response200
+INFO:root:05-08-2021:08:11:42||531761075|https://www.linkedin.com/in/mary-ruxton-54a64954?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAt8S8oBQOP9GIogAY33VJGg7Jk90cEesfo
+INFO:root:05-08-2021:08:11:43||531761075|got linkedin response200
+INFO:root:05-08-2021:08:11:43||531761075|Mary-Ruxton-Direct Marketing Manager
+INFO:root:05-08-2021:08:11:58||531761076|zooinfo response200
+INFO:root:05-08-2021:08:11:59||531761076|https://www.linkedin.com/in/lorna-smith-6a403460?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAzRkdwBX8T_dwc7_XlVNjbYKNkR6sOa5tU
+INFO:root:05-08-2021:08:11:59||531761076|got linkedin response200
+INFO:root:05-08-2021:08:11:59||531761076|Lorna-Smith-Marketing Manager
+INFO:root:05-08-2021:08:12:16||531761077|zooinfo response200
+INFO:root:05-08-2021:08:12:17||531761077|https://www.linkedin.com/in/massiata-barro-acim-65134471?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAA8tlp0Bb3gdnm-PsgsNNEDROhysLMsiga8
+INFO:root:05-08-2021:08:12:17||531761077|got linkedin response200
+INFO:root:05-08-2021:08:12:17||531761077|Massiata-Barro ACIM-Marketing Manager - ALS Inspection
+INFO:root:05-08-2021:08:12:36||531761078|zooinfo response200
+INFO:root:05-08-2021:08:12:37||531761078|https://www.linkedin.com/in/hannahweall?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAMqQNEB4wsXYpjxknNtGUBOy-mUKnSxvrs
+INFO:root:05-08-2021:08:12:37||531761078|got linkedin response200
+INFO:root:05-08-2021:08:12:37||531761078|Hannah-Weall-Marketing Manager - UK, Ireland & Nordics
+INFO:root:05-08-2021:08:12:51||531761079|zooinfo response200
+INFO:root:05-08-2021:08:12:52||531761079|https://www.linkedin.com/in/deborah-lennard-24114655?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAuWydEBoAV0myF17OunaUvTppFcdR_uIGA
+INFO:root:05-08-2021:08:12:53||531761079|got linkedin response200
+INFO:root:05-08-2021:08:12:53||531761079|Deborah-Lennard-Marketing Manager, Events and Experience, Commercial Banking and Global Banking & Markets
+INFO:root:05-08-2021:08:13:10||531761080|zooinfo response200
+INFO:root:05-08-2021:08:13:10||531761080|https://www.linkedin.com/in/hiremebecause?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAI248IBSGnYXVIY3lY4cM2s0zZJyfAagzQ
+INFO:root:05-08-2021:08:13:11||531761080|got linkedin response200
+INFO:root:05-08-2021:08:13:11||531761080|D'Arcy-Heath-Head of Digital Marketing and Automation
+INFO:root:05-08-2021:08:13:28||531762181|zooinfo response200
+INFO:root:05-08-2021:08:13:29||531762181|https://www.linkedin.com/in/jos-davies-4a4a8926?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAV_n3wBU1tFFAs6ZbsZTVvHnBc9MV6cuBI
+INFO:root:05-08-2021:08:13:30||531762181|got linkedin response200
+INFO:root:05-08-2021:08:13:30||531762181|Jos-Davies-Global Head of Marketing & PR
+INFO:root:05-08-2021:08:13:48||531762182|zooinfo response200
+INFO:root:05-08-2021:08:13:49||531762182|https://www.linkedin.com/in/ivy-artieda?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAQ6WIMB5bEVbGqZeOKz4LqIcsHY8Tlq3a0
+INFO:root:05-08-2021:08:13:50||531762182|got linkedin response200
+INFO:root:05-08-2021:08:13:50||531762182|Ivy-Artieda-Sr. Vice President, Marketing Project Manager
+INFO:root:05-08-2021:08:14:09||531762183|zooinfo response200
+INFO:root:05-08-2021:08:14:09||531762183|https://www.linkedin.com/in/jasmine-railton-22b63b4a?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAApqpoMBzgwEXyVs-twdOYuuNeuxqSB2STg
+INFO:root:05-08-2021:08:14:10||531762183|got linkedin response200
+INFO:root:05-08-2021:08:14:10||531762183|Jasmine-Railton-Senior ATL Marketing Manager
+INFO:root:05-08-2021:08:14:25||531762184|zooinfo response200
+INFO:root:05-08-2021:08:14:37||531762184|got linkedin response200
+INFO:root:05-08-2021:08:14:37||531762184|Matthew-Thompson-Head of Marketing Analytics
+INFO:root:05-08-2021:08:14:52||531762185|zooinfo response200
+INFO:root:05-08-2021:08:14:53||531762185|https://www.linkedin.com/in/adam-young-59a4633?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAACZ3YYBV-9w4wSx0bkZDCPYZGu0DQYCxzE
+INFO:root:05-08-2021:08:14:53||531762185|got linkedin response200
+INFO:root:05-08-2021:08:14:53||531762185|Adam-Young-Head of Digital Experience
+INFO:root:05-08-2021:08:15:09||531762186|zooinfo response200
+INFO:root:05-08-2021:08:15:11||531762186|https://www.linkedin.com/in/emma-baker-90198b7?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAFj81EBtRR8RiHYhCsvv-G-3nW1ve_8-R4
+INFO:root:05-08-2021:08:15:11||531762186|got linkedin response200
+INFO:root:05-08-2021:08:15:11||531762186|Emma-Baker-Head of Marketing and Communications
+INFO:root:05-08-2021:08:15:28||531762187|zooinfo response200
+INFO:root:05-08-2021:08:15:29||531762187|https://www.linkedin.com/in/steve-shale?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAF-LVwBdILxYI2ta-0Og0iNudLDJb5IKSQ
+INFO:root:05-08-2021:08:15:29||531762187|got linkedin response200
+INFO:root:05-08-2021:08:15:29||531762187|Steve-Shale-Senior Manager - Marketing Communications and Channel Marketing, Europe
+INFO:root:05-08-2021:08:15:46||531762188|zooinfo response200
+INFO:root:05-08-2021:08:15:47||531762188|https://www.linkedin.com/in/martin-allen-b763a73?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAACXc8oBcV7sgtuLVda8ydkQDydeW8bAaHw
+INFO:root:05-08-2021:08:15:48||531762188|got linkedin response200
+INFO:root:05-08-2021:08:15:48||531762188|Martin-Allen-Director, Global Lifecycle Marketing
+INFO:root:05-08-2021:08:16:04||531762189|zooinfo response200
+INFO:root:05-08-2021:08:16:04||531762189|https://www.linkedin.com/in/olivia-weldin-berry-acim-3a2ba642?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAkTOKoBMDGGRA9eYIeW0LiJOBLQJyKDHeY
+INFO:root:05-08-2021:08:16:05||531762189|got linkedin response200
+INFO:root:05-08-2021:08:16:05||531762189|Olivia-Weldin-Berry ACIM-Head of Channel Marketing - UK, Asia & US onshore
+INFO:root:05-08-2021:08:16:21||531762191|zooinfo response200
+INFO:root:05-08-2021:08:16:22||531762191|https://www.linkedin.com/in/iaingibbons?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAACrSEkB9roFoI874hkquH7yVo0j5gFPgbk
+INFO:root:05-08-2021:08:16:22||531762191|got linkedin response200
+INFO:root:05-08-2021:08:16:22||531762191|Iain-Gibbons-Group Marketing Director
+INFO:root:05-08-2021:08:16:41||531762193|zooinfo response200
+INFO:root:05-08-2021:08:16:42||531762193|https://www.linkedin.com/in/roseanna-blackhall-25ba5927?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAWsOycB3Lupd2dYiN2Ry_1rxn4519F_tvw
+INFO:root:05-08-2021:08:16:43||531762193|got linkedin response200
+INFO:root:05-08-2021:08:16:43||531762193|Roseanna-Blackhall-Digital Marketing Manager
+INFO:root:05-08-2021:08:17:02||531762194|zooinfo response200
+INFO:root:05-08-2021:08:17:02||531762194|https://www.linkedin.com/in/vicky-clark-000276bb?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABl9Z4ABQitTGY6oM4kwYU6wGQgwahPPiJY
+INFO:root:05-08-2021:08:17:03||531762194|got linkedin response200
+INFO:root:05-08-2021:08:17:03||531762194|Vicky-Clark-Institutional Marketing Manager
+INFO:root:05-08-2021:08:17:21||531762195|zooinfo response200
+INFO:root:05-08-2021:08:17:22||531762195|https://www.linkedin.com/in/robsimmonds?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAJv0LcB0BVEBYka0BfMVYmpcgqETB6ZNqg
+INFO:root:05-08-2021:08:17:22||531762195|got linkedin response200
+INFO:root:05-08-2021:08:17:22||531762195|Rob-Simmonds-Senior Digital Marketing Manager
+INFO:root:05-08-2021:08:17:37||531762196|zooinfo response200
+INFO:root:05-08-2021:08:17:37||531762196|https://www.linkedin.com/in/chrisdanielhennessy?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAoKpxcBxd4eEPM-KfoJRJvpmcWyY4ipzVE
+INFO:root:05-08-2021:08:17:38||531762196|got linkedin response200
+INFO:root:05-08-2021:08:17:38||531762196|Christopher-Hennessy-Digital Marketing Manager
+INFO:root:05-08-2021:08:17:53||531762197|zooinfo response200
+INFO:root:05-08-2021:08:17:54||531762197|https://www.linkedin.com/in/katie-back-b5ba59a9?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABcdYDcBossvP-ML6XX0ZsPCVBGu6Iu-z_M
+INFO:root:05-08-2021:08:17:54||531762197|got linkedin response200
+INFO:root:05-08-2021:08:17:54||531762197|Katie-Back-Marketing Consultant
+INFO:root:05-08-2021:08:18:13||531762198|zooinfo response200
+INFO:root:05-08-2021:08:18:14||531762198|https://www.linkedin.com/in/benan-silahcilar?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAinwjQBHvrN4Ey5Mi6evV2X3IL-cFugf70
+INFO:root:05-08-2021:08:18:14||531762198|got linkedin response200
+INFO:root:05-08-2021:08:18:14||531762198|Benan-Silahcilar-Global Client Marketing Manager
+INFO:root:05-08-2021:08:18:32||531762199|zooinfo response200
+INFO:root:05-08-2021:08:18:33||531762199|https://www.linkedin.com/in/lisa-walters-72636135?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAdZZM4BLjNhNDeKu8Pb6LChpxdhxJaHFf4
+INFO:root:05-08-2021:08:18:33||531762199|got linkedin response200
+INFO:root:05-08-2021:08:18:33||531762199|Lisa-Walters-Marketing, Communications and Student Recruitment Manager, UCL SSEES
+INFO:root:05-08-2021:08:18:50||531762200|zooinfo response200
+INFO:root:05-08-2021:08:18:51||531762200|https://www.linkedin.com/in/clarepbayley?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAfbdd4BsX9wcXgcEkh46hdG3CHX0RsZpWI
+INFO:root:05-08-2021:08:18:52||531762200|got linkedin response200
+INFO:root:05-08-2021:08:18:52||531762200|Clare-Bayley-Professional Introducers Marketing Manager
+INFO:root:05-08-2021:08:19:07||531762201|zooinfo response200
+INFO:root:05-08-2021:08:19:08||531762201|https://www.linkedin.com/in/david-allen-050b513?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAC0D_wBunTBpxEwHxNR_mQ3LPXMuAnAipc
+INFO:root:05-08-2021:08:19:09||531762201|got linkedin response200
+INFO:root:05-08-2021:08:19:09||531762201|David-Allen-Senior Strategic Marketing Manager
+INFO:root:05-08-2021:08:19:28||531762202|zooinfo response200
+INFO:root:05-08-2021:08:19:29||531762202|https://www.linkedin.com/in/kirsty-edwards-7a693524?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAUfBS4BKenSEy_oK9wZeKWXDqqc4r-o4wI
+INFO:root:05-08-2021:08:19:29||531762202|got linkedin response200
+INFO:root:05-08-2021:08:19:29||531762202|Kirsty-Edwards-Head of Integrated Marketing
+INFO:root:05-08-2021:08:19:46||531762203|zooinfo response200
+INFO:root:05-08-2021:08:19:58||531762203|got linkedin response200
+INFO:root:05-08-2021:08:19:58||531762203|Stella-Hockey-Head of Marketing and Communicatons
+INFO:root:05-08-2021:08:20:12||531762204|zooinfo response200
+INFO:root:05-08-2021:08:20:20||531762204|got linkedin response200
+INFO:root:05-08-2021:08:20:20||531762204|Cerie-Powell-Marketing Manager UK

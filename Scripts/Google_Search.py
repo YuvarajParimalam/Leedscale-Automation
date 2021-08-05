@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup as soup
 import json
+import cloudscraper
 import pandas as pd
 import configparser
 import os
@@ -33,17 +34,19 @@ def Search_Contact(row,domain,searchEngine):
     else:
         url='https://www.bing.com/search?q={}'.format(companydetail)
     for _ in range(5):
-        a=requests.get(url,headers=ua)
+        a=requests.get(url,headers=ua,proxies=proxies)
+        time.sleep(3)
         if a.status_code==200:
             break
-    time.sleep(random.randint(2,10))
+    time.sleep(random.randint(2,7))
     r=soup(a.text,'html.parser')
     if searchEngine=='Google':
         atag=r.findAll('div',class_='yuRUbf')[0]
         link=atag.find('a')['href']
     else:
         atag=r.findAll('li',class_='b_algo')[0]
-        link=atag.find('a')['href']        
+        link=atag.find('a')['href'] 
+        print('bing link',link)       
     return link
 
         

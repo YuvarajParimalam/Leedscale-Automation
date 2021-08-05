@@ -1,0 +1,4 @@
+INFO:root:27-07-2021:14:34:00||530586167|zooinfo errorHTTPSConnectionPool(host='www.zoominfo.com', port=443): Max retries exceeded with url: /c/business-development-bank-of-canada/4211278 (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028D1803BC40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')))
+INFO:root:27-07-2021:14:34:01||530586167|https://www.linkedin.com/in/anniemarsolais?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAACuztIB4eyMZGKVV1fi0X17YkSWT4Ydn1M
+INFO:root:27-07-2021:14:34:02||530586167|got linkedin response200
+INFO:root:27-07-2021:14:34:02||530586167|Annie-Marsolais-Chief Marketing Officer

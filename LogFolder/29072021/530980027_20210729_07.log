@@ -1,0 +1,18 @@
+INFO:root:29-07-2021:07:42:17||530980027|https://www.linkedin.com/in/zoe-hallam-b2a70b36?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAeUhJIBL_ybXwUlIP5xPlFwznHsyAoejiw
+INFO:root:29-07-2021:07:42:18||530980027|got linkedin response200
+INFO:root:29-07-2021:07:42:18||530980027|Zoe-Hallam-Commercial Procurement Manager
+INFO:root:29-07-2021:07:42:29||530980029|https://www.linkedin.com/in/farrellmcdowall?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACGpeCIBCPDpnk8rFR3J0OftuIQXAE4OwIo
+INFO:root:29-07-2021:07:42:30||530980029|got linkedin response200
+INFO:root:29-07-2021:07:42:30||530980029|Farrell-McDowall-Information Technology Manager
+INFO:root:29-07-2021:07:42:43||530980031|https://www.linkedin.com/in/psnicholson?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAALVBp8B3XWU4AFYQoaX2u_Wg4TllQiMrd0
+INFO:root:29-07-2021:07:42:44||530980031|got linkedin response200
+INFO:root:29-07-2021:07:42:44||530980031|Paul-N.-Director of Commercial Procurement
+INFO:root:29-07-2021:07:42:58||530980034|https://www.linkedin.com/in/nadeem-ilyas-16b60828?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAXI_uMBUXJShnX_mHrXbMlVwrO4_GmKlpc
+INFO:root:29-07-2021:07:42:59||530980034|got linkedin response200
+INFO:root:29-07-2021:07:42:59||530980034|error in extracting contact'companyUrn'
+INFO:root:29-07-2021:07:49:09||530980027|https://www.linkedin.com/in/zoe-hallam-b2a70b36?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAeUhJIBL_ybXwUlIP5xPlFwznHsyAoejiw
+INFO:root:29-07-2021:07:49:09||530980027|got linkedin response200
+INFO:root:29-07-2021:07:49:09||530980027|Zoe-Hallam-Commercial Procurement Manager
+INFO:root:29-07-2021:07:49:22||530980029|https://www.linkedin.com/in/farrellmcdowall?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACGpeCIBCPDpnk8rFR3J0OftuIQXAE4OwIo
+INFO:root:29-07-2021:07:49:23||530980029|got linkedin response200
+INFO:root:29-07-2021:07:49:23||530980029|Farrell-McDowall-Information Technology Manager

@@ -1,0 +1,125 @@
+INFO:root:04-08-2021:09:48:39||531558524|zooinfo response200
+INFO:root:04-08-2021:09:48:40||531558524|https://www.linkedin.com/in/sheridan-hindle-9773941b?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAQmTWsBsb6v3bRCxn9ux-2JFsJJZSCDcLo
+INFO:root:04-08-2021:09:48:40||531558524|got linkedin response200
+INFO:root:04-08-2021:09:48:40||531558524|Sheridan-Hindle-Head of IT
+INFO:root:04-08-2021:09:48:59||531559214|zooinfo response200
+INFO:root:04-08-2021:09:49:00||531559214|https://www.linkedin.com/in/jorge-osman-141211?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAH8IEBekwSxRCN25oG64dDsb0LBRGDYUc
+INFO:root:04-08-2021:09:49:00||531559214|got linkedin response200
+INFO:root:04-08-2021:09:49:00||531559214|Jorge-Osman-Global Digital Delivery Director at Inchcape plc
+INFO:root:04-08-2021:09:49:18||531581785|zooinfo response200
+INFO:root:04-08-2021:09:49:18||531581785|https://www.linkedin.com/in/mark-elwell-0a214315?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAMLtLoBqij_MAtTltFjpX2STASjsp0e4fo
+INFO:root:04-08-2021:09:49:19||531581785|got linkedin response200
+INFO:root:04-08-2021:09:49:19||531581785|Mark-Elwell-Head of Sales KUKA Robots Ireland 
+INFO:root:04-08-2021:09:49:38||531581786|zooinfo response200
+INFO:root:04-08-2021:09:49:39||531581786|https://www.linkedin.com/in/chris-slater-b16b9a1a1?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAC9W9sIBd4H4ZZucty_wWu-wUtGyVsGBH9s
+INFO:root:04-08-2021:09:49:39||531581786|got linkedin response200
+INFO:root:04-08-2021:09:49:39||531581786|Chris-Slater-Head Of Sales UK and Ireland
+INFO:root:04-08-2021:09:49:53||531581787|zooinfo response200
+INFO:root:04-08-2021:09:50:03||531581787|got linkedin response200
+INFO:root:04-08-2021:09:50:03||531581787|Michael-Hodgson-Head Of Sales - Food Group Bakery & PEM
+INFO:root:04-08-2021:09:50:19||531581788|zooinfo response200
+INFO:root:04-08-2021:09:50:20||531581788|https://www.linkedin.com/in/rodney-eaglesfield-7753229?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAGmJ8kBuwlEw3JQrabTuSRtp2SVWYKzatU
+INFO:root:04-08-2021:09:50:21||531581788|got linkedin response200
+INFO:root:04-08-2021:09:50:21||531581788|Rodney-Eaglesfield-Global Head IT Enterprise Infrastructure & Operations
+INFO:root:04-08-2021:09:50:38||531581789|zooinfo response200
+INFO:root:04-08-2021:09:50:40||531581789|https://www.linkedin.com/in/kenny-thornton-0aa8ba25?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAVLbwIBHEC6Go28A-zxs3QPQA9X8YOS9k4
+INFO:root:04-08-2021:09:50:40||531581789|got linkedin response200
+INFO:root:04-08-2021:09:50:40||531581789|Kenny-Thornton-Director of IT
+INFO:root:04-08-2021:09:50:57||531581790|zooinfo response200
+INFO:root:04-08-2021:09:50:58||531581790|https://www.linkedin.com/in/calum-thomson-00186b10?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAJDUEEBiGb2I9tw-GMX58jCxj5Bfb2uqSc
+INFO:root:04-08-2021:09:50:59||531581790|got linkedin response200
+INFO:root:04-08-2021:09:50:59||531581790|Calum-Thomson-Group Aftersales Director
+INFO:root:04-08-2021:09:51:14||531582436|zooinfo response200
+INFO:root:04-08-2021:09:51:22||531582436|got linkedin response200
+INFO:root:04-08-2021:09:51:22||531582436|Ashutosh-Sarkar-Chief Information Officer
+INFO:root:04-08-2021:09:51:39||531582437|zooinfo response200
+INFO:root:04-08-2021:09:51:50||531582437|got linkedin response200
+INFO:root:04-08-2021:09:51:50||531582437|Warren-Chadwick-Chief Information Officer
+INFO:root:04-08-2021:09:52:08||531582438|zooinfo response200
+INFO:root:04-08-2021:09:52:15||531582438|got linkedin response200
+INFO:root:04-08-2021:09:52:15||531582438|Kevin-Glass-Chief Technology Officer
+INFO:root:04-08-2021:09:52:32||531582439|zooinfo response200
+INFO:root:04-08-2021:09:52:39||531582439|got linkedin response200
+INFO:root:04-08-2021:09:52:39||531582439|Charl-Tintinger-CTO
+INFO:root:04-08-2021:09:52:57||531582441|zooinfo response200
+INFO:root:04-08-2021:09:53:08||531582441|got linkedin response403
+INFO:root:04-08-2021:09:53:08||531582441|error in extracting contact'$type'
+INFO:root:04-08-2021:09:53:27||531582443|zooinfo response200
+INFO:root:04-08-2021:09:53:54||531582444|zooinfo response200
+INFO:root:04-08-2021:09:54:07||531582444|got linkedin response200
+INFO:root:04-08-2021:09:54:07||531582444|James-Withall-CTO
+INFO:root:04-08-2021:09:54:23||531582445|zooinfo response200
+INFO:root:04-08-2021:09:54:30||531582445|got linkedin response200
+INFO:root:04-08-2021:09:54:30||531582445|Wayne-Mills-Kidals-Chief Technology Officer
+INFO:root:04-08-2021:09:54:48||531582446|zooinfo response200
+INFO:root:04-08-2021:09:54:48||531582446|https://www.linkedin.com/in/stephen-parker-8b3a0083?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABHErQcB9WVdTGUknNkucV-xBbk0IuxWMTs
+INFO:root:04-08-2021:09:54:49||531582446|got linkedin response200
+INFO:root:04-08-2021:09:54:49||531582446|Stephen -Parker-Openreach CIO Manager
+INFO:root:04-08-2021:09:55:02||531582448|zooinfo response200
+INFO:root:04-08-2021:09:55:14||531582448|got linkedin response200
+INFO:root:04-08-2021:09:55:14||531582448|Colette-Mullan-CTIO Director, Fibre Network Delivery Technology
+INFO:root:04-08-2021:09:55:31||531582449|zooinfo response200
+INFO:root:04-08-2021:09:55:41||531582449|got linkedin response200
+INFO:root:04-08-2021:09:55:41||531582449|Phil-Scully-CIO
+INFO:root:04-08-2021:09:55:56||531582450|zooinfo response200
+INFO:root:04-08-2021:09:56:03||531582450|got linkedin response200
+INFO:root:04-08-2021:09:56:03||531582450|Paul-Franks-Head of IT Service and Operations
+INFO:root:04-08-2021:09:56:20||531582451|zooinfo response200
+INFO:root:04-08-2021:09:56:30||531582451|got linkedin response200
+INFO:root:04-08-2021:09:56:30||531582451|Iain-Tromans-Head Of Technology, Seismic Geotechnics
+INFO:root:04-08-2021:09:56:44||531582452|zooinfo response200
+INFO:root:04-08-2021:09:56:56||531582452|got linkedin response200
+INFO:root:04-08-2021:09:56:56||531582452|Bruce-Houghton-Head of IT Service Management
+INFO:root:04-08-2021:09:57:12||531582453|zooinfo response200
+INFO:root:04-08-2021:09:57:22||531582453|got linkedin response200
+INFO:root:04-08-2021:09:57:22||531582453|Craig-Hardy-Head of Finance Systems
+INFO:root:04-08-2021:09:57:39||531584114|zooinfo response200
+INFO:root:04-08-2021:09:58:02||531584115|zooinfo response200
+INFO:root:04-08-2021:09:58:15||531584115|got linkedin response200
+INFO:root:04-08-2021:09:58:15||531584115|Mark-Zajac-Chief Technology Officer
+INFO:root:04-08-2021:09:58:33||531584116|zooinfo response200
+INFO:root:04-08-2021:09:58:53||531584117|zooinfo response200
+INFO:root:04-08-2021:09:59:04||531584117|got linkedin response200
+INFO:root:04-08-2021:09:59:04||531584117|Joakim-Berg-Chief Information Officer
+INFO:root:04-08-2021:09:59:22||531584118|zooinfo response200
+INFO:root:04-08-2021:09:59:32||531584118|got linkedin response200
+INFO:root:04-08-2021:09:59:32||531584118|Sandra-Edvardsen-Eibak-Head of Integrations IT
+INFO:root:04-08-2021:09:59:50||531584119|zooinfo response200
+INFO:root:04-08-2021:10:00:00||531584119|got linkedin response200
+INFO:root:04-08-2021:10:00:00||531584119|Asbjorn-Tonstad-Chief Technology Officer
+INFO:root:04-08-2021:10:00:16||531584120|zooinfo response200
+INFO:root:04-08-2021:10:00:43||531584121|zooinfo response200
+INFO:root:04-08-2021:10:00:52||531584121|got linkedin response200
+INFO:root:04-08-2021:10:00:52||531584121|Erntsen-Tore-Chief Technology Officer, Subsea Controls
+INFO:root:04-08-2021:10:01:06||531584893|zooinfo response200
+INFO:root:04-08-2021:10:01:13||531584893|got linkedin response200
+INFO:root:04-08-2021:10:01:13||531584893|Michael-Gustavsson-Chief Technology Officer
+INFO:root:04-08-2021:10:01:32||531584895|zooinfo response200
+INFO:root:04-08-2021:10:01:33||531584895|https://www.linkedin.com/in/arvid-helstedt-tennefoss-63b72b2?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAB2o88BrsIxBOhdU29TL1zjBngWnEqZfig
+INFO:root:04-08-2021:10:01:33||531584895|got linkedin response200
+INFO:root:04-08-2021:10:01:33||531584895|Arvid-Helstedt Tennefoss-CIO - Nille Holding AS
+INFO:root:04-08-2021:10:01:51||531584896|zooinfo response200
+INFO:root:04-08-2021:10:01:51||531584896|https://www.linkedin.com/in/jskalhegg?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAGf7sB0BfYP7pBhD6aAvevDPrQ4YuycGA
+INFO:root:04-08-2021:10:01:52||531584896|got linkedin response200
+INFO:root:04-08-2021:10:01:52||531584896|Jørgen-Skålhegg-CCDO
+INFO:root:04-08-2021:10:02:11||531584898|zooinfo response200
+INFO:root:04-08-2021:10:02:33||531584899|zooinfo response200
+INFO:root:04-08-2021:10:02:34||531584899|https://www.linkedin.com/in/askavdal?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAADJ7cwBM_Gvv5sZ-oUmXpEAmOyVkEDQd7A
+INFO:root:04-08-2021:10:02:34||531584899|got linkedin response200
+INFO:root:04-08-2021:10:02:34||531584899|Arnt Erling-Skavdal-CTO
+INFO:root:04-08-2021:10:02:49||531584901|zooinfo response200
+INFO:root:04-08-2021:10:02:50||531584901|https://www.linkedin.com/in/espen-jensen-5942562a?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAYWeMAB8HiinpoKU8wW6UbkkqZHEZu4Qk0
+INFO:root:04-08-2021:10:02:51||531584901|got linkedin response200
+INFO:root:04-08-2021:10:02:51||531584901|Espen-Jensen-Chief Information Officer
+INFO:root:04-08-2021:10:03:05||531584902|zooinfo response200
+INFO:root:04-08-2021:10:03:06||531584902|https://www.linkedin.com/in/joakim-andersen-623995171?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACjm-jsB_yDTK2Ay_eE4vs2X7Swz-grRCTI
+INFO:root:04-08-2021:10:03:07||531584902|got linkedin response200
+INFO:root:04-08-2021:10:03:07||531584902|Joakim-Andersen-Chief Technology Officer
+INFO:root:04-08-2021:10:03:24||531584903|zooinfo response200
+INFO:root:04-08-2021:10:03:25||531584903|https://www.linkedin.com/in/finneslarsen?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAABg8y4Be-jf0AK8GTqvKUFlT-Yel3PWH3o
+INFO:root:04-08-2021:10:03:26||531584903|got linkedin response200
+INFO:root:04-08-2021:10:03:26||531584903|Frode Finnes-Larsen-CTO / Teknologidirektør
+INFO:root:04-08-2021:10:03:44||531584904|zooinfo response200
+INFO:root:04-08-2021:10:03:45||531584904|https://www.linkedin.com/in/henrikloop?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAD8N4BobdZOn5boriuWsCHoRp4lsIqOAQ
+INFO:root:04-08-2021:10:03:45||531584904|got linkedin response200
+INFO:root:04-08-2021:10:03:45||531584904|Henrik-Loop-Chief Technical Officer

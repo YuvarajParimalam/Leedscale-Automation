@@ -4,8 +4,8 @@ import pandas as pd
 import configparser
 import os
 import time,random
-from Lolagroove import Get_Data_Params
-from log_script import log_file_write
+from Scripts.Lolagroove import Get_Data_Params
+from tools.log_script import log_file_write
 
 config = configparser.RawConfigParser()
 configFilePath=os.path.join(os.getcwd(),'config.ini')
@@ -50,15 +50,20 @@ def get_form_data_campaign(key,row):
     ('d[fieldNames][]', 'jobtitle'),
     ('d[fieldNames][]', 'jobtitle_evidence'),
     ('d[fieldNames][]', 'job_function'),
+    ('d[fieldNames][]', 'job_role'),
     ('d[fieldNames][]', 'companyname'),
     ('d[fieldNames][]', 'company_url'),
     ('d[fieldNames][]', 'industry'),
+    ('d[fieldNames][]', 'leadstatus'),
+    ('d[fieldNames][]', 'platform'),
+    ('d[fieldNames][]', 'freelist_flag'),
     ('d[fieldNames][]', 'company_evidence'),
     ('d[fieldNames][]', 'company_size'),
     ('d[fieldNames][]', 'companysize_evidence'),
     ('d[fieldNames][]', 'turnover'),
     ('d[fieldNames][]', 'turnover_evidence'),
     ('d[fieldNames][]', 'supplier_lead_id'),
+    ('d[fieldNames][]', 'distribution_method'),
     ('d[fieldNames][]', 'asset_title'),
     ('d[fieldNames][]', 'comments'),
     ('d[fieldNames][]', 'rejection_evidence'),
@@ -84,10 +89,11 @@ def get_form_data_campaign(key,row):
     ('d[fieldNames][]', 'add_notes'),
     ('d[fieldNames][]', 'ds_email'),
     ('d[fieldNames][]', 'sub_id'),
+    ('d[fieldNames][]', 'crn'),
     ('d[fieldNames][]', 'callback_id'),
     ('d[fieldValues][]', row['ID']),
     ('d[fieldValues][]', row['Email']),
-    ('d[fieldValues][]', '.'),
+    ('d[fieldValues][]', row['email_evidence']),
     ('d[fieldValues][]', row['Telephone']),
     ('d[fieldValues][]', row['phone_evidence']),
     ('d[fieldValues][]', row['telephone2']),
@@ -105,15 +111,21 @@ def get_form_data_campaign(key,row):
     ('d[fieldValues][]', row['Job Title']),
     ('d[fieldValues][]', row['jobtitle_evidence']),
     ('d[fieldValues][]', row['job_function']),
+    ('d[fieldValues][]', row['job_role']),
+    # ('d[fieldValues][]', ''),
     ('d[fieldValues][]', row['Company Name']),
     ('d[fieldValues][]', row['company_url']),
     ('d[fieldValues][]', row['Industry']),
+    ('d[fieldValues][]', row['Lead Status']),
+    ('d[fieldValues][]', row['Platform']),
+    ('d[fieldValues][]', row['FreeList Flag']),
     ('d[fieldValues][]', row['company_evidence']),
     ('d[fieldValues][]', row['company_size']),
     ('d[fieldValues][]', row['companysize_evidence']),
     ('d[fieldValues][]', row['turnover']),
     ('d[fieldValues][]', row['turnover_evidence']),
     ('d[fieldValues][]', row['Supplier Lead ID']),
+    ('d[fieldValues][]', ''),
     ('d[fieldValues][]', row['asset_title']),
     ('d[fieldValues][]', row['comments']),
     ('d[fieldValues][]', row['rejection_evidence']),
@@ -136,9 +148,13 @@ def get_form_data_campaign(key,row):
     ('d[fieldValues][]', row['lead_creation_day']),
     ('d[fieldValues][]', row['lead_creation_month']),
     ('d[fieldValues][]', row['lead_creation_year']),
+    # ('d[fieldValues][]', ''),
+    # ('d[fieldValues][]', ''),
+    # ('d[fieldValues][]', ''),
     ('d[fieldValues][]', ''),
     ('d[fieldValues][]', row['ds_email']),
     ('d[fieldValues][]', row['Sub_id']),
+    ('d[fieldValues][]', ''),
     ('d[fieldValues][]', row['Callback_id']),
     ('rv', 'false'),
     ]
@@ -168,9 +184,14 @@ def Lead_Update(URL,filepath):
             response = s.post(URL, headers=headers, data=data)
             print(response.status_code)
             AuthKey=response.text.split('function GetAuthenticationKey() {')[1].split('}')[0].replace('return','').replace(';','').replace("'",'').strip()
-            df=pd.read_excel(filepath)
+            df=pd.read_excel(filepath,parse_dates=['lead_creation_date'])
             df=df.fillna(value='')
-            df=df.applymap(lambda x: str(x.replace(',','')))
+            df['lead_creation_month']=df['lead_creation_month'].apply(lambda x: str(str(x).replace("'",'')))
+            df['lead_creation_day']=df['lead_creation_day'].apply(lambda x: str(str(x).replace("'",'')))
+            df['Sub_id']=df['Sub_id'].apply(lambda x: str(str(x).replace("'",'')))
+            df['lead_creation_date']=df['lead_creation_date'].dt.strftime('%d/%m/%Y')
+            df=df.applymap(lambda x: str(str(x).replace(',','')))
+
             for i in range(len(df)):
                 row=df.iloc[i]
                 print('uploading....',row['ID'])

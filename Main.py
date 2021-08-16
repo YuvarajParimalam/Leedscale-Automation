@@ -9,17 +9,18 @@ configFilePath=os.path.join(os.getcwd(),'config.ini')
 config.read(configFilePath)
 CampaignName=config.get('Lolagroove','Name')
 filename=config.get('fileupload','filename')
+URL=config.get('Lolagroove','URL')
 uploadFilePath=os.path.join(os.getcwd(),'Upload Files')
 uploadFileName=os.path.join(uploadFilePath,filename)
-
+detail=config.get('input','detail')
 
 if __name__=='__main__':
-        
-    #Downloading file
-    df=Lolagroove(CampaignName)
 
-    #Processing file
-    output=Lead_Scraper(df)
-
-    #uploading File
-    file_upload=Lead_Update(uploadFileName)
+    if detail=='download' :   
+        #Downloading file
+        df=Lolagroove(CampaignName)
+        #Processing file
+        output=Lead_Scraper(df)
+    else:
+        #uploading File
+        file_upload=Lead_Update(URL,uploadFileName)

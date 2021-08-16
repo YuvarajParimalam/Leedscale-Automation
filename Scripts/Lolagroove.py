@@ -136,6 +136,15 @@ def Lolagroove(campaign):
         page = s.post(next_url, headers=headers, data=data)
         print(page.status_code)
         df=save_as_dataframe(page.text)
+        try:
+            df['lead_creation_month']=df['lead_creation_month'].apply(lambda x:"'"+x)
+            df['lead_creation_day']=df['lead_creation_day'].apply(lambda x:"'"+x)
+        except:
+            pass
+        try:
+            df['Sub_id']=df['Sub_id'].apply(lambda x:"'"+x)
+        except:
+            pass
         outputPath=os.path.join(os.getcwd(),'Output')
         save_as_csv(outputPath+'/'+campaign,df)
         return df
